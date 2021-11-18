@@ -1,0 +1,186 @@
+{
+    "formTitle": "Registration",
+    "sub-title-1": "Personal details",
+    "btnBack": {
+      "styleModifier": "btn-back",
+      "text": "Back",
+      "icon": {
+        "iconStyleModifier": "icon",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-left"
+      },
+      "hyperlink": "#"
+    },
+    "title": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "Title",
+        "fieldRequired": true,
+        "styleModifier": "takui-select",
+        "id": "",
+        "placeholder": "--Ms.--",
+        "required": true,
+        "selectOptions": [
+            {
+                "value": "",
+                "option": "Title"
+            },
+            {
+                "value": "Option One",
+                "option": "Ms."
+            },
+            {
+                "value": "Option Two",
+                "option": "Mr."
+            },
+            {
+                "value": "Option Three",
+                "option": "Mrs."
+            }
+        ]
+    },
+    "firstname": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "First name",
+        "fieldRequired": true,
+        "inputType": "text",
+        "styleModifier" : "takui-input",
+        "id": "regis-fname",
+        "placeholder" : "First name"
+    },
+    "lastname": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "Last name",
+        "fieldRequired": true,
+        "inputType": "text",
+        "styleModifier" : "takui-input",
+        "id": "regis-lname",
+        "placeholder" : "Last name"
+    },
+    "email": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "Email address",
+        "fieldRequired": true,
+        "inputType": "text",
+        "styleModifier" : "takui-input",
+        "id": "regis-email",
+        "placeholder" : "name@email.com"
+    },
+    "password": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "Password",
+        "fieldRequired": true,
+        "inputType": "password",
+        "styleModifier" : "takui-input",
+        "id": "regis-pass",
+        "placeholder" : "Password"
+    },
+    "sub-title-2": "Professional details",
+    "jobTitle": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "Job title",
+        "fieldRequired": true,
+        "inputType": "text",
+        "styleModifier" : "takui-input",
+        "id": "regis-fname",
+        "placeholder" : "e.g. General Practitioner"
+    },
+    "placeOfWork": {
+        "gridClassModifier": "grid-1-1",
+        "labelRequired": true,
+        "labelStyleModifier": "",
+        "labelText": "Place of work",
+        "fieldRequired": true,
+        "inputType": "text",
+        "styleModifier" : "takui-input",
+        "id": "regis-fname",
+        "placeholder" : "e.g. General hospital"
+    },
+    "checkboxLabel1": {
+        "title": "I treat",
+        "reqModifier": "d-none",
+        "errModifier": "d-block",
+        "displaymodifier": "d-block"
+    },
+    "checkbox1": {
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox1-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Adult"
+    },
+    "checkbox2": {
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox2-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Child and adolescent"
+    },
+    "checkbox3": {
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox3-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Lifespan"
+    },
+    "checkboxLabel2": {
+        "title": "Role",
+        "reqModifier": "d-none",
+        "errModifier": "d-block",
+        "displaymodifier": "d-block"
+    },
+    "checkbox21": {
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox21-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Psychiatrist: General Adult"
+    },
+    "checkbox22": {
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox22-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Specialist Nurse: General Adult Psychiatry"
+    },
+    "checkbox23": {
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox23-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Other"
+    },
+    "sub-title-3": "Opt-ins",
+    "optinsLabel": {
+        "title": "Email marketing",
+        "reqModifier": "d-none",
+        "errModifier": "d-block"
+    },
+    "optinsInfo1": {
+        "text":"Takeda recognizes and respects the privacy rights of individuals with regards to their personal data. This Privacy Notice explains what type of personal data we may collect from you and how we use it. This website is provided to you for the purpose of having access to meetings and events organised by Takeda. For this purpose, we will collect information about you, including your name, e-mail, work-address. Your personal data may be sent to countries around the world where Takeda has an affiliate or business partner. The data protection and privacy laws in these countries may not provide the same level of data protection as the laws in your home country. We will keep your personal data for as long as you continue to use this website or otherwise for a period of 12 months if your account is not kept active, at which point all data will be deleted. You have the right to request access, correction, erasure of your personal data collected and used by this website or that its use be restricted. You have the right to withdraw your consent at any time. If you have a complaint about how your personal data is being processed, you also have the right to contact the supervisory authority in your country. Your data will be collected and further processed by the Takeda Neuroscience franchise. For more information about the website or to exercise your rights, please contact <strong>ADHDeForum@takeda.com</strong>."
+    },
+    "optinsInfo2": {
+        "text":"For more detailed information on how Takeda processes personal data and your rights related to this processing, please refer to Shire’s Privacy Notice at <strong>www.shire.com</strong>."
+    },
+    "checkbox31": {
+        "gridClassModifier": "grid-1-1",
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox31-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "Yes, I would like to receive email marketing"
+    },
+    "checkbox32": {
+        "gridClassModifier": "grid-1-1",
+        "checkboxStyleModifier": "d-inline-block",
+        "checkboxId": "checkbox32-id",
+        "checkboxVal": "true",
+        "checkboxLabelContent" : "I accept the <a class='takui-link underlined' href='#'>Privacy Policy</a>"
+    },
+    "registerButton": {
+        "text": "Register now"
+    }
+}

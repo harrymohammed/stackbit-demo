@@ -1,0 +1,5 @@
+{
+    "srcPath": "../../images/placeholders/default-logo150x55.png",
+    "altText": "sample-logo-image",
+    "imgStyleModifier": "takui-img--logo"
+}

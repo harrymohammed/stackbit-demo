@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "logo": "../../icons/ico_svg/icons.svg#takui-ico-calendar-2",
+            "label": "Date and Time",
+            "value": "Thu, 11 Feb 2021 19:00 GMT"
+        },
+        {
+            "logo": "../../icons/ico_svg/icons.svg#takui-ico-location",
+            "label": "Location",
+            "value": "Online"
+        },
+        {
+            "logo": "../../icons/ico_svg/icons.svg#takui-ico-timer",
+            "label": "Closing Date",
+            "value": "Registration closes on XX Month"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "btnPrimary":{
+        "text": "Primary Button"
+    },
+    "btnSecondary":{
+        "text": "Secondary Button"
+    }
+}

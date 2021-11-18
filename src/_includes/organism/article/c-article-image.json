@@ -1,0 +1,12 @@
+{
+    "image": {        
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image"        
+    },    
+    "date": "mm/dd/yy",
+    "title": "[Article title]",
+    "titleHref":"#",
+    "text": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas consectetur magna.",
+    "linkText": "[Article]",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+}

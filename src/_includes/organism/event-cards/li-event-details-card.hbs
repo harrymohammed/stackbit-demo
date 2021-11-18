@@ -1,0 +1,22 @@
+<section class="takui-li-event-details">
+    <div class="event-row">
+        {{#each items}}
+            <div class="event-content">
+                {{>atoms-icon this.icon}}
+                <div class="event-desc">
+                    <h6 class="event-type">{{{this.titleSmall}}}</h6>
+                    <h4>{{{this.titleLarge}}}</h4>
+                </div>
+            </div>
+        {{/each}}
+        <p class="button calendar">
+            {{>atoms-anchor-button btnCalendar}}
+        </p>
+        <p class="button">
+            {{>atoms-anchor-button-secondary btnVisit}}
+        </p>
+        {{#if disclaimer}}
+            <p class="event-disclaimer">{{disclaimer}}</p>
+        {{/if}}
+    </div>
+</section>

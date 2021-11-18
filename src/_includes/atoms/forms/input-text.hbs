@@ -1,0 +1,11 @@
+<div class="takui-form-group-input {{gridClassModifier}}">
+    {{#if labelRequired }}
+    <label class="takui-label {{labelStyleModifier}}" for="{{ id }}">{{labelText}}
+        {{#fieldRequired }}
+        <span class="takui-required-item {{reqModifier}}">*</span>
+        {{/fieldRequired}}
+    </label>
+    {{/if }}
+    <input type="{{ inputType }}" class="takui-form-input {{ styleModifier }}" id="{{ id }}"
+        placeholder="{{ placeholder }}" autocomplete="{{ autoComplete }}" />
+</div>

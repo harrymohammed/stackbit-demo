@@ -1,0 +1,144 @@
+{
+    "saved": true,
+    "inputName": "group-input",
+    "options": [
+        {
+            "text": "Therapy area",
+            "isActive": true,
+            "count": 0,
+            "tags": [
+                {
+                    "labelContent": "Bleeding Disorders"
+                },
+                {
+                    "labelContent": "Inherited Metabolic Disorders"
+                },
+                {
+                    "labelContent": "Clinical Immunology"
+                },
+                {
+                    "labelContent": "Understanding Rare Disease"
+                },
+                {
+                    "labelContent": "Lysosomal Storage Disorders"
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        },
+        {
+            "text": "Rare Disease",
+            "isActive": false,
+            "count": 0,
+            "tags": [
+                {
+                    "labelContent": "Bleeding Disorders"
+                },
+                {
+                    "labelContent": "Inherited Metabolic Disorders"
+                },
+                {
+                    "labelContent": "Clinical Immunology"
+                },
+                {
+                    "labelContent": "Understanding Rare Disease"
+                },
+                {
+                    "labelContent": "Lysosomal Storage Disorders"
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        },
+        {
+            "text": "Expertise",
+            "isActive": false,
+            "count": 0,
+            "filterTags": {
+                "allowMultiSelect": true,
+                "inputName": "name-super-demo-4",
+                "checkIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                },
+                "tags": [
+                    {
+                        "labelContent": "Bleeding Disorders"
+                    },
+                    {
+                        "labelContent": "Inherited Metabolic Disorders"
+                    },
+                    {
+                        "labelContent": "Clinical Immunology"
+                    },
+                    {
+                        "labelContent": "Understanding Rare Disease"
+                    },
+                    {
+                        "labelContent": "Lysosomal Storage Disorders"
+                    },
+                    {
+                        "labelContent": "Lorem ipsum dolor sit amet"
+                    },
+                    {
+                        "labelContent": "Lorem ipsum dolor sit amet"
+                    },
+                    {
+                        "labelContent": "Lorem ipsum dolor sit amet"
+                    }
+                ]
+            }
+        },
+        {
+            "text": "Media type",
+            "isActive": false,
+            "count": 0,
+            "filterTags": {
+                "allowMultiSelect": true,
+                "inputName": "name-super-demo-5",
+                "checkIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                },
+                "tags": [
+                    {
+                        "labelContent": "Bleeding Disorders"
+                    },
+                    {
+                        "labelContent": "Inherited Metabolic Disorders"
+                    },
+                    {
+                        "labelContent": "Clinical Immunology"
+                    },
+                    {
+                        "labelContent": "Understanding Rare Disease"
+                    },
+                    {
+                        "labelContent": "Lysosomal Storage Disorders"
+                    },
+                    {
+                        "labelContent": "Lorem ipsum dolor sit amet"
+                    },
+                    {
+                        "labelContent": "Lorem ipsum dolor sit amet"
+                    },
+                    {
+                        "labelContent": "Lorem ipsum dolor sit amet"
+                    }
+                ]
+            }
+        }
+    ]
+}

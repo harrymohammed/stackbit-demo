@@ -1,0 +1,29 @@
+{
+    "gridClassModifier":"",
+    "labelRequired": true,
+    "labelStyleModifier": "",
+    "labelText": "Label Text",
+    "fieldRequired": true,
+    "styleModifier": "takui-select",
+    "id": "",
+    "placeholder": "--Select Option--",
+    "required": true,
+    "selectOptions": [
+        {
+            "value": "",
+            "option": "--Select Option--"
+        },
+        {
+            "value": "Option One",
+            "option": "Option One"
+        },
+        {
+            "value": "Option Two",
+            "option": "Option Two"
+        },
+        {
+            "value": "Option Three",
+            "option": "Option Three"
+        }
+    ]
+}

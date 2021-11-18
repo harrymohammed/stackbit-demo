@@ -1,0 +1,54 @@
+{
+  "viewMore": {
+    "href": "#",
+    "id": "",
+    "linkText": "See more viewpoints"
+  },
+  "featured": {
+    "date": "07/14/21",
+    "titleHref":"#",
+    "title": "The Importance of Time off Work",
+    "text": "I’ve always been a firm believer in the power of personal time off. I recently went on vacation and returned feeling completely revitalized. I find that this personal time away gives ...",
+    "image": {
+      "hyperlinked": true,
+      "href": "#",
+      "srcPath": "../../images/placeholders/default-card301x201.png",
+      "altText": "sample-gallery-thumb-image"
+    }
+  },
+  "articles": [
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "07/23/21",
+      "titleHref":"#",
+      "title": "How Genomic Profiling is Shifting the Treatment Paradigm for Rare Lung Cancers"
+    },
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-card301x201.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "07/15/21",
+      "titleHref":"#",
+      "title": "Real-world evidence in the multiple myeloma treatment landscape"
+    },
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-card301x201.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "07/14/21",
+      "titleHref":"#",
+      "title": "Real-world evidence in the multiple myeloma treatment landscape"
+    }
+  ]
+}

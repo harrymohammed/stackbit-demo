@@ -1,0 +1,18 @@
+{
+    "cardhref": "#",
+    "cardActionTarget": "",
+    "bgImagePath": "url('../../images/Takeda_Syonan75.jpg')",
+    "altText": "card image",
+    "cardTitleText": "Diagnostic tips",
+    "cardExcerptText": "These helpful tips and findings can help when diagnosing a patient, and when managing the obstacles that arise as a child grows.",
+    "actionArea": true,
+    "cardinfo": true,
+    "resourceData": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-file-pdf",
+        "dataType": "<strong>PDF</strong>"
+    },
+    "buttonData" : {
+        "href": "#",
+        "text": "Link Button"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "siteSearch": {
+        "inputType": "text",
+        "autoComplete": "off",
+        "styleModifier" : "takui-input-search",
+        "id": "",
+        "placeholder" : "Enter a search term",
+        "search": {
+            "text": "Search"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "url": "#",
+  "cardType": "Type",
+  "cardIcon": {
+    "iconStyleModifier": "sm",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-video"
+  },
+  "cardTitle": "Card Title",
+  "cardDescription": "Card Description",
+  "bgImagePath": "url('https://dummyimage.com/1040X400/917691/555555.png&text=background+image')"
+}

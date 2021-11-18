@@ -1,0 +1,15 @@
+{
+    "modalTitle": "Sign up",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+    "modalContent": "Sign up and become a member to get exclusive content, save content and more",
+    "saveButton": {
+        "href": "#",
+        "text": "Save",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+    },
+    "readMoreButton": {
+        "text": "Read more"
+    },
+    "modalState": "is-visible",
+    "cardId": 13
+}

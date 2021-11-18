@@ -1,0 +1,12 @@
+{
+    "id": "random54321",
+    "label": "Title",
+    "default": "Default Value",
+    "options": [
+        "Mr",
+        "Mrs",
+        "Mx",
+        "Dr"
+    ],
+    "displayOption": ""
+}

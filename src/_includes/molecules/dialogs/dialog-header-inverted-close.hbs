@@ -1,0 +1,10 @@
+<div class="takui-modal-header">
+    <div class="takui-modal-header-title">
+        <h2>{{ modalTitle }}</h2>
+    </div>
+    {{#if iconPath}}
+        <div class="takui-modal-header-closer" aria-label="close modal" data-close>
+            {{> atoms-icon-button-inverted iconName=iconName }}
+        </div>
+    {{/if}}
+</div>

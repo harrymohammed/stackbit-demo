@@ -1,0 +1,28 @@
+{
+    "labelRequired": true,
+    "labelStyleModifier": "",
+    "labelText": "Label Text",
+    "fieldRequired": true,
+    "styleModifier": "takui-select",
+    "id": "exampleTakUIMultiSelect",
+    "placeholder": "--Select Option--",
+    "multiple": "multiple",
+    "selectOptions": [
+        {
+            "value": "",
+            "option": "--Select Option--"
+        },
+        {
+            "value": "Option One",
+            "option": "Option One"
+        },
+        {
+            "value": "Option Two",
+            "option": "Option Two"
+        },
+        {
+            "value": "Option Three",
+            "option": "Option Three"
+        }
+    ]
+}

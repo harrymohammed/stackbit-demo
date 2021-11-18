@@ -1,0 +1,16 @@
+<div class="takui-modal-outer takui-resource-preview--outer {{ modalState }}" data-ref="{{ cardId }}">
+    <div class="he-respreview">
+        <div class="he-respreview-title">
+            <h2>{{modalTitle}}</h2> 
+            {{>atoms-anchor-button-with-icon saveButton}}
+        </div>
+        <div class="he-respreview-content">
+            {{ modalContent }}
+        </div>
+        <div class="he-respreview-calltoaction">
+        {{#if readMoreButton}}
+            {{>atoms-anchor-button-secondary readMoreButton }}
+        {{/if}}
+        </div>
+    </div>
+</div>

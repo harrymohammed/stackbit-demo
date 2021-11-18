@@ -1,0 +1,160 @@
+{
+  "tableHeader": {
+    "col1Header": "Investigational therapy",
+    "col2Header": "Platform",
+    "col3Header": "Investigational Indication",
+    "col4Header": "Phase"
+  },
+  "accordions": [
+    {
+      "accordiontitle": "TAK-700",
+      "rowspan": 2,
+      "icon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+      },
+      "expandedContent": [
+        "[Mechanism of action]",
+        "Curabitur lobortis id lorem id bibendum. Ut id"
+      ],
+      "accordionItems": [
+        {
+          "title": "Targeted therapy",
+          "description": "Chronic Lymphocytic Leukaemia",
+          "phase": {
+            "title": "Phase 3",
+            "stages": [
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "accordiontitle": "TAK-924 (Pevonedistat)",
+      "rowspan": 4,
+      "icon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+      },
+      "expandedContent": [
+        "[Mechanism of action]",
+        "Curabitur lobortis id lorem id bibendum. Ut id"
+      ],
+      "accordionItems": [
+        {
+          "title": "Targeted therapy",
+          "description": "Chronic Lymphocytic Leukaemia",
+          "phase": {
+            "title": "Phase 3",
+            "stages": [
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              }
+            ]
+          }
+        },
+        {
+          "title": "Targeted therapy",
+          "description": "Low-Blast Acute Myelogenous Leukaemia",
+          "phase": {
+            "title": "Phase 1/2",
+            "stages": [
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              },
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "title": "Targeted therapy",
+          "description": "Hidher-risk Myleodysplastic Syndromes",
+          "phase": {
+            "title": "Phase 3",
+            "stages": [
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "accordiontitle": "TAK-924 (Pevonedistat)",
+      "rowspan": 3,
+      "icon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+      },
+      "expandedContent": [
+        "[Mechanism of action]",
+        "Curabitur lobortis id lorem id bibendum. Ut id"
+      ],
+      "accordionItems": [
+        {
+          "title": "Targeted therapy",
+          "description": "Low-Blast Acute Myelogenous Leukaemia",
+          "phase": {
+            "title": "Phase 1/2",
+            "stages": [
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              },
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "title": "Targeted therapy",
+          "description": "Hidher-risk Myleodysplastic Syndromes",
+          "phase": {
+            "title": "Phase 3",
+            "stages": [
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              },
+              {
+                "completed": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

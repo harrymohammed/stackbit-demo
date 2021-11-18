@@ -1,0 +1,6 @@
+<picture class="takui-dynamic-image">
+    {{#srcSetData}}
+    <source srcset="{{imgPath}}" {{#if mediaBreakpoint}}media="({{mediaBreakpoint}})"{{/if}}>
+    {{/srcSetData}}
+    <img src="{{defaultImgPath}}" loading="lazy" alt="{{ altText }}">
+</picture>

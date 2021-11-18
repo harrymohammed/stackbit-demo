@@ -1,0 +1,22 @@
+{
+    "title": "2020 HIGHLIGHTS",
+    "subtitle": "Short description of graphics",
+    "items": [
+        {
+            "icon": "../../../icons/ico_svg/icons-highlight-01.svg",
+            "text": "STAT 1"
+        },
+        {
+            "icon": "../../../icons/ico_svg/icons-highlight-02.svg",
+            "text": "STAT 1"
+        },
+        {
+            "icon": "../../../icons/ico_svg/icons-highlight-03.svg",
+            "text": "STAT 1"
+        },
+        {
+            "icon": "../../../icons/ico_svg/icons-highlight-04.svg",
+            "text": "STAT 1"
+        }
+    ]
+}

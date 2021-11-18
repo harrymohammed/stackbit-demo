@@ -1,0 +1,24 @@
+<div class="takui-side-bar {{#if showMobileExplorerMenu}}show-mobile-explorer-menu{{/if}}">
+
+    {{#siteLogo}}
+        {{>atoms-logo}}
+    {{/siteLogo}}
+
+    {{>atoms-horizontal-line}}
+
+    {{#navigation}}
+        {{>molecules-primary-site-navigation}}
+    {{/navigation}}
+
+    <div class="takui-side-bar-footer">
+        {{#companyLogo}}
+            {{>atoms-svg-logo}}
+        {{/companyLogo}}
+    
+        {{#dateOfPreparation}}
+            <div class="date-of-preparation">
+                {{>atoms-paragraph}}
+            </div>
+        {{/dateOfPreparation}}
+    </div>
+</div>

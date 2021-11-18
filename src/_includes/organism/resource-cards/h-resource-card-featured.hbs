@@ -1,0 +1,33 @@
+<div class="grid-1-3">
+{{!-- #####################[ Card Image code starts ]###################### --}}
+    <div class="takui-card--resource-featured">
+        <div class="takui-card-feature-img">
+            {{#if hyperlinked}}
+            <a href="{{ cardhref }}" target="{{ cardActionTarget }}" class="takui-card-feature-bg-img" style="background-image: {{bgImagePath}};"></a>
+            {{else}}
+            <div class="takui-card-feature-bg-img" style="background-image: {{bgImagePath}};"></div>
+            {{/if}}
+        </div>
+        <div class="takui-card-data takui-align--center">
+            <div class="takui-card-title">
+                <h5>{{{cardTitleText}}}</h5>
+            </div>
+            <div class="takui-card-desc">
+                {{{cardExcerptText}}}
+            </div>
+            {{#if contentInfoArea }}
+                <div class="takui-card-content-list">
+                {{>molecules-icons}}
+                </div>
+            {{/if }}
+            {{#if actionArea }}
+            <div class="takui-action-area">
+                <div class="takui-action-btn">
+                    {{> atoms-anchor-button }}
+                </div>
+            </div>
+            {{/if }}
+        </div>
+    </div>
+{{!-- #####################[ Card Image code ends ]###################### --}}
+</div>

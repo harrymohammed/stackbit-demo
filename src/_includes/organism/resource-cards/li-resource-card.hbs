@@ -1,0 +1,77 @@
+<div class="takui-li-resource-card {{#if buttons}}has-buttons{{/if}} {{#if lock}}is-locked{{/if}}">
+  <div class="takui-li-resource-card--wrapper">
+    <div class="takui-li-resource-card--image" {{#if bgImagePath}}style="background-image: {{bgImagePath}};" {{/if}}>
+      <div class="takui-li-resource-card--overlay {{#if lock}}locked{{/if}}">
+        <a href="{{url}}" class="takui-li-resource-card--anchor"></a>
+        {{#if lock}}
+          {{#lock}}
+          <div>
+            {{#icon}}
+            {{>atoms-icon}}
+            {{/icon}}
+          </div>
+          {{{message}}}
+          {{/lock}}
+        {{else}}
+        {{/if}}
+        </a>
+      </div>
+      {{#if rightTopButtons}}
+      <div class="takui-li-resource-card--top-right-buttons">
+        {{#each rightTopButtons}}
+        {{>atoms-icon}}
+        {{/each}}
+      </div>
+      {{/if}}
+    </div>
+    <div class="takui-li-resource-card--content">
+      <a href="{{url}}" class="takui-he-resource-card--anchor">
+        <div class="takui-li-resource-card--header">
+          <div class="takui-li-resource-card--title">{{cardTitle}}</div>
+          {{#cardTypeIcon}}
+          {{>atoms-icon-with-bg-round}}
+          {{/cardTypeIcon}}
+        </div>
+      </a>
+      <div class="takui-li-resource-card--bottom">
+        <div class="takui-li-resource-card--props">
+          <div class="takui-li-resource-card--topic">
+            {{#topic}}
+            <div {{#if color}}class="takui-li-resource-card--topic--color" style="border-left-color: {{color}};"
+              {{/if}}>
+              {{text}}
+            </div>
+            {{/topic}}
+          </div>
+          {{#time}}
+          <div class="takui-li-resource-card--time-icon">
+            {{#icon}}
+            {{>atoms-icon-with-bg-round}}
+            {{/icon}}
+          </div>
+          <div class="takui-li-resource-card--time-text">{{text}}</div>
+          {{/time}}
+        </div>
+        {{#buttons}}
+        <div class="takui-li-resource-card--buttons">
+          <div class="takui-li-resource-card--like">
+            {{#like}}
+            {{#icon}} {{>atoms-icon}} {{/icon}}
+            {{#if count}}
+            <div class="takui-li-resource-card--like--count">
+              {{count}}
+            </div>
+            {{/if}}
+            {{/like}}
+          </div>
+          <div class="takui-li-resource-card--save">
+            {{#save}}
+            {{#icon}} {{>atoms-anchor-button-with-icon}} {{/icon}} {{count}}
+            {{/save}}
+          </div>
+        </div>
+        {{/buttons}}
+      </div>
+    </div>
+  </div>
+</div>

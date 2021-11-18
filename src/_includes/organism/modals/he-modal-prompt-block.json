@@ -1,0 +1,11 @@
+{
+    "id": "he-propmt-sample",
+    "timeout": "0.1",
+    "modalTitle": "Sign up",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+    "modalContent": "Sign up and become a member to get exclusive content, save content and more",
+    "button": {
+        "text": "Become a member",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-user"
+    }
+}

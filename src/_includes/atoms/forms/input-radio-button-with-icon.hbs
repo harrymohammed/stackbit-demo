@@ -1,0 +1,11 @@
+<div class="takui-form-group-input takui-radio-button-with-icon">                            
+    <input type="radio" value="true" name="{{ inputName }}" id="{{ inputId }}" 
+        {{#if isChecked}}
+            checked 
+        {{/if}} />
+                
+    <label for="{{ inputId }}">        
+        <span class="takui-tag-label-icon">{{>atoms-icon}}</span>
+        {{ labelContent }}
+    </label> 
+</div>

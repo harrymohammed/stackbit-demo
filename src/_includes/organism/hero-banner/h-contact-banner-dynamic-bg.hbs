@@ -1,0 +1,12 @@
+<div class="takui-hero contact-dynamic-bg">
+    {{#hasBgImage}}
+        {{>atoms-dynamic-image}}
+    {{/hasBgImage}}
+    <div class="takui-container banner-content {{textAlign}}">
+        <h3>{{title}}</h3>
+        {{>atoms-paragraph text=subtitle}}
+        {{#button}}
+            {{>atoms-anchor-button-outline}}
+        {{/button}}
+    </div>
+</div>

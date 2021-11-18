@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="17" height="15"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#E9E9E9" stroke-width="1" x="0.5" y="0.5" width="16" height="14"></rect>
+        </g>
+        <path d="M9.07273344,9.41630447 L6.65148448,9.41630447 L6.65148448,9.41630447 C6.07266529,9.41630447 5.60343962,9.88553013 5.60343962,10.4643493 C5.60343962,11.0431685 6.07266529,11.5123942 6.65148448,11.5123942 L10.1449673,11.5123942 C10.5521568,11.5123942 10.9051096,11.2801799 11.0786217,10.9409557 C11.1790021,10.770058 11.2321005,10.5688204 11.2209515,10.3560848 L10.8378314,3.04571788 L10.8378314,3.04571788 C10.8075384,2.46769194 10.3143984,2.0236667 9.73637245,2.05395976 L9.73637245,2.05395976 L9.73637245,2.05395976 C9.15834651,2.08425282 8.71432127,2.5773928 8.74461433,3.15541874 L8.74461433,3.15541874 L9.07273344,9.41630447 Z" id="Combined-Shape" fill="#E70600" transform="translate(8.412927, 6.782446) rotate(49.000000) translate(-8.412927, -6.782446) "></path>
+    </g>
+</svg>

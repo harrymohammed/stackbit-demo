@@ -1,0 +1,31 @@
+{
+    "gradientLayer": true,
+    "altText": "card image",
+    "cardTitleText": "Listening to <strong>Takeda</strong>",
+    "cardExcerptText": "Leading ADHD experts answer questions submitted by parents raising children with ADHD across a range of topics covering symptoms, school, work, and family life.",
+    "actionArea": true,
+    "href": "#",
+    "text": "Listen Now",
+    "additionalInfoLink": false,
+    "iconWithDateLabel": {
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-mic",
+      "dataLabel": "<strong>Podcast</strong>"
+    },
+    "backgroundImageSet":   {
+      "srcSetData": [
+          {
+              "imgPath": "../../images/placeholders/default-card301x201.png",
+              "mediaBreakpoint": "max-width: 400px"
+          },
+          {
+              "imgPath": "../../images/placeholders/default-image400x300.png",
+              "mediaBreakpoint": "max-width: 786px"
+          },
+          {
+              "imgPath": "../../images/Takeda_Syonan75.jpg"
+          }
+      ],
+      "defaultImgPath": "../../images/Takeda_Syonan75.jpg",
+      "altText": "sample-image"
+  }
+}

@@ -1,0 +1,16 @@
+<div class="takui-slider takui-he-slider splide" data-splide='{{{jsonToString splideData}}}'>
+  <div class="takui-slidertrack splide__track">
+    <ul class="takui-sliderlist splide__list">
+      {{#each items }}
+      <li class="takui-sliderslide splide__slide">
+        {{#if ../isSavedContentCard}}
+        {{!-- {{> organism-he-saved-content-card }} --}}
+        {{> organism-he-resource-card-saved }}
+        {{else}}
+        {{> organism-he-resource-card }}
+        {{/if}}
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

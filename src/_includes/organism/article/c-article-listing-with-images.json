@@ -1,0 +1,60 @@
+{
+  "articles": [
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "24th Apr 2021 | Topic 1",
+      "title": "[Label]",
+      "titleHref":"#",
+      "text": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas consectetur magna.",
+      "linkText": "[Articles]",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+    },
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "24th Apr 2021 | Topic 1",
+      "title": "[Label]",
+      "titleHref":"#",
+      "text": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas consectetur magna.",
+      "linkText": "[Articles]",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+    },
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-card301x201.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "24th Apr 2021 | Topic 1",
+      "title": "[Label]",
+      "titleHref":"#",
+      "text": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas consectetur magna.",
+      "linkText": "[Articles]",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+    },
+    {
+      "image": {
+        "hyperlinked": true,
+        "href": "#",
+        "srcPath": "../../images/placeholders/default-card301x201.png",
+        "altText": "sample-gallery-thumb-image"
+      },
+      "date": "24th Apr 2021 | Topic 1",
+      "title": "[Label]",
+      "titleHref":"#",
+      "text": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas consectetur magna.",
+      "linkText": "[Articles]",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+    }
+  ]
+}

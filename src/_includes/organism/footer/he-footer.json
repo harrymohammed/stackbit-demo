@@ -1,0 +1,55 @@
+{
+    "siteLogo": {
+        "srcPath": "../../images/placeholders/default-logo150x55.png",
+        "altText": "siteLogo",
+        "imgStyleModifier": "takui-img--logo site-logo"
+    },
+    "companyLogo": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-footer-logo"
+    },
+    "dateOfPreparation": {
+        "text": "C-APROM/UKI/CORP/001<br/>November 2020"
+    },
+    "navigation": {
+        "items":[
+            {
+                "linkText":"Home",          
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-home",
+                "displayMobile": true,
+                "displayDesktop": true
+            },
+            {
+                "linkText":"Search",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+                "displayMobile": true,
+                "displayDesktop": false,
+                "selector": "btnSearch"
+            },
+            {
+                "linkText":"Login",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-login",
+                "displayMobile": true,
+                "displayDesktop": true
+                
+            },
+            {
+                "linkText":"Contact Us",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contactus",
+                "displayMobile": false,
+                "displayDesktop": true                
+            },
+            {
+                "linkText":"Video Tutorial",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-tutorial",
+                "displayMobile": false,
+                "displayDesktop": true    
+            },
+            {
+                "linkText":"More",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list",
+                "displayMobile": true,
+                "displayDesktop": false    
+            }
+        ]
+    }
+}

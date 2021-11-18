@@ -1,0 +1,11 @@
+<div class="takui-modal-prompt-block">
+    <div>
+        {{>molecules-dialog-header modalTitle=modalTitle buttonType=buttonType iconname=iconName}}
+        {{> molecules-dialog-content modalContent=modalContent }}
+        {{#if button}}
+            {{#button}}
+                {{>atoms-anchor-button-with-icon}}
+            {{/button}}
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+    "disclaimer": {
+        "title": data.disclaimer.title,
+        "disclaimer": data.disclaimer.disclaimer,
+        "links": data.disclaimer.links
+    }
+}

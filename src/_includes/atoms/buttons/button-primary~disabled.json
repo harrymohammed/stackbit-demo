@@ -1,0 +1,5 @@
+{
+    "buttonType": "button",
+    "text": "Primary Disabled",
+    "disabled": true
+}

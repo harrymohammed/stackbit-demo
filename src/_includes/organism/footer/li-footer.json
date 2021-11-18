@@ -1,0 +1,27 @@
+{
+    "companyLogo": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo"
+    },
+    "navSection": {
+        "classModifier": "takui-ul-horizontal",
+        "items": [
+            {
+                "label": "Privacy Policy"
+            },
+            {
+                "label": "Terms of Use"
+            },
+            {
+                "label": "Cookie Policy"
+            },
+            {
+                "label": "Adverse Event Reporting"
+            },
+            {
+                "label": "Medical Information Request"
+            }
+        ]
+    },
+    "copyrightField": "© Takeda",
+    "approvalId": "Approval ID DD/YYYY"
+}

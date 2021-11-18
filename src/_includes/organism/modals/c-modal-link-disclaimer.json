@@ -1,0 +1,24 @@
+{
+    "modalTitle": "You Are Leaving Takeda Oncology",
+    "modalContent": "You are now leaving takedaoncology.com. Links to sites outside of takedaoncology.com are provided as a resource to the viewer. takedaoncology.com accepts no responsibility for the linked sites that takedaoncology.com has no control over.",
+    "modalID": "linkDisclaimer",
+    "modalExampleDisplay": "normal",
+    "openOnLoad": false,
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+    "styleModifier": "takui-c-modal",
+    "isDisclaimerModal": true,
+    "href": "https://www.google.com/",
+    "bypassHost": "bypass.domain",
+    "buttons": [
+        {
+            "text": "Cancel",
+            "isClose": true,
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+        },
+        {
+            "text": "Continue",
+            "href": "",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+        }
+    ]
+}

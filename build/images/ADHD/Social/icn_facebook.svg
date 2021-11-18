@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn_facebook</title>
+    <defs>
+        <polygon id="path-1" points="0 0 10 0 10 20 0 20"></polygon>
+    </defs>
+    <g id="icn_facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FACEBOOK" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" fill="#51B1BF" cx="15" cy="15" r="15"></circle>
+            <g id="Group-3" transform="translate(10.000000, 5.333333)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M6.4913914,20 L6.4913914,10.877729 L9.43854814,10.877729 L9.88070855,7.32156324 L6.4913914,7.32156324 L6.4913914,5.05146997 C6.4913914,4.02232836 6.76547623,3.32076396 8.18828436,3.32076396 L10,3.31999046 L10,0.139229981 C9.68668926,0.09694532 8.61120421,0 7.35945084,0 C4.74559019,0 2.95609429,1.65696569 2.95609429,4.69926969 L2.95609429,7.32156324 L0,7.32156324 L0,10.877729 L2.95609429,10.877729 L2.95609429,20 L6.4913914,20 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

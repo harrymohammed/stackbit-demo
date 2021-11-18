@@ -1,0 +1,34 @@
+<div class="takui-dropdown {{classModifier}}">
+    {{#if iconPaths.iconGlobe}}
+        <svg class="takui-ico-svg takui-icon-globe" aria-hidden="true">
+            <use xlink:href="{{ iconPaths.iconGlobe }}"></use>
+        </svg>
+    {{/if}}
+    <div class="takui-dropdown-subject">
+        <a href="#">{{subject}}</a>
+        <span>{{optional}}</span>
+    </div>
+    <div class="takui-dropdown-list-items">
+        {{#listItem}}
+        {{#if stratification}}
+            <div class="takui-dropdown-stratifi-item">
+                <div class="item-title">
+                    {{title}}
+                </div>
+                {{#listChildItem}}
+                    <div class="child-item"><a href="#">{{name}}</a></div>
+                {{/listChildItem}}
+            </div>
+            {{else}}
+                <div class="takui-dropdown-item">
+                    <a href="#">{{name}}</a>
+                </div>
+        {{/if}}
+        {{/listItem}}
+    </div>
+    {{#if iconPaths.iconArrow}}
+        <svg class="takui-ico-svg takui-icon-arrow" aria-hidden="true">
+            <use xlink:href="{{ iconPaths.iconArrow }}"></use>
+        </svg>
+    {{/if}}
+</div>

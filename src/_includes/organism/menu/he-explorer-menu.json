@@ -1,0 +1,128 @@
+{
+    "headingText": "Browsing in:",
+    "filterHeading": "Filter content by:",
+    "therapyArea": "Bleeding Disorders",
+    "changeTherapyLink" : {
+        "linkText": "Change therapy area of interest"
+    },
+    "filters": [
+        {
+            "allowMultiSelect": true,
+            "showSelectedCount": true,
+            "inputName": "rareDisease",  
+            "headingText": "Rare Disease",
+            "checkIcon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "tags":[
+                {
+                    "labelContent": "Acquired Haemophilia",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Cytomegalovirus CMV",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Fabry Disease",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Gaucher Disease",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Haemophilia A & B",
+                    "isChecked": false
+                }
+            ]
+        
+        },
+        {
+            "allowMultiSelect": true,
+            "inputName": "expertise",
+            "headingText": "Expertise",
+            "showSelectedCount": true,
+            "checkIcon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "tags":[
+                {
+                    "labelContent": "Allied Professional",
+                    "isChecked": true
+                },
+                {
+                    "labelContent": "Consultant",
+                    "isChecked": true
+                },
+                {
+                    "labelContent": "CMT 1/2",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "FY1/FY2",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "GP",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Nurse",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Specialist Nurse",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "ST3+ (or equivalent)",
+                    "isChecked": false
+                }
+            ]
+        
+        },{
+            "allowMultiSelect": true,
+            "inputName": "mediaType",
+            "headingText": "Media types",
+            "showSelectedCount": true,
+            "checkIcon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "tags":[
+                {
+                    "labelContent": "Articles",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Courses",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Presentations",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Images",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Podcasts",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Videos",
+                    "isChecked": false
+                },
+                {
+                    "labelContent": "Posters",
+                    "isChecked": false
+                }
+            ]
+        
+        }
+    ],  
+    "applyFiltersButton": {
+        "text": "Apply filters"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "pageTitle": "Login",
+    "fldLogin": {
+        "id": "random-98713",
+        "type": "text",
+        "placeholder": "Username"
+    },
+    "fldPassword": {
+        "id": "random-98714",
+        "type": "text",
+        "placeholder": "Password"
+    },
+    "btnLogin": {
+        "text": "Login"
+    },
+    "lnkForgotPassword": {
+        "href": "#",
+        "linkText":"Forgot Password?"
+    },
+    "lblRegister": {
+        "title": "Not a member?",
+        "required": false
+    },
+    "btnRegister": {
+        "href": "#",
+        "text": "Register Now"
+    },
+    "btnBack": {
+        "text": "Back to the hub",
+        "icon": {
+          "iconPath": "../../icons/ico_svg/he-icons.svg#takui-ico-chev-left"
+        },
+        "url": "#"
+    },
+    "formLogo": {
+        "srcSetData": [
+            {
+                "imgPath": "../../images/lithium/da_logo.png",
+                "mediaBreakpoint": "max-width: 991px"
+            },
+            {
+                "imgPath": "../../images/lithium/da_logo.png"
+            }
+        ],
+        "defaultImgPath": "../../images/lithium/da_logo.png",
+        "altText": "sample-image"
+    },
+    "infoConcent": {
+        "text": "Remember me"
+    }
+}

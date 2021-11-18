@@ -1,0 +1,25 @@
+{
+    "isInternal": true,
+    "date": {
+        "month": "feb",
+        "day": 28
+    },
+    "pageTitle": "Lorem Ipsum",
+    "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#icon-he-article"
+    },
+    "buttons": [
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Add to calendar",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-calendar"
+        },
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Save",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+        }
+    ]
+}

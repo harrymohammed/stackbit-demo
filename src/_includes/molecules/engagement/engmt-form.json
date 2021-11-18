@@ -1,0 +1,16 @@
+{
+    "taReply": {
+        "id": "_idTextArea",
+        "label": "Sample EPI text area",
+        "lines": 6
+    },
+    "cbCommentCheck":{
+        "id": "random54321",
+        "type": "text",
+        "placeholder": "Firstname",
+        "label": "First Name"
+    },
+    "btnPost":{
+        "text": "Post"
+    }
+}

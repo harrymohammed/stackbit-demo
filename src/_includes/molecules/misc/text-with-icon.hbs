@@ -1,0 +1,23 @@
+{{#if hyperlink}}
+    <a href="{{hyperlink}}">
+{{/if}}
+        <div class="takui-text-with-icon {{styleModifier}}">
+            {{#icon}}
+            {{>atoms-icon}}
+            {{/icon}}
+            <div class="takui-text-with-icon-content">
+                {{#if label}}
+                <div class="takui-text-with-icon-title">
+                    {{{label}}}
+                </div>
+                {{/if}}
+                {{#if text}}
+                <div class="takui-text-with-icon-text">
+                    {{{text}}}
+                </div>
+                {{/if}}
+            </div>
+        </div>
+{{#if hyperlink}}
+    </a>
+{{/if}}

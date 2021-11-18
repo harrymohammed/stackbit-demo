@@ -1,0 +1,14 @@
+<div class="takui-refiner">
+    <input type="checkbox" name="{{refiner-name}}" id="{{refiner-name}}" class="takui-refiner-cb">
+    <label class="takui-refiner-label" for="{{refiner-name}}">
+        <span class="takui-refiner-text">{{ refiner-label }}
+            <span class="takui-refiner-count">(0)</span>
+        </span>
+        <div class="takui-refiner-icon">
+            {{> atoms-icon accordionIcon}}
+        </div>
+    </label>
+    <div class="takui-refiner-selection">
+        {{> molecules/filter-tags/filter-tags-list tags=items }}
+    </div>
+</div>

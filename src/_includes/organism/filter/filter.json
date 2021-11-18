@@ -1,0 +1,35 @@
+{
+    "cardGridSize": "grid-1-1",
+    "filterSelect":{
+        "gridClassModifier":"",
+        "labelRequired": false,
+        "labelStyleModifier": "",
+        "labelText": "Label Text",
+        "fieldRequired": true,
+        "styleModifier": "takui-select",
+        "id": "",
+        "placeholder": "--Select Option--",
+        "selectOptions": [
+            {
+                "value": "",
+                "option": "--Select Option--"
+            },
+            {
+                "value": "Option One",
+                "option": "Option One"
+            },
+            {
+                "value": "Option Two",
+                "option": "Option Two"
+            },
+            {
+                "value": "Option Three",
+                "option": "Option Three"
+            }
+        ]
+    },
+    "submitFilter": {
+        "href": "#",
+        "text": "Button Text"
+    }
+}

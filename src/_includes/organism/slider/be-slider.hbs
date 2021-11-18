@@ -1,0 +1,16 @@
+<div class="takui-slider splide"
+     data-splide='{"gap":"0","arrows":true,"perPage": 3, "perMove": 1, "pagination": false,"breakpoints":{"700":{"perPage":1}}}'>
+  <div class="takui-slidertrack splide__track">
+    <ul class="takui-sliderlist splide__list">
+      {{#each items }}
+        <li class="takui-sliderslide splide__slide">
+          {{#if primary }}
+           {{> molecules-card-primary }}
+          {{else}}
+            {{> molecules-card-secondary }}
+          {{/if}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

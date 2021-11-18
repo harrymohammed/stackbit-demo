@@ -1,0 +1,10 @@
+{
+    "id": "cbgrpd-001",
+    "caption": "Type of query",
+    "options": [
+        "Contribute with content or provide suggestions for content",
+        "Contribute with a response/rebuttal",
+        "Ask for informations"
+    ],
+    "displayOption": ""
+}

@@ -1,0 +1,12 @@
+{
+    "pageTitle": "Lorem Ipsum",
+    "icon": {
+        "iconStyleModifier": "lg",
+        "iconPath": "../../icons/ico_svg/icons.svg#icon-he-article"
+    },
+    "button": {
+        "href": "#",
+        "text": "Save",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+    }
+}

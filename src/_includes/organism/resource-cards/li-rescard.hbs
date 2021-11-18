@@ -1,0 +1,50 @@
+<article class="li-rescard {{#if locked }}is-locked{{/if}}">
+    <a href="" class="li-rescard-link">
+        <div class="li-rescard-media">
+            <div class="li-rescard-locked">
+                <svg class="takui-ico-svg" aria-hidden="true">
+                    <use xlink:href="../../icons/ico_svg/icons.svg#icon-li-lock"></use>
+                </svg>
+                <div class="li-locked-action"><span class="underline">Login or become a member</span> to view</div>
+            </div>
+            <img src="{{ bgImagePath }}" alt="" class="li-rescard-img" loading="lazy">
+        </div>
+        <div class="li-rescard-title">
+            <h1>{{ cardTitle }}</h1>
+            <div class="li-rescard-typeicon">
+                <svg class="takui-ico-svg" aria-hidden="true">
+                    <use xlink:href="../../icons/ico_svg/icons.svg#icon-li-video"></use>
+                </svg>
+            </div>
+        </div>
+    </a>
+    <div class="li-rescard-footer">
+        <div class="li-rescard-src" {{#if topic.color }}style="border-color: {{ topic.color }}" {{/if}}>
+            {{#if topic.text }}
+            {{ topic.text }}
+            {{/if}}
+        </div>
+        <div class="li-rescard-time">
+            {{#if time}}
+            <span class="li-rescard-timeicon">
+                <svg class="takui-ico-svg xs" aria-hidden="true">
+                    <use xlink:href="../../icons/ico_svg/icons.svg#icon-li-clock"></use>
+                </svg>
+            </span>
+            <span>10 min</span>
+            {{/if}}
+        </div>
+        <div class="li-rescard-overlay">
+            <div class="li-rescard-like">
+                {{>atoms-icon-anchor buttons.like.icon }}
+                {{#if buttons.like.count }}
+                <div class="li-rescard-like-count">
+                    {{buttons.like.count}}
+                </div>
+                {{/if}}
+            </div>
+            <div class="li-rescard-save">
+                {{>atoms-anchor-button-with-icon buttons.save.icon }}
+            </div>
+        </div>
+</article>

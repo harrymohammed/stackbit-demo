@@ -1,0 +1,25 @@
+<div class="li-layout-form">
+    <header class="li-form-header">
+        <div class="li-form-center-wrapper">
+            {{>atoms-anchor-button-with-icon-reverse linkInfo}}
+        </div>
+    </header>
+
+    <div class="li-layout-forminner li-form-center-wrapper">
+        <div class="li-form-logo">
+            {{>atoms-dynamic-image formLogo}}
+        </div>
+        <div class="li-form-title">
+            <h1>{{ pageTitle }}</h1>
+        </div>
+        {{#if pageDescription }}
+        <p class="takui-p-lead">
+            {{ pageDescription }}
+        </p>
+        {{/if}}
+        {{> @partial-block }}
+        <footer class="li-form-footer">
+            {{>organism-li-form-footer }}
+        </footer>
+    </div>
+</div>

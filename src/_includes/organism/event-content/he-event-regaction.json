@@ -1,0 +1,10 @@
+{
+    "btnBack": {
+        "href": "javascript:history.back()",
+        "text": "Back"
+    },
+    "btnContact": {
+        "href": "#",
+        "text": "Contact Us"
+    }
+}

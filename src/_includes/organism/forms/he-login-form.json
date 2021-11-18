@@ -1,0 +1,40 @@
+{
+    "title": "Login",
+    "errorMsg": "An error occured",
+    "fldLogin": {
+        "id": "random-98713",
+        "type": "text",
+        "placeholder": "Username",
+        "label": "Username",
+        "displayOption": "ValidationFail",
+        "errorMsg": "An error occured - this a really log error in case someonelike to write and whole paragraph on the user interface"
+    },
+    "fldPassword": {
+        "id": "random-98714",
+        "type": "text",
+        "placeholder": "Password",
+        "label": "Password"
+    },
+    "btnLogin": {
+        "text": "Login"
+    },
+    "lnkForgotPassword": {
+        "href": "#",
+        "linkText":"Forgot Password?"
+    },
+    "lblRegister": {
+        "title": "Not a member?",
+        "required": false
+    },
+    "btnRegister": {
+        "href": "#",
+        "text": "Register Now"
+    },
+    "btnBack": {
+        "text": "Back to the hub",
+        "icon": {
+          "iconPath": "../../icons/ico_svg/he-icons.svg#takui-ico-chev-left"
+        },
+        "url": "#"
+    }
+}

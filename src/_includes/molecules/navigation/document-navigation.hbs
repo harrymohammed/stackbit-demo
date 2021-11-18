@@ -1,0 +1,12 @@
+<nav class="takui-docnav" role="doc-toc">
+    <ol class="takui-docnav-list">
+        {{#each items }}
+        <li class="takui-docnav-item">
+            <a href="{{ href }}" class="takui-docnav-link">
+                <span class="takui-docnav-title">{{ label }}</span>
+                <span class="takui-docnav-desc">{{ desc }}</span>
+            </a>
+        </li>
+        {{/each}}
+    </ol>
+</nav>

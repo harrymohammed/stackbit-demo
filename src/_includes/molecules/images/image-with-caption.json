@@ -1,0 +1,6 @@
+{
+  "srcPath": "../../images/placeholders/default-image400x300.png",
+  "altText": "sample-image",
+  "imgStyleModifier": "takui-img--responsive",
+  "imageCaption": "Image caption"
+}

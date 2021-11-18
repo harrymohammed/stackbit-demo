@@ -1,0 +1,6 @@
+<a href="{{ href }}" {{#if target}}target="{{target}}"{{/if}} class="takui-link">
+    {{{linkText}}}
+    {{#if iconPath}}
+        <svg class="takui-ico-svg" aria-hidden="true"><use xlink:href="{{ iconPath }}"></use></svg>
+    {{/if}}
+</a>

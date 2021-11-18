@@ -1,0 +1,273 @@
+{
+    "refiner-list-label": "Filter content by",
+    "buttonText": "Apply Filter",
+    "refiner": [
+        {
+            "refiner-name": "ref-1",
+            "refiner-label": "Hello World",
+            "accordionIcon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "items": [
+                {
+                    "labelContent": "Bleeding Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-1",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Inherited Metabolic Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-2",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Clinical Immunology",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-3",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Understanding Rare Disease",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-4",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lysosomal Storage Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-5",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-6",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-7",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-1",
+                    "input-id": "id-0-8",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                }
+            ]
+        },
+        {
+            "refiner-name": "ref-2",
+            "refiner-label": "Hello World",
+            "accordionIcon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "items": [
+                {
+                    "labelContent": "Bleeding Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-1",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Inherited Metabolic Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-2",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Clinical Immunology",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-3",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Understanding Rare Disease",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-4",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lysosomal Storage Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-5",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-6",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-7",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-2",
+                    "input-id": "id-1-8",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                }
+            ]
+        },
+        {
+            "refiner-name": "ref-3",
+            "refiner-label": "Hello World",
+            "accordionIcon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "items": [
+                {
+                    "labelContent": "Bleeding Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-1",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Inherited Metabolic Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-2",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Clinical Immunology",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-3",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Understanding Rare Disease",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-4",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lysosomal Storage Disorders",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-5",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-6",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-7",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                },
+                {
+                    "labelContent": "Lorem ipsum dolor sit amet",
+                    "isChecked": false,
+                    "allowMultiSelect": true,
+                    "inputName": "demoList-3",
+                    "input-id": "id-2-8",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    }
+                }
+            ]
+        }
+    ]
+}

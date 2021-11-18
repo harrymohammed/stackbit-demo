@@ -1,0 +1,12 @@
+<div class="takui-page-title-left-button">
+    <div>
+        <h3>{{pageTitle}}</h3>
+        {{#if goToButton}}
+        {{>atoms-anchor-button-secondary-with-icon goToButton}}
+        {{/if}}
+    </div>
+
+    {{#if pageDesc}}
+    {{>atoms-paragraph pageDesc}}
+    {{/if}}
+</div>

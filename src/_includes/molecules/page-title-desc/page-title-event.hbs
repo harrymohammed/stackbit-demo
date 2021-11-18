@@ -1,0 +1,22 @@
+<header class="takui-page-header takui-header-pageevent">
+    <div class="takui-header-meta">
+        {{> molecules-date date }}
+        <div class="takui-event-type">
+            {{#if isInternal }}
+            Internal Event
+            {{ else}}
+            External Event
+            {{/if}}
+        </div>
+    </div>
+    <div class="takui-header-eventwrapper">
+        <h1 class="takui-header-pagetitle">{{ pageTitle }}</h1>
+        <div class="takui-header-pageaction">
+            {{#if isInternal }}
+            {{> molecules-button-list this}}
+            {{else}}
+            {{> molecules-button-list this}}
+            {{/if}}
+        </div>
+    </div>
+</header>

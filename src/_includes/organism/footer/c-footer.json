@@ -1,0 +1,187 @@
+{
+    "topSection": {
+        "logo": {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo",
+            "hyperlinked": true,
+            "href": "#",
+            "targetParam": ""
+        },
+        "globalLinks": [
+            {
+                "linkText": "Takeda Global",
+                "target": "_blank",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-external"
+            },
+            {
+                "linkText": "Privacy Policy",
+                "target": "_blank",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-external"
+            },
+            {
+                "linkText": "Terms Of Use"
+            },
+            {
+                "linkText": "Contact Us"
+            }
+        ],
+        "iconLinks": [
+            {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-instagram"
+            },
+            {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-facebook"
+            },
+            {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-twitter"
+            },
+            {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-linkedin"
+            }
+        ]
+    },
+    "bottomSection": {
+        "navs": [
+            {                    
+                "items": [
+                    {
+                        "label": "About Takeda Oncology",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Takeda Oncology Profile",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Overview of Parent Company",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Executive Leadership Team",
+                        "actionTarget": ""
+                    },
+                    {
+                        "label": "Careers",
+                        "actionTarget": ""
+                    },
+                    {
+                        "label": "Policiess & Practices",
+                        "actionTarget": ""
+                    },
+                    {
+                        "label": "Contact Us",
+                        "actionTarget": ""
+                    }
+                ]
+            },
+            {                    
+                "items": [
+                    {
+                        "label": "Science & Research",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Our Company’s R&D Approach",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Areas of research",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Pipeline",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Clinical Trial Information",
+                        "actionTarget": "#"
+                    }
+                ]
+            },
+            {                 
+                "items": [
+                    {
+                        "label":  "Our Medicines",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "List of Medicines",
+                        "actionTarget": "#"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "label": "Patients",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "How We Support Pattients",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Patient & Care Partner Stories",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Disease State Education",
+                        "actionTarget": "#"
+                    }
+                ]
+            },
+            {                    
+                "items": [
+                    {
+                        "label": "Partnerships",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "How to Partner",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Grants Info",
+                        "actionTarget": "#"
+                    }
+                ]
+            },
+            {                    
+                "items": [
+                    {
+                        "label": "News",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Recent News and Archive",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Press Release",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Upcoming Events",
+                        "actionTarget": "#"
+                    }
+                ]
+            },
+            {                    
+                "items": [
+                    {
+                        "label": "Investors",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Financial Info",
+                        "actionTarget": "#"
+                    },
+                    {
+                        "label": "Investor Event Info",
+                        "actionTarget": "#"
+                    }
+                ]
+            }
+        ]
+    },
+    "copyRightText": "© 2021 Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpatt. Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat. Curabitur lobortis id lorem id bibendum."
+}

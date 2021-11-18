@@ -1,0 +1,74 @@
+{
+    "strapline": "Strapline here to remind users why they should become a member",
+    "required-remark": "* All fields marked as required",
+    "fldTitle": {
+        "id": "random-he003713",
+        "label": "Title",
+        "options": [
+            "Mr",
+            "Mrs",
+            "Mx",
+            "Dr"
+        ]
+    },
+    "fldFirstName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "First Name"
+    },
+    "fldLastName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Last Name"
+    },
+    "fldEmail": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Email"
+    },
+    "fldPassword": {
+        "id": "random-he003713",
+        "type": "password",
+        "placeholder": "",
+        "label": "Password"
+    },
+    "fldPasswordConfirm": {
+        "id": "random-he003713",
+        "type": "password",
+        "placeholder": "",
+        "label": "Confirm Password"
+    },
+    "fldPoW": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Primary place of Work"
+    },
+    "fldCity": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "City"
+    },
+    "fldGMCRNID": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "GMC/RN/ID"
+    },
+    "fldTAoI": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Thearpy area of interest"
+    },
+    "formDisclaimer":{
+        "text": "Learn more about our Terms of Use and learn about how Takeda processes (eg. collects, stores, and uses) your personal data in our Privacy Notice."
+    },
+    "infoConcent":{
+        "text": "Learn more about our Terms of Use and learn about how Takeda processes (eg. collects, stores, and uses) your personal data in our Privacy Notice."
+    }
+}

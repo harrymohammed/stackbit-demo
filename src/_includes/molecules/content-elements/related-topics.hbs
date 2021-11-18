@@ -1,0 +1,12 @@
+<div class="takui-reltopics {{#if mobileOnly}}mobile-only{{/if}}{{#if desktopOnly}}desktop-only{{/if}}">
+    {{#if heading}}
+        <div class="takui-reltopics-header">{{heading}}</div>
+    {{/if}}
+    <ul class="takui-reltopics-list">
+        {{#each relatedItems}}
+            <li class="takui-reltopics-item">
+                <a href="#">{{this.name}}</a>
+            </li>
+        {{/each}}
+    </ul>
+</div>

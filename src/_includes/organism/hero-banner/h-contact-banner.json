@@ -1,0 +1,35 @@
+{
+    "hasBgImage": {
+      "srcSetData": [
+          {
+              "imgPath": "https://dummyimage.com/400x1100/d1e9f4/fff.png",
+              "mediaBreakpoint": "max-width: 375px"
+          },
+          {
+            "imgPath": "https://dummyimage.com/600x900/d1e9f4/fff.png",
+            "mediaBreakpoint": "max-width: 425px"
+          },
+          {
+            "imgPath": "https://dummyimage.com/600x880/d1e9f4/fff.png",
+            "mediaBreakpoint": "max-width: 786px"
+          },
+          {
+              "imgPath": "https://dummyimage.com/1900x1020/d1e9f4/fff.png"
+          }
+      ],
+      "defaultImgPath": "https://dummyimage.com/1900x1020/d1e9f4/fff.png",
+      "altText": "sample-image"
+    },
+    "textAlign":"takui-align--center",
+    "title": "We would love to hear from you",
+    "subtitle": "Get in touch with our team",
+    "button": {
+      "href": "#",
+      "text": "Contact Us",
+      "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+      }
+    },
+    "styleModifier": "contact-dynamic-bg",
+    "gradient": true
+}

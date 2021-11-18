@@ -1,0 +1,17 @@
+{
+    "srcSetData": [
+        {
+            "imgPath": "../../images/placeholders/default-card301x201.png",
+            "mediaBreakpoint": "max-width: 400px"
+        },
+        {
+            "imgPath": "../../images/placeholders/default-image400x300.png",
+            "mediaBreakpoint": "max-width: 786px"
+        },
+        {
+            "imgPath": "../../images/placeholders/default-gallery-image883x588.png"
+        }
+    ],
+    "defaultImgPath": "../../images/placeholders/default-gallery-image883x588.png",
+    "altText": "sample-image"
+}

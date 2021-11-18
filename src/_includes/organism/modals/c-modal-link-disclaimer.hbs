@@ -1,0 +1,19 @@
+<div class="takui-rich-text">
+    <p>
+        FYI: Pattern Lab handle links in iframes independently, it cause problems with external links work<br/>
+        Please use "Open In New Tab" option for proper work of modal.
+    </p>
+    <p>Click <a href="{{href}}"><span>external link</span></a> to open a {{ modalExampleDisplay }} modal</p>
+    <p>This is <a href="#">local link</a> without disclaimer</p>
+    <p>This is <a href="http://{{ bypassHost }}">bypass host link</a> that is external but not opens disclaimer</p>
+    
+    <!-- ######################################## -->
+    <!-- Modal code starts from here -->
+    {{>organism-h-modal-dialog }}
+    <!-- Modal code ends here -->
+    <!-- ######################################## -->
+    <div style="display: none;">
+      <div data-extlink-bypass-host="{{ bypassHost }}"></div>  
+       <div data-extlink-modal-id="{{ modalID }}"></div>
+    </div>
+</div>

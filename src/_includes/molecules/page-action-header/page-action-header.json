@@ -1,0 +1,35 @@
+{
+    "pageTitle": "Lorem Ipsum",
+    "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-file"
+    },
+    "buttons": {
+        "like": {
+          "icon": {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Save to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-add-to"
+          }
+        },
+        "saveMobile": {
+          "icon": {
+            "href": "#",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-add-to-big"
+          }
+        },
+        "share": {
+            "icon": {
+                "href": "#",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-share",
+                "text": null
+            }
+        }
+    },
+    "lineColor" : "#000"
+}

@@ -1,0 +1,14 @@
+<div class="takui-c-hero {{#if heroFixedHeight}}hero-fixed-height{{/if}}" style="background-image: {{bgImagePath}}; {{#if heroFixedHeight}}height: {{heroFixedHeight}}{{/if}}">
+    <div class="takui-c-site-width">
+        <article class="takui-c-hero-content">
+            <div class="takui-c-hero-text">
+                <h3 class="takui-c-hero-title">{{contentTitle}}</h3>
+                <p>{{contentSubTitle}}</p>
+            </div>
+            <div class="takui-c-hero-button">
+                {{>atoms-anchor-button-outline-icon button}}
+            </div>
+        </article>
+    </div>
+    {{>atoms-icon-anchor bottomIconButton}}
+</div>

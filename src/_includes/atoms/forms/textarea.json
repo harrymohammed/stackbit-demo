@@ -1,0 +1,6 @@
+{
+  "styleModifier" : "takui-textarea",
+  "placeholder" : "Placeholder text",
+  "id": "exampleTakuiFormControlTextarea",
+  "rowCount": "3"
+}

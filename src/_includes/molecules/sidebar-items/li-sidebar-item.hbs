@@ -1,0 +1,16 @@
+    <div class="takui-sbitem takui-li-sbitem">
+        <div class="takui-sbitem-heading">
+        {{> atoms-icon-with-bg-round iconPath=logo }}
+        </div>
+        <div class="takui-li-sbitem-info">
+            <p class="takui-li-sbitem-label">{{label}}</p> 
+            <p class="takui-sbitem-value">
+                {{ value }}
+            </p>
+            {{#if btnCalendar}}
+                <p class="takui-li-btn-cal button calendar">
+                    {{>atoms-anchor-button btnCalendar}}
+                </p>
+            {{/if}}
+        </div>
+    </div>

@@ -1,0 +1,12 @@
+{{#if hyperlinked }}
+<a href="{{ href }}" target="{{ targetParam }}">
+    <svg class="takui-ico-svg takui-img--logo" aria-hidden="true">
+        <use xlink:href="{{ iconPath }}"></use>
+    </svg>
+</a>
+{{else}}
+    <svg class="takui-ico-svg takui-img--logo" aria-hidden="true">
+        <use xlink:href="{{ iconPath }}"></use>
+    </svg>
+{{/if}}
+ 

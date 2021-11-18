@@ -1,0 +1,7 @@
+{
+    "minimalSearchStyleModifier": "",
+    "inputType": "search",
+    "inputName": "search",
+    "fieldRequired": true,
+    "autocomplete": "off"
+  }

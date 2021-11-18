@@ -1,0 +1,23 @@
+<div class="takui-filter-tags{{#if allowMultiSelect}}-multi-select{{/if}} {{ styleModifier }} accordion-item accordion-item-transparent"
+    {{#if showSelectedCount}}data-showcount="true" data-selectedcount="0" {{/if}}>
+    {{#if headingText}}
+    <h4 class="accordion-item-header">
+        {{headingText}}
+        {{#if allowMultiSelect}}
+        {{#if showSelectedCount}}
+        <span class="selected-count-container">(<span class="filter-tags-selected-count">0</span>)</span>
+        {{/if}}
+        {{/if}}
+        {{>atoms-icon accordionIcon}}
+    </h4>
+    {{/if}}
+    <div class="accordion-item-content">
+
+    </div>
+</div>
+
+<div class="takui-filter-tag-list">
+    {{#each tags}}
+    {{> molecules-filter-tag }}
+    {{/each}}
+</div>

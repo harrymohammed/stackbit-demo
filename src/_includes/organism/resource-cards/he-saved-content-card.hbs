@@ -1,0 +1,26 @@
+  <div class="takui-he-resource-card takui-he-saved-content-card" {{#if bgImagePath}}style="background-image: {{bgImagePath}};" {{/if}}>
+    <div class="takui-he-resource-card--overlay">
+      <div class="takui-he-resource-card--type">
+        <span class="takui-he-resource-card--type--text">{{cardType}}</span>
+      </div>      
+      <div class="takui-he-resource-card--buttons">
+        {{#button}}
+        {{>atoms-anchor-button-secondary-with-icon}}
+        {{/button}}
+      </div>
+      <a href="{{url}}" class="takui-he-resource-card--anchor">
+        <div class="takui-he-resource-card--wrapper">
+            <div class="takui-he-resource-card--content">
+              <div class="takui-he-resource-card--title">
+                {{cardTitle}}
+              </div>
+              {{#if cardDescription}}
+              <div class="takui-he-resource-card--description">
+                <p>{{{cardDescription}}}</p>
+              </div>
+              {{/if}}
+            </div>
+        </div>
+      </a>
+    </div>
+  </div>

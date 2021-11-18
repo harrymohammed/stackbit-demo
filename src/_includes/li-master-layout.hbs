@@ -1,0 +1,31 @@
+<div class="li-layout-wrapper">
+    <header class="li-layout-header">
+        <a href="#">
+            {{> logo liSiteLogo }}
+        </a>
+        {{> li-header liSidebar }}
+        {{> molecules-li-primary-site-navigation liSidebar.navigation}}
+        {{> li-footer liSidebar.footer}}
+    </header>
+    <main class="li-layout-main">
+        <div class="takui-li-header-area">
+            {{!-- {{>organism-li-page-header liHeader}} --}}
+        </div>
+        {{>@partial-block}}
+        <div class="takui-fade">
+        </div>
+        <div class="takui-li-mobile-footer mobile-only">
+            {{>li-footer liSidebar.footer}}
+        </div>
+        <div class="takui-refiner-mobile">
+            {{> molecules/filter-tags/refiner-list liSidebar.mobileRefiner }}
+        </div>
+        {{#if mobileSavedContent}}
+            <div class="takui-li-saved-content"> 
+                {{>atoms-icon iconPath=mobileSavedContent.iconPath}}
+                <span>{{mobileSavedContent.text}}</span>
+            </div>
+        {{/if}}
+    </main>
+</div>
+

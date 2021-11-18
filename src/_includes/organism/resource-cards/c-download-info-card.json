@@ -1,0 +1,31 @@
+{
+  "cardImage": {
+    "srcPath": "../../images/placeholders/default-image400x300.png",
+    "altText": "sample-image",
+    "imgStyleModifier": ""
+  },
+  "description": "Visit the Product Website for Important Safety Information, including Boxed Warning, and download the full ",
+  "sources": [
+    {
+      "description": "For patients:",
+      "link": {
+        "href": "#",
+        "id": "",
+        "linkText": "www.iclusig.com"
+      }
+    },
+    {
+      "description": "For healthcare professionals:",
+      "link": {
+        "href": "#",
+        "id": "",
+        "linkText": "www.iclusig.com/hcp"
+      }
+    }
+  ],
+  "downloadLink": {
+    "href": "#",
+    "linkText": "Download the prescribing information",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-download-solid"
+  }
+}

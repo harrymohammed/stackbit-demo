@@ -1,0 +1,14 @@
+{{#> template-li-master-layout }}
+<div class="takui-li-content-area">
+    {{>molecules-page-action-header-event actionHeader}}
+    <div class="takui-li-main1c">
+        <article class="takui-li-article takui-li-article--with-evt" data-title="Put your title here" data-url="Put your url here" data-text="Put your text here">
+            {{>molecules-full-date date}}
+            {{>molecules-page-title-standard pageTitle=pageTitle}}
+            <section class="takui-li-content">
+                {{>@partial-block}}
+            </section>
+        </article>
+    </div>
+</div>
+{{/template-li-master-layout }}

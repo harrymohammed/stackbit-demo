@@ -1,0 +1,28 @@
+{
+    "articles":[
+        {
+            "date":"mm/dd/yy",
+            "text":"Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas...",
+            "linkText":"Twitter Article Link",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-external"
+        },
+        {
+            "date":"mm/dd/yy",
+            "text":"Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas...",
+            "linkText":"Twitter Article Link",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-external"
+        },
+        {
+            "date":"mm/dd/yy",
+            "text":"Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas...",
+            "linkText":"Twitter Article Link",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-external"
+        },
+        {
+            "date":"mm/dd/yy",
+            "text":"Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas...",
+            "linkText":"Twitter Article Link",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-external"
+        }
+    ]
+}

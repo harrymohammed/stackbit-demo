@@ -1,0 +1,14 @@
+{   "isVisible": "is-visible",
+    "modalOptions": {
+        "modalTitle": "",
+        "buttonType": "",
+        "btnStyleModifier": "",
+        "id":"",
+        "iconname":"",
+        "iconStyleModifier":"",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x"
+    },
+    "modalID": "extModal",
+    "modalExampleDisplay": "normal",
+    "modalSizeModifier": ""
+}

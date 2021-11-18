@@ -1,0 +1,16 @@
+{
+  "bgImagePath": "url('../../images/carbon/hero-bg.jpg')",
+  "contentTitle": "[Lorem Ipsum]",
+  "topTitle":"Takeda oncology",
+  "contentSubTitle": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim. Curabitur lobortis id.",
+  "heroFixedHeight": "375px",
+  "button": {
+    "text": "2.1.0 [R&D Approach]",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  },
+  "bottomIconButton":{
+      "href": "#",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-arrow-down",
+      "name": "icon anchor button"
+  }
+}

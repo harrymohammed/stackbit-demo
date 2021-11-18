@@ -1,0 +1,38 @@
+{
+    "header": {
+        "href": "",
+        "linkText": "References",
+        "icoBgStyleModifier": "takui-ico-bg",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+    },
+    "listContent": {
+        "classModifier" : "takui-ul--no-dot",
+        "items":[
+            {
+                "classMofidier":"",
+                "data":"Donec quis dolor porta tellus volutpat porta.",
+                "display": ""
+            },{
+                "classMofidier":"",
+                "data":"Sed pretium felis a porttitor rutrum.",
+                "display": ""
+            },{
+                "classMofidier":"",
+                "data":"Nunc eleifend nulla dignissim erat malesuada, at posuere est tincidunt.",
+                "display": ""
+            },{
+                "classMofidier":"",
+                "data":"Fusce id magna dignissim, varius nisl in, commodo dolor.",
+                "display": ""
+            },{
+                "classMofidier":"",
+                "data":"Suspendisse in orci ut lorem varius scelerisque.",
+                "display": ""
+            },{
+                "classMofidier":"",
+                "data":"Praesent viverra nisi quis viverra ullamcorper.",
+                "display": ""
+            }
+        ]
+    }
+}

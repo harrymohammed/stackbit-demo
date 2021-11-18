@@ -1,0 +1,5 @@
+{
+    "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+    "altText": "sample-gallery-thumb-image",
+    "imgStyleModifier": "takui-img--gal-thumb"
+}

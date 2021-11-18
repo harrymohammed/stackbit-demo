@@ -1,0 +1,24 @@
+<div class="takui-button-list">
+    {{#each buttons }}
+        {{#switch type }}
+            {{#case 'anchor-button-with-icon'}}
+                {{>atoms-anchor-button-with-icon this }}
+            {{/case}}
+            {{#case 'anchor-button-secondary-with-icon'}}
+                {{>atoms-anchor-button-secondary-with-icon this}}
+            {{/case}}
+            {{#case 'anchor-button'}}
+                {{>atoms-anchor-button this}}
+            {{/case}}
+            {{#case 'button-secondary'}}
+                {{>atoms-button-secondary this }}
+            {{/case}}
+            {{#case 'anchor-button-gray'}}
+                {{>atoms-anchor-button-gray this}}
+            {{/case}}
+            {{#case white-button}}
+                {{>atoms-white-button this}}
+            {{/case}}
+        {{/switch}}
+    {{/each}}
+</div>

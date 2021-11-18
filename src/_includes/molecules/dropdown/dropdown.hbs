@@ -1,0 +1,21 @@
+<div class="takui-dropdown {{classModifier}}">
+    <div class="takui-dropdown-subject"><a href="{{link}}">{{subject}}</a></div>
+    <div class="takui-dropdown-list-items">
+        {{#listItem}}
+        {{#if stratification}}
+            <div class="takui-dropdown-stratifi-item">
+                <div class="item-title">
+                    {{title}}
+                </div>
+                {{#listChildItem}}
+                    <div class="child-item"><a href="{{link}}">{{name}}</a></div>
+                {{/listChildItem}}
+            </div>
+            {{else}}
+                <div class="takui-dropdown-item">
+                    <a href="{{link}}">{{name}}</a>
+                </div>
+        {{/if}}
+        {{/listItem}}
+    </div>
+</div>

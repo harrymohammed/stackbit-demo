@@ -1,0 +1,15 @@
+{
+    "modalTitle": "Resource Title",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+    "modalContent": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe deserunt voluptatum ipsa et perspiciatis recusandae cumque eligendi quidem consequuntur aspernatur? Accusamus eius iure, quaerat, a nulla debitis officiis esse quia impedit autem facere distinctio ducimus labore. Atque quos, dignissimos repudiandae doloribus dicta eveniet itaque nesciunt maxime fugit corrupti inventore aliquam?",
+    "saveButton": {
+        "href": "#",
+        "text": "Save",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+    },
+    "readMoreButton": {
+        "text": "Read more"
+    },
+    "modalState": "is-visible",
+    "cardId": 13
+}

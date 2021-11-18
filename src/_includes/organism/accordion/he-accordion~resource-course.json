@@ -1,0 +1,89 @@
+{
+  "title": "Sample text",
+  "accordion-items": [
+    {
+      "header": {
+        "href": "",
+        "linkText": "Module one",
+        "icoBgStyleModifier": "takui-ico-bg",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+      },
+      "contentWithImage": {
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+        "image": {
+          "srcPath": "../../images/placeholders/default-image400x300.png",
+          "altText": "sample-image",
+          "imgStyleModifier": "takui-img--responsive",
+          "imageCaption": "Image caption"
+        },
+        "button": {
+          "href": "#",
+          "text": "Download"
+        }
+      }
+    },
+    {
+      "header": {
+        "href": "",
+        "linkText": "Module two",
+        "icoBgStyleModifier": "takui-ico-bg",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+      },
+      "contentWithImage": {
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+        "image": {
+          "srcPath": "../../images/placeholders/default-image400x300.png",
+          "altText": "sample-image",
+          "imgStyleModifier": "takui-img--responsive",
+          "imageCaption": "Image caption"
+        },
+        "button": {
+          "href": "#",
+          "text": "Download"
+        }
+      }
+    },
+    {
+      "header": {
+        "href": "",
+        "linkText": "Module three",
+        "icoBgStyleModifier": "takui-ico-bg",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+      },
+      "contentWithImage": {
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+        "image": {
+          "srcPath": "../../images/placeholders/default-image400x300.png",
+          "altText": "sample-image",
+          "imgStyleModifier": "takui-img--responsive",
+          "imageCaption": "Image caption"
+        },
+        "button": {
+          "href": "#",
+          "text": "Download"
+        }
+      }
+    },
+    {
+      "header": {
+        "href": "",
+        "linkText": "Module four",
+        "icoBgStyleModifier": "takui-ico-bg",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+      },
+      "contentWithImage": {
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+        "image": {
+          "srcPath": "../../images/placeholders/default-image400x300.png",
+          "altText": "sample-image",
+          "imgStyleModifier": "takui-img--responsive",
+          "imageCaption": "Image caption"
+        },
+        "button": {
+          "href": "#",
+          "text": "Download"
+        }
+      }
+    }
+  ]
+}

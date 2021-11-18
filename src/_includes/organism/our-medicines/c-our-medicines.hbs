@@ -1,0 +1,22 @@
+<div class="takui-c-our-medicines">
+  <h2>Our products are approved around the world.</h2>
+  <p>Select your local country to find out more</p>
+
+  <form id="OurMedicinesForm" class="takui-c-input-row">
+    {{> atoms-select select}}
+    <button role="button" class="takui-btn">
+      GO
+      <svg class="takui-ico-svg xs" aria-hidden="true">
+        <use xlink:href="../../icons/ico_svg/icons.svg#takui-ico-chev-right"></use>
+      </svg>
+    </button>
+  </form>
+  <div class="takui-c-medicine-list">
+    <h4 id="MedicineListHeading" style="display: none;">TAKEDA ONCOLOGY PRODUCTS AVAILABLE IN<span class="selected-country" id="CountrySelected"></span></h4>
+    {{#each medicinesList}}
+    <div id="{{id}}" data-medicine-list style="display: none;">
+      {{> atoms-list}}
+    </div>
+    {{/each}}
+  </div>
+</div>

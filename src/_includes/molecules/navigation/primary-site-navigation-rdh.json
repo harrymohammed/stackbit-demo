@@ -1,0 +1,35 @@
+{
+    "navLinks":[
+        {
+            "linkText":"Home",                        
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-home",
+            "displayDesktop": true,
+            "displayMobile": true,
+            "active": true
+        },
+        {
+            "linkText":"Login",                                
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-login",
+            "displayDesktop": true,
+            "displayMobile": true
+        },
+        {
+            "linkText":"Contact Us",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contactus",
+            "displayDesktop": true,
+            "displayMobile": false
+        },
+        {
+            "linkText":"Video Tutorial",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-tutorial",
+            "displayDesktop": true,
+            "displayMobile": false
+        },
+        {
+            "linkText":"More",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list",
+            "displayDesktop": false,
+            "displayMobile": true                        
+        }
+    ]
+}

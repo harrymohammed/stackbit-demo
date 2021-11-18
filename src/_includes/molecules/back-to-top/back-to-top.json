@@ -1,0 +1,11 @@
+{
+    "back": {
+        "href": "#top",
+        "buttonText": "Back to top",
+        "icon": 
+            {
+                "href": "#top",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-up"
+            }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "allowMultiSelect": true,
+    "inputName": "demoSideMenuList",
+    "styleModifier": "",
+    "headingText": "Therapy Type",
+    "showSelectedCount": true,
+    "checkIcon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+    },
+    "tags":[
+        {
+            "labelContent": "Bleeding Disorders",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Inherited Metabolic Disorders",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Clinical Immunology",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Understanding Rare Disease",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Lysosomal Storage Disorders",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Lorem ipsum dolor sit amet",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Lorem ipsum dolor sit amet",
+            "isChecked": false
+        },
+        {
+            "labelContent": "Lorem ipsum dolor sit amet",
+            "isChecked": false
+        }
+    ] 
+}

@@ -1,0 +1,22 @@
+<article class="takui-he-rescard" data-id={{ dataId }}>
+  {{#if bgImagePath}}<img src="{{bgImagePath}}" class="takui-he-rescard-img">{{/if}}
+  <div class="takui-he-rescard-overlay"></div>
+  <div class="takui-he-rescard-type">
+    <span class="takui-he-rescard-typelabel">{{cardType}}</span>
+    {{#cardIcon}}
+    <span class="takui-he-rescard-typeicon">
+      {{>atoms-icon}}
+      {{/cardIcon}}
+    </span>
+  </div>
+  {{#button}}
+  <div class="takui-he-rescard-action">
+    {{>atoms-anchor-button-with-icon}}
+  </div>
+  {{/button}}
+  <a href="{{url}}" class="takui-he-rescard-content">
+    <h1 class="takui-he-rescard-title">
+      {{cardTitle}}
+    </h1>
+  </a>
+</article>

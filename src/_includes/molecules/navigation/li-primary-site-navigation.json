@@ -1,0 +1,18 @@
+{
+    "items":[
+        {
+            "linkText":"Home",                        
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-home",
+            "displayDesktop": true,
+            "displayMobile": true,
+            "active": true
+        },
+        {
+            "linkText":"Login",  
+            "logOutText":"Sign out",                              
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-login",
+            "displayDesktop": true,
+            "displayMobile": true
+        }
+    ]
+}

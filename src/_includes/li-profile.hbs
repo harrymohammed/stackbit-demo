@@ -1,0 +1,28 @@
+<div class="takui-li-profile">
+  <header class="takui-li-profile-header">
+    {{>molecules-page-title-desc-invert header}}
+  </header>
+
+  <section class="takui-li-profile-body">
+    {{#each tabs}}
+      <div class="takui-he-tab-content-wrapper">
+        <input id="tab-{{name}}" name="tabs" value={{name}} type="radio" {{#if checked}} checked {{/if}}
+          class="takui-he-tab-checkbox takui-dsp--none" />
+
+        <label class="takui-he-tab-checkbox-label" for="tab-{{name}}">
+          <h5>{{title}}</h5>
+        </label>
+
+        <div class="takui-he-tab-content {{#if checked}}visible{{/if}}" data-parent-id="tab-{{name}}">
+          {{#if preferenceOptions}}
+            {{>organism-he-preference-selection preferenceOptions}}
+          {{else if savedContent}}
+            {{>organism-li-slider savedContent}}
+          {{else if savedEvents}}
+            {{>organism-li-slider savedEvents}}
+          {{/if}}
+        </div>
+      </div>
+    {{/each}}
+  </section>
+</div>

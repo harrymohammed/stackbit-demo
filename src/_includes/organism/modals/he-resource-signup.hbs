@@ -1,0 +1,22 @@
+<div class="takui-modal-outer takui-resource-preview--outer {{ modalState }}" data-ref="{{ cardId }}">
+    <div class="takui-resource-preview">
+        <div class="takui-modal-header">
+            <div class="takui-modal-header-title">
+                <h2>{{modalTitle}}</h2>
+            </div>
+            <div class="takui-modal-header-closer" aria-label="close modal" data-close=""><button class="takui-btnicon">
+                {{#saveButton}}
+                {{>atoms-anchor-button-with-icon}}
+                {{/saveButton}}
+            </div>
+        </div>
+        {{> molecules-dialog-content modalContent=modalContent }}
+        <div class="takui-resource-preview--buttons">
+            {{#if readMoreButton}}
+                {{#readMoreButton}}
+                    {{>atoms-anchor-button}}
+                {{/readMoreButton}}
+            {{/if}}
+        </div>
+    </div>
+</div>

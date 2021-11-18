@@ -1,0 +1,34 @@
+<div class="row takui-he-comment">
+    <div class="grid-1-1">
+        <div class="takui-he-comment-header">
+            <h6>{{title}}</h6>
+            {{>atoms-icon iconPath="../../icons/ico_svg/icons.svg#takui-ico-chev-down"}}
+        </div>
+    </div>
+
+    {{#each comments}}
+    <div class="grid-1-1">
+        <div class="takui-he-comment-content">
+            {{!-- >organism-he-rich-text --}}
+            {{>molecules-link-group ../actionButtons}}
+            <hr />
+        </div>
+    </div>
+    {{/each}}
+
+    <div class="grid-1-1">
+        <h6>{{commentBox.title}}</h6>
+    </div>
+
+    <div class="grid-1-1">
+        {{>atoms-textarea commentBox.box}}
+    </div>
+
+    <div class="grid-1-2">
+        {{>atoms-checkbox commentBox.checkbox}}
+    </div>
+
+    <div class="grid-1-2">
+        {{>atoms-button-secondary commentBox.button}}
+    </div>
+</div>

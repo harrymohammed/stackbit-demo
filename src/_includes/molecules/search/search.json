@@ -1,0 +1,8 @@
+{
+  "inputType": "text",
+  "autoComplete": "off",
+  "styleModifier" : "takui-input-search",
+  "id": "",
+  "placeholder" : "Search",
+  "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search"
+}

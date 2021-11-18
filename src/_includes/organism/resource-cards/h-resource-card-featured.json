@@ -1,0 +1,39 @@
+{
+    "cardhref": "#",
+    "cardActionTarget": "",
+    "bgImagePath": "url('../../images/ADHD/Illustrations/resource_illustration_educational.png')",
+    "altText": "card image",
+    "cardTitleText": "Educational Resources",
+    "cardExcerptText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br /><p>In this section you will find:</p>",
+    "contentInfoArea": true,
+    "items": [
+        {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-video",
+            "hyperlink": false,
+            "iconData": "Videos"
+        },
+        {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-file-pdf",
+            "hyperlink": false,
+            "iconData": "Downloadables"
+        },
+        {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-mic",
+            "hyperlink": false,
+            "iconData": "Podcasts"
+        },
+        {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-file-pdf",
+            "hyperlink": false,
+            "iconData": "Digital tools"
+        },
+        {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-video",
+            "hyperlink": false,
+            "iconData": "Blog"
+        }
+    ],
+    "actionArea": true,
+    "href": "#",
+    "text": "Find out more"
+}

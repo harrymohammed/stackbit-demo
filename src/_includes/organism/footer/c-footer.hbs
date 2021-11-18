@@ -1,0 +1,48 @@
+<div class="takui-c-footer">
+
+    {{#topSection}}
+    <div class="takui-c-top-section">
+        <div class="takui-c-footer-top takui-c-site-width">
+            <div class="takui-c-company-logo">
+                {{#logo}}
+                {{> atoms-svg-logo iconPath="../../icons/ico_svg/icons.svg#takui-footer-logo"}}
+                {{/logo}}
+            </div>
+
+            <div class="takui-c-footer-social">
+                {{#each iconLinks}}
+                <div class="social-icons">
+                    <a href="#">
+                        {{>atoms-icon}}
+                    </a>
+                </div>
+                {{/each}}
+            </div>
+
+            <nav role="navigation" class="takui-c-global-nav" aria-label="Global Navigation">
+                <ul class="takui-ul">
+                    {{#each globalLinks}}
+                    <li class="takui-li-item {{#if active}}active{{/if}} {{selector}}">
+                        {{>atoms-link-with-chevron}}
+                    </li>
+                    {{/each}}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    {{/topSection}}
+
+    <div class="takui-c-bottom-section">
+        <div class="takui-c-footer-bottom takui-c-site-width">
+            {{#bottomSection}}
+            {{#each navs}}
+            {{>molecules-anchor-list}}
+            {{/each}}
+            {{/bottomSection}}
+        </div>
+        <div class="takui-c-footer-copy">
+            <div class="copy-right-text takui-c-site-width">{{copyRightText}}</div>
+        </div>
+    </div>
+
+</div>

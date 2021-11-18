@@ -1,0 +1,18 @@
+<div class="takui-li-eventsb">
+    <div class="takui-sb-info">
+        {{> molecules-li-sidebar-item-list sidebarItems }}
+    </div>
+    <div class="takui-sb-action">
+        {{#if calltoaction.iconPath}}
+            {{> atoms-anchor-button-with-icon-reverse calltoaction }}
+        {{else}}
+            {{> atoms-anchor-button-secondary calltoaction }}
+        {{/if}}
+    </div>
+    {{#unless isInternal}}
+        <div class="takui-li-extdisclaimer">
+            {{>atoms-icon iconPath=externalDisclaimer.iconPath}}
+            {{>atoms-paragraph text=externalDisclaimer.text}}
+        </div>
+    {{/unless}}
+</div>

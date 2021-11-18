@@ -1,0 +1,26 @@
+<div class="takui-form-group-input {{gridClassModifier}}">
+    {{#if labelRequired }}
+    <label class="takui-label {{labelStyleModifier}}" for="{{ id }}">{{labelText}}
+        {{#fieldRequired }}
+        <span class="takui-required-item {{reqModifier}}">*</span>
+        {{/fieldRequired}}
+    </label>
+    {{/if }}
+    <select class="takui-form-select {{ styleModifier }}" id="{{ id }}" placeholder="{{ placeholder }}" {{# multiple
+        }}multiple{{/ multiple }} {{# disabled }}disabled{{/ disabled }} {{# required}}required{{/ required}}>
+        {{# selectOptions }}
+        <option value="{{ value }}" {{#each attributes}} {{ name }}="{{ value }}" {{/each}}>{{ option }}</option>
+        {{/ selectOptions }}
+
+        {{# optionGroups }}
+        <optgroup label="{{ optGroupLabel }}">
+
+            {{# selectOptions }}
+            <option value="{{ value }}">{{ option }}</option>
+            {{/ selectOptions }}
+
+        </optgroup>
+        {{/ optionGroups }}
+
+    </select>
+</div>

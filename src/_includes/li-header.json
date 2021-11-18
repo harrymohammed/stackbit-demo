@@ -1,0 +1,294 @@
+{
+    "filter-header": {
+        "filter-content-label": "Filter content by:",
+        "browsing-link": "Change therapy area of interest",
+        "browsing-link-url": "#"
+    },
+    "refiner": {
+        "buttonText": "Reset Filters",
+        "refiner-list-label": "Filter content by:",
+        "refiner": [
+            {
+                "refiner-name": "ref-1",
+                "refiner-label": "CME and events",
+                "accordionIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                },
+                "items": [
+                    {
+                        "labelContent": "Acquired Haemophilia",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-1",
+                        "input-id": "id-0-1",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Cytomegalovirus CMV",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-1",
+                        "input-id": "id-0-2",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Fabry Disease",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-1",
+                        "input-id": "id-0-3",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    }
+                ]
+            },
+            {
+                "refiner-name": "ref-2",
+                "refiner-label": "Expertise",
+                "accordionIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                },
+                "items": [
+                    {
+                        "labelContent": "Allied Professional",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-1",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Consultant",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-2",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "CMT 1/2",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-3",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "FY1/FY2",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-4",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "GP",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-5",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Nurse",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-6",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Specialist Nurse",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-7",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "ST3+ (or equivalent)",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-2",
+                        "input-id": "id-1-8",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    }
+                ]
+            },
+            {
+                "refiner-name": "ref-3",
+                "refiner-label": "Media Types",
+                "accordionIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                },
+                "items": [
+                    {
+                        "labelContent": "Articles",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-1",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Courses",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-2",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Presentations",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-3",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Images",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-4",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Podcasts",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-5",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Videos",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-6",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Posters",
+                        "isChecked": false,
+                        "allowMultiSelect": true,
+                        "inputName": "demoList-3",
+                        "input-id": "id-2-7",
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    }
+                ]
+            },
+            {
+                "refiner-name": "ref-4",
+                "refiner-label": "Educational Meetings and Events",
+                "checkIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                },
+                "accordionIcon": {
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                },
+                "items": [
+                    {
+                        "labelContent": "External Event",
+                        "isChecked": false,
+                        "inputName": "demoList-4",
+                        "input-id": "id-3-1",
+                        "allowMultiSelect": true,
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    },
+                    {
+                        "labelContent": "Takeda organised event",
+                        "isChecked": false,
+                        "inputName": "demoList-4",
+                        "input-id": "id-3-4",
+                        "allowMultiSelect": true,
+                        "checkIcon": {
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "navigation": {
+        "items":[
+            {
+                "linkText":"Home",          
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-home",
+                "displayMobile": true,
+                "displayDesktop": true
+            },
+            {
+                "linkText":"Search",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+                "displayMobile": true,
+                "displayDesktop": false,
+                "selector": "btnSearch"
+            },
+            {
+                "linkText":"Login",
+                "logOutText":"Sign out",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-login",
+                "displayMobile": true,
+                "displayDesktop": true
+            },
+            {
+                "linkText":"Contact Us",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contactus",
+                "displayMobile": false,
+                "displayDesktop": true                
+            },
+            {
+                "linkText":"Video Tutorial",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-tutorial",
+                "displayMobile": false,
+                "displayDesktop": true    
+            },
+            {
+                "linkText":"More",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list",
+                "displayMobile": true,
+                "displayDesktop": false    
+            }
+        ]
+    }
+}

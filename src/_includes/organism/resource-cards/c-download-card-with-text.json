@@ -1,0 +1,14 @@
+{
+  "cardImage": {
+    "srcPath": "../../images/placeholders/default-card301x201.png",
+    "altText": "sample-card-image",
+    "imgStyleModifier": ""
+  },
+  "title": "[Title]",
+  "cardText": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim.",
+  "downloadLink": {
+    "href": "#",
+    "linkText": "[Download file title two lines long maximum text lorem id bibendum. Quisque volutpat augue enim.]",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-download"
+  }
+}

@@ -1,0 +1,16 @@
+<div class="li-layout-landing">
+    <header class="he-landing-header">
+        <div class="he-landing-headinner">
+            <div class="he-landing-title">
+                <h1>{{{ title }}}</h1>
+            </div>
+            <div class="he-landing-logo">
+                {{>atoms-logo liSiteLogo }}
+            </div>
+        </div>
+    </header>
+    <main class="li-landing-main">
+        {{> @partial-block }}
+    </main>
+    {{> organism-li-footer-landing liSidebar.footer}}
+</div>

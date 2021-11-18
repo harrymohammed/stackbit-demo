@@ -1,0 +1,34 @@
+{
+    "searchInput": {
+        "labelRequired": false,
+        "fieldRequired": true,
+        "inputType": "text",
+        "gridClassModifier" : "takui-allow-expand takui-allow-collapse",
+        "placeholder" : "Enter disease term or phrase...",
+        "autoComplete": "on",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search"
+    },
+    "filterSelectList": {
+        "labelRequired": false,
+        "fieldRequired": true,
+        "gridClassModifier" : "takui-allow-collapse",
+        "placeholder": "Search Area",
+        "selectOptions": [
+            {
+                "value": "",
+                "option": "Choose your search area"
+            },
+            {
+                "value": "search everywhere",
+                "option": "search everywhere"
+            },
+            {
+                "value": "search area of interest",
+                "option": "search area of interest"
+            }
+        ]
+    },
+    "submitButton": {
+        "text": "Search area of interest"
+    }
+}

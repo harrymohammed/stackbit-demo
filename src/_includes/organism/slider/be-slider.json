@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "backgroundImage": "../../images/Takeda_Syonan75.jpg",
+      "primary": true,
+      "cardTitle" : "Priorities in acition",
+      "cardDesc": "Developing top talent: Global Induction Forum"
+    },
+    {
+      "backgroundImage": "../../images/Takeda_Syonan75.jpg",
+      "primary": false,
+      "cardTitle" : "Priorities in acition",
+      "cardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing"
+    },
+    {
+      "backgroundImage": "../../images/Takeda_Syonan75.jpg",
+      "primary": true,
+      "cardTitle" : "Priorities in acition",
+      "cardDesc": "Pellentesque eu justo sit amet quam pretium sodales"
+    },
+    {
+      "backgroundImage": "../../images/Takeda_Syonan75.jpg",
+      "primary": false,
+      "cardTitle" : "Priorities in acition",
+      "cardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing"
+    },
+    {
+      "backgroundImage": "../../images/Takeda_Syonan75.jpg",
+      "primary": true,
+      "cardTitle" : "Priorities in acition",
+      "cardDesc": "Pellentesque eu justo sit amet quam pretium sodales"
+    },
+    {
+      "backgroundImage": "../../images/Takeda_Syonan75.jpg",
+      "primary": false,
+      "cardTitle" : "Priorities in acition",
+      "cardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing"
+    }
+  ]
+}

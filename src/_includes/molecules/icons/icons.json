@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "iconStyleModifier": "lg",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+            "iconName": "takui-ico-x",
+            "hyperlink": false,
+            "iconData": "takui-ico-x"
+        },
+        {
+            "iconStyleModifier": "lg",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x-circle",
+            "iconName": "takui-ico-x-circle",
+            "hyperlink": false,
+            "iconData": "takui-ico-x-circle"
+        },
+        {
+            "iconStyleModifier": "lg",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x-circle-fill",
+            "iconName": "takui-ico-x-circle-fill",
+            "hyperlink": false,
+            "iconData": "takui-ico-x-circle-fill"
+        }
+    ]
+}

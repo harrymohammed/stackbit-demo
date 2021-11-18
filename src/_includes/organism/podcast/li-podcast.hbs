@@ -1,0 +1,16 @@
+<div class="takui-li-podcast-block">
+    <div class="takui-li-podcast">
+        {{>molecules-podcast-player}}
+    </div>
+    {{> molecules-brightcove-video-transcript transcript=transcript }}
+    <button class="takui-transcript-closer">
+        <span class="open-desc">Open transcript</span>
+        <span class="close-desc">Close transcript</span>
+        <svg class="takui-ico-svg takui-icon-arrow" aria-hidden="true">
+            <use xlink:href="../../icons/ico_svg/icons.svg#icon-li-trans-chev-up"></use>
+        </svg>
+    </button>
+    <div class="takui-download-action">
+        {{>atoms-anchor-button-with-icon-reverse btnDownload }}
+    </div>
+</div>

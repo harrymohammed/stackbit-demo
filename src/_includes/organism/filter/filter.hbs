@@ -1,0 +1,14 @@
+<div class="{{cardGridSize}}">
+    <form class="takui-form-section takui-filter" action="#" id="eventsfilterForm" name="eventsfilterForm" method="POST">
+        {{#filterSelect}}
+            <div class="filter-dropdown">
+                {{>atoms-select}}
+            </div>
+        {{/filterSelect}}
+        {{#submitFilter}}
+            <div class="takui-form-group-button">
+                {{>atoms-anchor-button}}
+            </div>
+        {{/submitFilter}}
+    </form>
+</div>

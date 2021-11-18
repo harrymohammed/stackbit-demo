@@ -1,0 +1,22 @@
+<div class="takui-he-preference-selection">
+        <div>
+                <div class="Form__MainBody form">
+                        <section>
+                                <div class="Form__Element FormChoice FormChoice form__input__wrapper">
+                                        {{>molecules-checkbox-group-with-counter inputs=options}}
+                                </div>
+
+                                {{#each options}}
+                                <div
+                                        class="Form__Element FormChoice FormChoice form__input__wrapper {{#unless isActive}} hide {{/unless}}">
+                                        <span>{{text}}</span>
+                                        {{#each tags}}
+                                        {{>molecules-filter-tag this}}
+                                        {{/each}}
+                                </div>
+                                {{/each}}
+                                {{>atoms-button-primary text="Save"}}
+                        </section>
+                </div>
+        </div>
+</div>

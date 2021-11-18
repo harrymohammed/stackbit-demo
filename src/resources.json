@@ -1,0 +1,805 @@
+{
+    "pageTitle": "Resources Collection",
+    "slider": {
+        "splideData": {
+            "gap": "2rem",
+            "arrows": true,
+            "fixedWidth": 313,
+            "autoHeight": true,
+            "pagination": false,
+            "arrowPath": "M17.91,35.22a2.87,2.87,0,0,0,4,4.05L39.17,22.05a2.87,2.87,0,0,0,0-4L22,.79a2.86,2.86,0,0,0-4,4.05L33.08,20Z",
+            "padding": {
+                "left": "0",
+                "right": "0"
+            },
+            "breakpoints": {
+                "578": {
+                    "fixedWidth": 170,
+                    "perPage": 2,
+                    "perMove": 1,
+                    "gap": "1rem",
+                    "padding": {
+                        "left": "0",
+                        "right": "0"
+                    },
+                    "focus"  : "center"
+                }
+            }
+        },
+        "items": [
+            {
+                "url": "#",
+                "mainIcon": {
+                    "iconStyleModifier": "xl",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+                "topic": null,
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "1 hour 30 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": {
+                    "iconStyleModifier": "xl",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-webinar"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-presentation"
+                },
+                "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/US_MA-95-Hayden-Ave-entrance.jpg",
+                "topic": {
+                    "text": "Lorem ipsum",
+                    "color": "orange"
+                },
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "lock": {
+                    "icon": {
+                        "iconStyleModifier": "xl",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-lock"
+                    },
+                    "message": "<a href=\"#\">Login or become a member</a> to view"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-podcast"
+                },
+                "cardTitle": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+                "topic": {
+                    "text": "Top secret",
+                    "color": "gold"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": {
+                    "iconStyleModifier": "xl",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-presentation"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-presentation"
+                },
+                "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/hero_banner.jpg",
+                "topic": {
+                    "text": "Tuyen Pham",
+                    "color": "lime"
+                },
+                "time": null,
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+                "topic": null,
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+                "topic": {
+                    "text": "Boring",
+                    "color": "red"
+                },
+                "time": null,
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": {
+                    "iconStyleModifier": "xl",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+                "topic": {
+                    "text": "Takeda",
+                    "color": "yellow"
+                },
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "lock": {
+                    "icon": {
+                        "iconStyleModifier": "xl",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-lock"
+                    },
+                    "message": "<a href=\"#\">Login or become a member to view</a>"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+                "topic": {
+                    "text": "Takeda",
+                    "color": "yellow"
+                },
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": {
+                    "iconStyleModifier": "xl",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+                "topic": {
+                    "text": "Takeda",
+                    "color": "yellow"
+                },
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "lock": {
+                    "icon": {
+                        "iconStyleModifier": "xl",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-lock"
+                    },
+                    "message": "<a href=\"#\">Login or become a member to view</a>"
+                },
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+                "topic": {
+                    "text": "Takeda",
+                    "color": "yellow"
+                },
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+                "topic": {
+                    "text": "Takeda",
+                    "color": "yellow"
+                },
+                "time": {
+                    "icon": {
+                        "iconStyleModifier": "xs",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+                    },
+                    "text": "10 mins"
+                },
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            },
+            {
+                "url": "#",
+                "mainIcon": null,
+                "cardTypeIcon": {
+                    "iconStyleModifier": "xs",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+                },
+                "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "cardDescription": "Card Description",
+                "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+                "topic": {
+                    "text": "Takeda",
+                    "color": "yellow"
+                },
+                "time": null,
+                "buttons": {
+                    "like": {
+                        "icon": {
+                            "iconStyleModifier": "xs",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+                        },
+                        "count": 23
+                    },
+                    "save": {
+                        "icon": {
+                            "href": "#",
+                            "text": "Add to my list",
+                            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "liSidebar": {
+        "browsing-header": {
+            "browsing-label": "Browsing in:",
+            "browsing-therapy-area": "Bleeding Disorder",
+            "browsing-link": "Change therapy area of interest",
+            "browsing-link-url": "#"
+        },
+        "refiner": {
+            "buttonText": "Reset filters",
+            "refiner-list-label": "Filter content by:",
+            "refiner": [
+                {
+                    "refiner-name": "ref-1",
+                    "refiner-label": "Rare Disease",
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "Acquired Haemophilia",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-1",
+                            "input-id": "id-0-1",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Cytomegalovirus CMV",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-1",
+                            "input-id": "id-0-2",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Fabry Disease",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-1",
+                            "input-id": "id-0-3",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "refiner-name": "ref-2",
+                    "refiner-label": "Expertise",
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "Allied Professional",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-1",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Consultant",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-2",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "CMT 1/2",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-3",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "FY1/FY2",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-4",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "GP",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-5",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Nurse",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-6",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Specialist Nurse",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-7",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "ST3+ (or equivalent)",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-8",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "refiner-name": "ref-3",
+                    "refiner-label": "Media Types",
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "Articles",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-1",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Courses",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-2",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Presentations",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-3",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Images",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-4",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Podcasts",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-5",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Videos",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-6",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Posters",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-7",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "refiner-name": "ref-4",
+                    "refiner-label": "Educational Meetings and Events",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    },
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "External Event",
+                            "isChecked": false,
+                            "inputName": "demoList-4",
+                            "input-id": "id-3-1",
+                            "allowMultiSelect": true,
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Takeda organised event",
+                            "isChecked": false,
+                            "inputName": "demoList-4",
+                            "input-id": "id-3-4",
+                            "allowMultiSelect": true,
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "navigation": {
+            "items": [
+                {
+                    "linkText": "Home",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-home",
+                    "displayMobile": true,
+                    "displayDesktop": true
+                },
+                {
+                    "linkText": "Login",
+                    "logOutText": "Sign out",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-login",
+                    "displayMobile": true,
+                    "displayDesktop": true
+                }
+            ]
+        },
+        "footer": {
+            "companyLogo": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo"
+            },
+            "navSection": {
+                "classModifier": "takui-ul-horizontal",
+                "items": [
+                    {
+                        "label": "Privacy Policy"
+                    },
+                    {
+                        "label": "Terms of Use"
+                    },
+                    {
+                        "label": "Cookie Policy"
+                    },
+                    {
+                        "label": "Adverse Event Reporting"
+                    },
+                    {
+                        "label": "Medical Information Request"
+                    }
+                ]
+            },
+            "copyrightField": "© Takeda",
+            "approvalId": "Approval ID DD/YYYY"
+        }
+    },
+    "externalModal": {
+        "isVisible": false,
+        "modalOptions": {
+            "modalTitle": "",
+            "buttonType": "",
+            "btnStyleModifier": "",
+            "id": "",
+            "iconname": "",
+            "iconStyleModifier": "",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x"
+        },
+        "modalID": "extModal",
+        "modalExampleDisplay": "normal",
+        "modalSizeModifier": ""
+    }
+}

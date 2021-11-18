@@ -1,0 +1,14 @@
+<div class="takui-sidebar-footer">
+    <div class="takui-copyright-info">
+        {{>atoms-paragraph text=copyrightText}}
+        <div class="takui-li-copyright">
+            {{>atoms-paragraph text=copyrightField}}
+            {{>atoms-paragraph text=approvalId}}
+        </div>
+    </div>
+    <nav class="takui-li-footer-nav">
+        {{#navSection}}
+        {{>molecules-anchor-list-horizontal}}
+        {{/navSection}}
+    </nav>
+</div>

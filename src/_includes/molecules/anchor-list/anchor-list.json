@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "HOME",
+      "actionTarget": ""
+    },
+    {
+      "label": "TERMS AND CONDITIONS",
+      "actionTarget": ""
+    },
+    {
+      "label": "PRIVACY NOTICE",
+      "actionTarget": ""
+    },
+    {
+      "label": "FAQS",
+      "actionTarget": ""
+    },
+    {
+      "label": "CONTACT US",
+      "actionTarget": ""
+    },
+    {
+      "label": "UNSUBSCRIBE",
+      "actionTarget": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "heading":"Related topics:",
+    "relatedItems": [
+        {
+            "name": "Vaccination",
+            "link": ""
+        },
+        {
+            "name": "Diagnosis",
+            "link": ""
+        },
+        {
+            "name": "Health",
+            "link": ""
+        },
+        {
+            "name": "Symptoms",
+            "link": ""
+        },
+        {
+            "name": "Patient care",
+            "link": ""
+        }
+    ]
+}

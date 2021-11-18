@@ -1,0 +1,15 @@
+<div class="takui-he-edit-profile">
+    <div class="takui-he-edit-profile-wrapper">
+        <div class="takui-formctn">
+            {{#each fields}}
+            {{#if options}}
+            {{>molecules-takui-form-select this}}
+            {{else}}
+            {{>molecules-takui-form-element this}}
+            {{/if}}
+            {{/each}}
+            {{>atoms-button-secondary btnBacktoprofile }}
+            {{>atoms-button-primary btnSave }}
+        </div>
+    </div>
+</div>

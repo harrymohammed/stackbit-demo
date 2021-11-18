@@ -1,0 +1,17 @@
+{
+  "url": "#",
+  "cardType": "Type",
+  "cardIcon": {
+    "iconStyleModifier": "sm",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-video"
+  },
+  "cardTitle": "Card Title",
+  "cardDescription": "Card Description",
+  "bgImagePath": "../../../images/placeholders/image-16by9.png",
+  "button": {
+    "href": "#",
+    "text": "Save",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+  },
+  "dataID": 13
+}

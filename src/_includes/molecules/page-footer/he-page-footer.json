@@ -1,0 +1,30 @@
+{
+    "tags": [
+        {
+            "href": "#",
+            "text": "Tag No 1"
+        },
+        {
+            "href": "#",
+            "text": "Tag No 2"
+        },
+        {
+            "href": "#",
+            "text": "Tag No 3"
+        }
+    ],
+    "actions": [
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        },
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Contribute",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contribute"
+        }
+    ]
+}

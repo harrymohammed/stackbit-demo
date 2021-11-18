@@ -1,0 +1,40 @@
+{
+  "gridBlockItems": [
+      {
+        "backgroundImage": "../../../images/beryllium/banner/bery-banner3.jpg",
+        "primary": true,
+        "cardTitle" : "Priorities in acition",
+        "cardDesc": "Developing top talent: Global Induction Forum"
+      },
+      {
+        "backgroundImage": "../../../images/beryllium/banner/bery-banner3.jpg",
+        "primary": false,
+        "cardTitle" : "Priorities in acition",
+        "cardDesc": "Developing top talent: Global Induction Forum"
+      },
+      {
+        "backgroundImage": "../../../images/beryllium/banner/bery-banner3.jpg",
+        "primary": true,
+        "cardTitle" : "Priorities in acition",
+        "cardDesc": "Developing top talent: Global Induction Forum"
+      },
+      {
+        "backgroundImage": "../../../images/beryllium/banner/bery-banner3.jpg",
+        "primary": false,
+        "cardTitle" : "Priorities in acition",
+        "cardDesc": "Developing top talent: Global Induction Forum"
+      },
+      {
+        "backgroundImage": "../../../images/beryllium/banner/bery-banner3.jpg",
+        "primary": true,
+        "cardTitle" : "Priorities in acition",
+        "cardDesc": "Developing top talent: Global Induction Forum"
+      },
+      {
+        "backgroundImage": "../../../images/beryllium/banner/bery-banner3.jpg",
+        "primary": false,
+        "cardTitle" : "Priorities in acition",
+        "cardDesc": "Developing top talent: Global Induction Forum"
+      }
+  ]
+}

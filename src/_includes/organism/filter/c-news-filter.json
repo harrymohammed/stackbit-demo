@@ -1,0 +1,33 @@
+{
+    "searchInput": {
+        "inputType": "text",
+        "autoComplete": "off",
+        "styleModifier": "takui-input-search",
+        "id": "",
+        "placeholder": "Enter keyword...",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search"
+    },
+    "filterSelectList": {
+        "labelRequired": false,
+        "fieldRequired": true,
+        "gridClassModifier": "takui-allow-collapse",
+        "placeholder": "All years",
+        "selectOptions": [
+            {
+                "value": "",
+                "option": "All years"
+            },
+            {
+                "value": "2021",
+                "option": "2021"
+            },
+            {
+                "value": "2020",
+                "option": "2021"
+            }
+        ]
+    },
+    "submitButton": {
+        "text": "Search"
+    }
+}

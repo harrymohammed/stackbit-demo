@@ -1,0 +1,43 @@
+{
+    "hasBgImage": {
+        "srcSetData": [
+            {
+                "imgPath": "../../images/Takeda_Syonan75.jpg",
+                "mediaBreakpoint": "max-width: 991px"
+            },
+            {
+                "imgPath": "../../images/Takeda_Syonan75.jpg"
+            }
+        ],
+        "defaultImgPath": "../../images/ADHD/hero-banner-adhd.png",
+        "altText": "sample-image"
+    },
+    "contactsTitle": {
+        "pageTitle": "Contact us",
+        "pageDesc": true,
+        "text": "We would love to hear from you, use the information below to get in touch with our team."
+    },
+    "contact": {
+        "email": {
+            "styleModifier": "icon-label",
+            "text": "info@takedaadhd.com",
+            "icon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-envelope"
+            }
+        },
+        "phone": {
+            "styleModifier": "icon-label",
+            "text": "111 - 234 - 5678",
+            "icon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-phone-call"
+            }
+        },
+        "address": {
+            "styleModifier": "icon-label",
+            "text": "Takeda communications<br> Address line 1<br> Address line 2<br> County<br> 1234",
+            "icon": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-pin"
+            }
+        }
+    }
+}

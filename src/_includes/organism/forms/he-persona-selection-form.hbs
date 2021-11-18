@@ -1,0 +1,48 @@
+<div class="takui-form takui-persona-selection-form">
+    <div class="takui-form-content">
+        {{#if introText}}
+        {{>atoms-paragraph text=introText}}
+        {{/if}}
+
+        {{>molecules-radio-button-group}}
+
+        {{#personaFootNotes}}
+        <span class="takui-persona-footnote {{personaId}}">
+            {{>atoms-paragraph text=note}}
+        </span>
+        {{/personaFootNotes}}
+
+        {{#submitButton}}
+        <span class="form-submit">
+            {{>atoms-button-secondary}}
+        </span>
+        {{/submitButton}}
+
+        {{#loginButton}}
+        {{>atoms-paragraph text=loginInstructionsText}}
+        {{>atoms-button-secondary}}
+        {{/loginButton}}
+
+        <div class="takui-persona-form-desktop-footer">
+            {{#if disclaimerText}}
+            <div class="takui-disclaimer-text">
+                {{>atoms-paragraph text=disclaimerText}}
+            </div>
+            {{/if}}
+
+            {{#if copyrightText}}
+            <div class="takui-copyright-text">
+                {{>atoms-paragraph text=copyrightText}}
+            </div>
+            {{/if}}
+        </div>
+        <div class="takui-persona-form-mobile-footer">
+            {{#if dateOfPreparationText}}
+            <div class="takui-date-of-preparation-text">
+                {{>atoms-paragraph text=dateOfPreparationText}}
+            </div>
+            {{/if}}
+        </div>
+    </div>
+</div>
+{{>organism-he-modal-prompt-external personaModals}}

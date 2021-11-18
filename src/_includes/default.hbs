@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }}">
+
+<head>
+  {{!-- <title>{{ title }}</title> --}}
+  <title>Takeda Bootstrap</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="preconnect" href="//fonts.gstatic.com">
+  <link href="//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="//takstaticassets.azureedge.net/fonts/Gotham/hco_fonts.css?{{ cacheBuster }}" rel="stylesheet">
+  <link rel="stylesheet" href="/vendors/splide/css/splide.min.css?{{ cacheBuster }}" media="all" />
+  <link rel="stylesheet" href="/css/styles.css" media="all" />
+  <link rel="stylesheet" href="//prod1.dengueacademy.com/Themes/Bootstrap/UI/lithium/css/styles-lithium.css?bust=637723335300000000" media="all" />   
+  <script src="//unpkg.com/browse/core-js-bundle@3.0.0/minified.js"></script>
+  <script src="/vendors/share-api/share-min.js"></script>
+  <script src="/vendors/stickyfill.js/stickyfill.js"></script>
+  <script src="/vendors/splide/js/splide.min.js"></script>
+  <script src="/vendors/svg4everybody/svg4everybody.js"></script>  
+</head>
+<body class="{{ bodyClass }}">
+<div class="li-layout-wrapper">
+    <header class="li-layout-header">
+        <a href="#">
+            {{> atoms-logo liSiteLogo }}
+        </a>
+        {{> li-header liSidebar }}
+        {{> molecules-li-primary-site-navigation liSidebar.navigation}}
+        {{> li-footer liSidebar.footer}}
+    </header>
+    <main class="li-layout-main">
+        <div class="takui-li-header-area">
+            {{!-- {{>organism-li-page-header liHeader}} --}}
+        </div>
+        <div class="takui-li-content-area">
+            <div class="takui-li-main1c">
+                {{>molecules-page-title-standard pageTitle=pageTitle}}
+                {{{body}}}
+            </div>
+        </div>
+        
+        <div class="takui-fade">
+        </div>
+        <div class="takui-li-mobile-footer mobile-only">
+            {{> li-footer liSidebar.footer}}
+        </div>
+        <div class="takui-refiner-mobile">
+            {{!-- {{> molecules/filter-tags/refiner-list liSidebar.mobileRefiner }} --}}
+        </div>
+        {{#if mobileSavedContent}}
+            <div class="takui-li-saved-content">
+                {{>atoms-icon iconPath=mobileSavedContent.iconPath}}
+                <span>{{mobileSavedContent.text}}</span>
+            </div>
+        {{/if}}
+    </main>
+</div>
+

@@ -1,0 +1,41 @@
+{
+    "fldTitle": {
+        "id": "random-he003713",
+        "label": "Title",
+        "options": [
+            "Mr",
+            "Mrs",
+            "Mx",
+            "Dr"
+        ]
+    },
+    "fldFirstName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "First name"
+    },
+    "fldLastName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Last name"
+    },
+    "fldPoW": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Primary place of Work"
+    },
+    "fldCity": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "City"
+    },
+    "cancelAction": {
+        "href": "#",
+        "linkText": "Cancel"
+    },
+    "saveAction": "Save"
+}

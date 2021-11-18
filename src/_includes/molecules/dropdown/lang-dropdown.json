@@ -1,0 +1,34 @@
+{   
+    "subject": "Dropdown",
+    "optional": "language",
+    "classModifier": "takui-lang-dropdown",
+    "listItem": [
+        {
+            "name": "Item 1",
+            "link": ""
+        },
+        {
+            "name": "Item 2",
+            "link": ""
+        },
+        {
+            "stratification": true,
+            "title": "Stratific Item",
+            "listChildItem": [
+                {
+                    "name": "Child 1",
+                    "link": ""
+                },
+                {
+                    "name": "Child 2",
+                    "link": ""
+                }
+            ],
+            "link": ""
+        }  
+    ],
+    "iconPaths": {
+        "iconGlobe":"../../icons/ico_svg/icons.svg#takui-ico-globe",
+        "iconArrow":"../../icons/ico_svg/icons.svg#takui-ico-chev-down"
+    }
+}

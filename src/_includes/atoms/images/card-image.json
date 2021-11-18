@@ -1,0 +1,5 @@
+{
+    "srcPath": "../../images/placeholders/default-card301x201.png",
+    "altText": "sample-card-image",
+    "imgStyleModifier": "takui-img--card"
+}

@@ -1,0 +1,27 @@
+<div class="row takui-button-group-right">
+    {{#buttons}}
+
+    {{#if anchor-button-with-icon}}
+
+    {{>atoms-anchor-button-with-icon anchor-button-with-icon}}
+
+    {{else if anchor-button-secondary-with-icon}}
+
+    {{>atoms-anchor-button-secondary-with-icon anchor-button-secondary-with-icon}}
+
+    {{else if anchor-button}}
+
+    {{>atoms-anchor-button anchor-button}}
+
+    {{else if button-secondary}}
+
+    {{> atoms-button-secondary button-secondary}}
+
+    {{else if anchor-button-gray}}
+
+    {{>atoms-anchor-button-gray anchor-button-gray}}
+
+    {{/if}}
+
+    {{/buttons}}
+</div> 

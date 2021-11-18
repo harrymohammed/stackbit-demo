@@ -1,0 +1,25 @@
+{
+    "hasBgImage": {
+        "srcSetData": [
+            {
+                "imgPath": "../../images/ADHD/hero-banner-adhd-mob.png",
+                "mediaBreakpoint": "max-width: 991px"
+            },
+            {
+                "imgPath": "../../images/ADHD/hero-banner-adhd.png"
+            }
+        ],
+        "defaultImgPath": "../../images/ADHD/hero-banner-adhd.png",
+        "altText": "sample-image"
+    },
+    "textAlign":"takui-align--center",
+    "title": "We would love to hear from you",
+    "subtitle": "Get in touch with our team",
+    "button": {
+      "href": "#",
+      "text": "Contact Us",
+      "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+      }
+    }
+}

@@ -1,0 +1,79 @@
+<div class="{{ cardGridSize }}">
+    {{!-- #####################[ Card Event code starts ]###################### --}}
+    <div class="takui-card">
+        <div class="takui-card-feature-img">
+            {{#if hyperlinked }}
+                <a href="{{ cardActionUrl }}" target="{{ cardActionTarget }}" class="takui-card-feature-bg-img" style="background-image: {{bgImagePath}};"></a>
+            {{ else }}
+                <div class="takui-card-feature-bg-img" style="background-image: {{bgImagePath}};"></div>
+            {{/if}}            
+            <div class="takui-card-ribbon {{ribbonPosition}}">
+                {{#eventImageTagIcon}}
+                    {{>atoms-icon}}
+                {{/eventImageTagIcon}}
+                {{eventImageTag}}
+            </div>
+            {{#if expired }}
+                <div class="takui-card-past-event-label {{expired.labelPosition}}">
+                    {{expired.pastEventTag}}
+                </div>
+            {{/if}}
+        </div>
+        <div class="takui-card-data {{cardDataClass}}">
+            <div class="takui-card-data-event-child {{cardDataInfoSecClass}}">
+                <div class="takui-card-title">
+                    {{#if hyperlinked }}
+                        <h5><a href="{{ cardActionUrl }}" target="{{ cardActionTarget }}" >{{eventTitle}}</a></h5>
+                    {{ else }}
+                        <h5>{{eventTitle}}</h5>
+                    {{/if}}
+                </div>
+                <div class="takui-card-desc">
+                    {{#eventDesc}}
+                        {{>atoms-paragraph}}
+                    {{/eventDesc}}
+                    {{#readMoreLink}}
+                        {{>atoms-link-underline}}
+                    {{/readMoreLink}}
+                </div>
+                <div class="takui-card-data-tag">
+                    {{#categoryIcon}}
+                        {{>atoms-icon}}
+                    {{/categoryIcon}}
+                    {{#categoryTag}}
+                        {{>molecules-anchor-list-horizontal}}
+                    {{/categoryTag}}
+                </div>
+                <div class="takui-action-area">
+                    {{#eventButton}}
+                    <div class="takui-action-btn">
+                        {{>atoms-anchor-button }}
+                    </div>
+                    {{/eventButton}}
+                    {{#eventButtonInactive}}
+                    <div class="takui-action-btn">
+                        {{>atoms-anchor-button-outline }}
+                    </div>
+                    {{/eventButtonInactive}}
+                    {{#eventButtonDisabled}}
+                    <div class="takui-action-btn">
+                        {{>atoms-button-primary }}
+                    </div>
+                    {{/eventButtonDisabled}}
+                </div>
+            </div>
+            <div class="takui-card-data-event-child {{cardDataScheduleSecClass}}">
+                <div class="takui-card-data-event-month">
+                    {{eventMonth}}
+                </div>
+                <div class="takui-card-data-event-date">
+                    {{eventDate}}
+                </div>
+                <div class="takui-card-data-event-time">
+                    {{eventTime}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- #####################[ Card Event code ends ]###################### --}}
+</div>

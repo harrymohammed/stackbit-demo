@@ -1,0 +1,46 @@
+{
+  "title": "Featured Articles",
+  "viewMore": {
+    "href": "#",
+    "id": "",
+    "linkText": "See more viewpoints"
+  },
+  "featured": {
+    "date": "mm/dd/yy",
+    "text": "6.2.1 [Most recent press release headline lobortis il bibendum…]",
+    "image": {
+      "hyperlinked": true,
+      "href": "#",
+      "srcPath": "../../images/placeholders/default-card301x201.png",
+      "altText": "sample-gallery-thumb-image"
+    }
+  },
+  "articles": [
+    {
+      "date": "mm/dd/yy",
+      "text": "Article headline curabitur lobortis id lorem id dum ut id consectetur magna. Quisque volut curabitur lobo…"
+    },
+    {
+      "date": "mm/dd/yy",
+      "text": "Article headline curabitur lobortis id lorem id dum ut id consectetur magna. Quisque volut curabitur lobo…"
+    },
+    {
+      "date": "mm/dd/yy",
+
+      "text": "Article headline curabitur lobortis id lorem id dum ut id consectetur magna. Quisque volut curabitur lobo…"
+    },
+    {
+      "date": "mm/dd/yy",
+      "text": "Article headline curabitur lobortis id lorem id dum ut id consectetur magna. Quisque volut curabitur lobo…"
+    },
+    {
+      "date": "mm/dd/yy",
+      "text": "Article headline curabitur lobortis id lorem id dum ut id consectetur magna. Quisque volut curabitur lobo…"
+    }
+  ],
+  "actionButton": {
+    "href": "#",
+    "text": "6.2.0 [Thought Leadership Articles]",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  }
+}

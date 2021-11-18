@@ -1,0 +1,9 @@
+{
+    "modalTitle": "Modal title",
+    "modalContent": "This is a modal popup without a close button<br /><br />refresh the page to close this popup.",
+    "modalID": "exampleModalWithoutCloseBtn",
+    "modalBodyHeight": "",
+    "modalExampleDisplay": "normal",
+    "modalSizeModifier": "",
+    "iconPath": false
+}

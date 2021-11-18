@@ -1,0 +1,10 @@
+{
+    "srcPath": "../../videos/sample-mp4-file.mp4",
+    "playerH": 240,
+    "playerW": 320,
+    "infoText": "Your browser does not support HTML video.",
+    "autoplay": true,
+    "controls": true,
+    "muted": true,
+    "loop": true
+}

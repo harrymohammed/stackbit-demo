@@ -1,0 +1,6 @@
+<ul class="takui-ul">       
+    {{#items}}
+    <li class="takui-li-item {{isActive}}">
+        <a href="{{href}}" target="{{actionTarget}}" {{#if modalLink }} data-open="{{ modalID }}" {{/if}}>{{label}}</a></li>
+    {{/items}}
+</ul>

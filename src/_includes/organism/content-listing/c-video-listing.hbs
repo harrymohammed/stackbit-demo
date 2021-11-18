@@ -1,0 +1,22 @@
+<div class="takui-c-content-listing is-videos">
+    <div class="takui-c-view-more">
+        {{>atoms-link viewMore}}
+    </div>
+    <a class="anchor" id="{{mainPlayerId}}"></a>
+    <div class="takui-c-articles-area">
+        <div class="content-listing-main">
+            <div class="takui-c-video-container">
+                {{>atoms-brightcove-video-responsive video}}
+            </div>
+            {{>organism-c-article-image featured}}
+        </div>
+
+        <div class="content-listing-aside">
+            <div class="content-listing-content">
+                {{#each videos}}
+                {{>organism-c-video-article}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

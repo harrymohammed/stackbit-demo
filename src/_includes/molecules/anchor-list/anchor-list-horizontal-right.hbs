@@ -1,0 +1,8 @@
+{{#if items}}
+    <ul class="takui-ul-horizontal-right">
+        {{#items}}
+        <li class="takui-li-item {{isActive}}">
+            <a href="{{href}}" target="{{actionTarget}}" {{#if modalID }} data-modal-open="{{ modalID }}" {{/if}}>{{label}}</a></li>
+        {{/items}}
+    </ul>
+{{/if}}

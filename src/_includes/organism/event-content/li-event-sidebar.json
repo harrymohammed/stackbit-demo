@@ -1,0 +1,31 @@
+{
+    "sidebarItems": {
+        "items": [
+            {
+                "logo": "../../icons/ico_svg/icons.svg#takui-ico-li-date",
+                "label": "Date and Time",
+                "value": "Thu, 11 Feb 2021 19:00 GMT",
+                "btnCalendar": {
+                    "href": "#",
+                    "text": "Add to calendar"
+                }
+            },
+            {
+                "logo": "../../icons/ico_svg/icons.svg#takui-ico-li-pin",
+                "label": "Location",
+                "value": "Online"
+            }
+        ]
+    },
+    "calltoaction": {
+        "text": "Register for event",
+        "href": "#",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-ext"
+    },
+    "remark": "Please sign in to register for this event",
+    "externalDisclaimer": {
+        "text": "This event is hosted on an external site, clicking Register will take you to this website.",
+        "iconPath":"../../icons/ico_svg/icons.svg#takui-ico-li-info"
+    },
+    "isInternal": true
+}

@@ -1,0 +1,30 @@
+<div class="takui-be-footer-container">
+    <div class="be-footer-content">
+        <div class="left-col">
+            <div class="list-footer-link">
+                {{#listLink}}
+                    {{>molecules-anchor-list-horizontal}}
+                {{/listLink}}
+            </div>
+            <div class="copy-right-text">
+                {{copyRightText}}
+            </div>
+            <div class="employer-certified">
+                {{certifiedText}}
+            </div>
+        </div>
+        {{#rightSection}}
+            <div class="right-col">
+                <div class="right-col-content">
+                    {{>atoms-paragraph}}
+                    {{#items}}
+                        <a href="#">
+                            {{>atoms-icon-with-bg-round }}
+                        </a>
+                    {{/items}}
+                </div>
+                <div class="right-col-content">{{>atoms-icon }} United States</div>
+            </div>
+        {{/rightSection}}
+    </div>
+</div>

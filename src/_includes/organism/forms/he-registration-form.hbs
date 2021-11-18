@@ -1,0 +1,51 @@
+<div class="takui-he-registration">
+    <h2>{{ strapline }}</h2>
+    {{> atoms-paragraph text=required-remark}}
+    <div class="takui-he-regwrapper">
+        <div class="takui-formctn">
+            {{> molecules-takui-form-status errorMsg="An error occured" }}
+            {{> molecules-takui-form-select fldTitle }}
+            {{> molecules-takui-form-element fldFirstName }}
+            {{> molecules-takui-form-element fldLastName }}
+            {{> molecules-takui-form-element fldEmail}}
+            {{> molecules-takui-form-element fldPassword }}
+            {{> molecules-takui-form-element fldPasswordConfirm }}
+            {{> molecules-takui-form-element fldPoW }}
+            {{> molecules-takui-form-element fldCity }}
+            {{> molecules-takui-form-element fldGMCRNID }}
+            {{> molecules-takui-form-select fldTAoI }}
+            <p>
+                Learn more about our <a href="#">Terms of Use</a> and learn about how Takeda processes (eg. collects,
+                stores, and uses) your personal data in our <a href="#">Privacy Notice</a>.
+            </p>
+            {{> molecules-takui-form-checkbox formDisclaimer }}
+            <p>
+                By clicking the box you can stay up to date with email communications from Takeda. You can change your
+                mind at any time.
+            </p>
+            {{> molecules-takui-form-checkbox infoConcent }}
+            <div class="he-regform-actions">
+                <div class="he-regform-captcha">
+                    {{> atoms-recaptcha }}
+                </div>
+                <div class="he-regform-submit">
+                    {{> atoms-button-primary text="Become a member"}}
+                </div>
+            </div>
+        </div>
+        <div class="takui-he-reginfobox">
+            <h2>What is Takeda ID?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quod neque nesciunt ducimus quis
+                dolorum mollitia ea aperiam natus! Est dignissimos natus facilis voluptate impedit quas similique
+                expedita eum ratione.</p>
+            <h2>Benefits of being a member</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</li>
+                <li>ut aliquip ex ea commodo consequat.</li>
+            </ul>
+        </div>
+
+    </div>
+</div>

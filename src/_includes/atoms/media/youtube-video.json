@@ -1,0 +1,9 @@
+{
+    "srcPath": "https://www.youtube.com/embed/xYglnOyZrpM",
+    "playerH": 315,
+    "playerW": 560,
+    "infoText": "Sample youtube video",
+    "accelerometer": true,
+    "autoplay": true,
+    "allowfullscreen": true
+}

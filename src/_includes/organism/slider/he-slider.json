@@ -1,0 +1,100 @@
+{
+  "splideData": {
+    "gap": "1rem",
+    "arrows": true,
+    "perPage": 4,
+    "perMove": 4,
+    "pagination": false,
+    "rewind" : true,
+    "breakpoints": {
+      "768": {
+        "perPage": 2,
+        "perMove": 2,
+        "fixedWidth": "35%",
+        "gap": "1rem"
+      }
+    }
+  },
+  "items": [
+    {
+      "url": "#",
+      "cardType": "Video",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-video"
+      },
+      "cardTitle": "The role of plasma kallikrein",
+      "bgImagePath": "../../../images/US_MA-95-Hayden-Ave-entrance.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Course",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-course"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "bgImagePath": "../../../images/Takeda_Syonan73.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Article",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-article"
+      },
+      "cardTitle": "Prolonged aPPT poster",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Podcast",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-podcast"
+      },
+      "cardTitle": "Con Willebrannd disease: epidemiology and burden",
+      "bgImagePath": "../../../images/US_MA-95-Hayden-Ave-entrance.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Article",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-article"
+      },
+      "cardTitle": "Prolonged aPPT poster",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Video",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-video"
+      },
+      "cardTitle": "The role of plasma kallikrein",
+      "bgImagePath": "../../../images/US_MA-95-Hayden-Ave-entrance.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Course",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-course"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "bgImagePath": "../../../images/Takeda_Syonan73.jpg"
+    },
+    {
+      "url": "#",
+      "cardType": "Podcast",
+      "cardIcon": {
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-podcast"
+      },
+      "cardTitle": "Con Willebrannd disease: epidemiology and burden",
+      "bgImagePath": "../../../images/US_MA-95-Hayden-Ave-entrance.jpg"
+    }
+  ]
+}

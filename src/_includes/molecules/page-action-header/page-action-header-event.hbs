@@ -1,0 +1,42 @@
+<div class="takui-page-action-header takui-page-action-header--event">
+    <div class="takui-page-action-header-inner">
+        <div class="takui-article-info">
+            <div style="border-left-color:{{lineColor}}" class="takui-org-name">
+                {{pageTitle}}
+            </div>
+            <div class="takui-type-event">
+                {{>atoms-icon-with-bg-round icon}}
+                {{#if isInternal}}
+                <span>Internal</span>
+                {{else}}
+                <span>External</span>
+                {{/if}}
+            </div>
+        </div>
+        <div class="takui-event-disclaimer">
+            {{>atoms-icon iconPath=disclaimer.iconPath}}
+            {{>atoms-paragraph text=disclaimer.text}}
+        </div>
+        <div class="takui-interact-buttons">
+            <div class="takui-li-resource-card--like">
+                {{>atoms-icon buttons.like.icon}}
+                {{#if buttons.like.count}}
+                <div class="takui-li-resource-card--like--count">
+                    {{buttons.like.count}}
+                </div>
+                {{/if}}
+            </div>
+            <div class="takui-li-share">
+                {{>atoms-anchor-button-with-icon buttons.share.icon}}
+            </div>
+            <div class="takui-li-save">
+                <div class="desktop-only">
+                    {{>atoms-anchor-button-with-icon-reverse buttons.save.icon}}
+                </div>
+                <div class="takui-li-save-btn-cont mobile-only">
+                    {{>atoms-anchor-button-with-icon buttons.saveMobile.icon}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

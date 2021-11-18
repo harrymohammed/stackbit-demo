@@ -1,0 +1,32 @@
+{
+    "pageTitle": "Page title with document navigation",
+    "pageNavigation": {
+        "items": [
+            {
+                "label": "ADVATE",
+                "desc": "(octocog alfa)",
+                "href": "#ADVANTE"
+            },
+            {
+                "label": "ADYNOVI",
+                "desc": "(rurioctocog alfa pegol)",
+                "href": "#ADYNOVI"
+            },
+            {
+                "label": "CIRYZE",
+                "desc": "[C1 inhibitor (human)]",
+                "href": "#CIRYZE"
+            },
+            {
+                "label": "CUVITRU",
+                "desc": "[immunoglobulin subcutaneous (human)]",
+                "href": "#CUVITRU"
+            },
+            {
+                "label": "ELAPRASE",
+                "desc": "(idursulfase)",
+                "href": "#ELAPRASE"
+            }
+        ]
+    }
+}

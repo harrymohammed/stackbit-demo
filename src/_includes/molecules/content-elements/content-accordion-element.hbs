@@ -1,0 +1,12 @@
+<div class="takui-accord-element">
+    <input type="checkbox" class="takui-accord-cb" name="{{ panelId }}" id="{{ panelId }}">
+    <label class="takui-accord-label" for="{{panelId}}">
+        <div class="takui-accord-text">{{ accord-label }}</div>
+        <div class="takui-accord-icon">
+            {{>atoms-icon accordionIcon}}
+        </div>
+    </label>
+    <div class="takui-accord-panel">
+         {{{ @partial-block }}}
+    </div>
+</div>

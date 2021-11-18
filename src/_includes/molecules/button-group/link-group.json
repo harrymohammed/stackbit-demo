@@ -1,0 +1,17 @@
+{
+  "links": [
+    {
+      "link-with-chevron": {
+        "href": "",
+        "linkText": "LIKE",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+      }
+    },
+    {
+      "link": {
+        "href": "",
+        "linkText": "REPLY"
+      }
+    }
+  ]
+}

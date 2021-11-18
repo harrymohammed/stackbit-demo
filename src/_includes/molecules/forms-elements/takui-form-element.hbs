@@ -1,0 +1,11 @@
+<!--  State Update ValidationFail -->
+<div class="form__input__wrapper ValidationRequired {{displayOption}}" data-epiforms-element-name="{{ id }}">
+    <label for="{{ id }}" class="Form__Element__Caption form__label">
+        <text>{{ label }}</text>
+        <span class="form__required">*</span>
+        <span data-epiforms-linked-name="__field_1297" class="Form__Element__ValidationError" style="">{{#if errorMsg}}{{ errorMsg }}{{ else }}This field is required.{{/if}}</span>
+    </label>
+    <input name="{{ id }}" id="{{ id }}" type="{{ type }}" class="form__input" placeholder="{{ placeholder }}"
+        data-f-datainput="" required="" title="First Name Tooltip" aria-required="true" aria-invalid="true">
+</div>
+

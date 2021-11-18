@@ -1,0 +1,28 @@
+<div class="accordion-item">
+
+    {{#if header}}
+    <div class="accordion-item-header">
+        {{>atoms-link-with-chevron header}}
+    </div>
+    {{/if}}
+
+    <div class="row accordion-item-content">
+        {{#if content}}
+
+        {{{content}}}
+
+        {{else if listContent}}
+
+        {{>atoms-list listContent}}
+
+        {{else if contentWithImage}}
+
+        {{>molecules-accordion-item-content-with-image--hidden contentWithImage}}
+
+        {{else if listWithLinks}}
+
+        {{!-- atoms-list-with-links listWithLinks --}}
+
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="takui-paragraph-wrapper">
+    <div class="takui-container">
+        <div class="parag-header-line">
+            {{header}}
+        </div>
+        {{#if isSubHeader}}
+            <div class="parag-sub-header">
+                {{subHeader}}
+            </div>
+        {{/if}}
+        {{#paragraphs}}
+            <div class="parag-text-content">{{text}}</div>
+        {{/paragraphs}}
+    </div>
+</div>

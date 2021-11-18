@@ -1,0 +1,60 @@
+    <header id="header" class="takui-public-head header-sticky landing">
+        {{#if siteNavigation}}
+        <div class="takui-prod-navbar">
+            <div class="takui-container prod-container">
+                <div class="takui-prod-branding">{{ brandInfo }}</div>
+                {{#mobileHamMenu}}
+                <div id="ham-ico" class="takui-ham-menu" data-menu="nav-search-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                {{/mobileHamMenu}}
+                <div class="nav-search-menu" id="nav-search-menu">
+                    <nav id="nav">
+                        {{>molecules-anchor-list-horizontal-nav }}
+                    </nav>
+                    <div class="takui-search-container">
+                        {{> molecules-search href=searchhref }}
+                    </div>
+                    {{#mobileAddnlInfo}}
+                    <div class="takui-quickinfo-mob-container">
+                        {{#if authorized}}
+                        <div class="takui-header-userProf">
+                            {{#profile}}
+                            <div class="takui-profile-label">
+                                <span class="takui-profile-label-icon">
+                                    <a href="{{icon.href}}">
+                                        {{>atoms-icon-with-bg-round icon}}
+                                    </a>
+                                </span>
+                                {{{label}}}
+                            </div>
+                            {{/profile}}
+                        </div>
+                        {{/if}}
+                    </div>
+                    {{/mobileAddnlInfo}}
+                </div>
+                {{#mobileSearch}}
+                <div id="nav-search" class="takui-search-mob">
+                    {{> molecules-search-minimal }}
+                </div>
+                {{/mobileSearch}}
+            </div>
+        </div>
+        {{/if}}
+        {{#siteSubHead}}
+        <div class="takui-container">
+            <div class="takui-subhead">
+                {{> molecules-image-with-caption }}
+                <div class="takui-subhead-logo">
+                    {{> atoms-image logo}}
+                </div>
+            </div>
+        </div>
+        {{/siteSubHead}}
+    </header>

@@ -1,0 +1,24 @@
+{
+    "title": "SECTION HEADLINE",
+    "leftParagraphs": [
+        {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus."
+        }, 
+        {
+            "text": "Commodo nulla facilisi nullam vehicula ipsum a. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Velit laoreet id donec ultrices tincidunt arcu. Neque vitae tempus quam pellentesque nec nam aliquam sem et.Augue mauris augue neque gravida in. "
+        }
+    ],
+    "rightParagraphs": [
+        {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum integer enim neque volutpat ac tincidunt. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Eu augue ut lectus arcu bibendum at varius vel. Commodo nulla facilisi nullam vehicula ipsum a. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Velit laoreet id donec ultrices tincidunt arcu. Neque vitae tempus quam pellentesque nec nam aliquam sem et. Augue mauris augue neque gravida in. Tristique magna sit amet purus gravida quis blandit turpis. Gravida arcu ac tortor dignissim convallis aenean et. Sem et tortor consequat id. "
+        }
+    ],
+    "noImage": true,
+    "readMoreBtn":{
+        "href": "#",
+        "text": "Continue Reading",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+    },
+    "postImage": false,
+    "isHighLight": false
+}

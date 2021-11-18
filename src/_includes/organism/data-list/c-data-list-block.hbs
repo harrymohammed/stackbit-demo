@@ -1,0 +1,64 @@
+<table class="takui-c-data-list-block">
+    {{#tableHeader}}
+    <thead>
+        <tr>
+            <td>
+                <p>{{col1Header}}</p>
+            </td>
+            <td>
+                <p>{{col2Header}}</p>
+            </td>
+            <td>
+                <p>{{col3Header}}</p>
+            </td>
+            <td>
+                <p>{{col4Header}}</p>
+            </td>
+        </tr>
+    </thead>
+    {{/tableHeader}}
+    {{#each accordions}}
+    <tbody class="takui-c-accordion">
+        <tr class="takui-c-accordion-title">
+            <td rowspan="{{rowspan}}">
+                <div>{{#icon}}{{>atoms-icon}}{{/icon}}<p>{{accordiontitle}}</p>
+                </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        {{#each accordionItems}}
+        <tr class="takui-c-accordion-item">
+            <td class="takui-c-accordion-item-title">
+                <p>{{title}}</p>
+            </td>
+            <td class="takui-c-accordion-item-description">
+                <p>{{description}}</p>
+            </td>
+            <td class="takui-c-accordion-item-phase">{{#phase}}
+                <div>
+                    <p>{{title}}</p>
+                    {{>molecules-progress}}
+                </div>
+                {{/phase}}
+            </td>
+        </tr>
+        {{/each}}
+
+
+
+        <tr class="takui-c-accordion-expanded">
+            <td colspan="4">
+                <div class="takui-c-accordion-content-container">
+                    {{#each expandedContent}}
+                    <p>{{this}}</p>
+                    {{/each}}
+                </div>
+            </td>
+
+        </tr>
+    </tbody>
+    {{/each}}
+</table>

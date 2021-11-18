@@ -1,0 +1,50 @@
+<div class="takui-reginfobox">
+    <div class="takui-li-reginfobox">
+        <h2>What is Takeda ID?</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quod neque nesciunt ducimus quis dolorum
+            mollitia ea aperiam natus! Est dignissimos natus facilis voluptate impedit quas similique expedita eum
+            ratione.</p>
+        <h2>Benefits of being a member</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</li>
+            <li>ut aliquip ex ea commodo consequat.</li>
+        </ul>
+    </div>
+</div>
+<div class="takui-li-registration">
+    <div class="takui-li-regwrapper">
+        <div class="takui-form-info">
+            <div class="takui-formctn">
+                <p>All fields are mandatory unless labelled as optional</p>
+                {{> molecules-takui-form-select fldCountry }}
+                <hr>
+                {{> molecules-takui-form-select fldTitle }}
+                {{> molecules-takui-form-element fldFirstName }}
+                {{> molecules-takui-form-element fldLastName }}
+                {{> molecules-takui-form-element fldEmail}}
+                {{> molecules-takui-form-element fldPassword }}
+                {{> molecules-takui-form-element fldPasswordConfirm }}
+                <hr>
+                {{> molecules-takui-form-element fldPoW }}
+                {{> molecules-takui-form-element fldCity }}
+                {{> molecules-takui-form-element fldProfId}}
+                {{> molecules-takui-form-element fldProf}}
+                {{#each inputSet}}
+                    <div class="Form__Element FormChoice FormChoice form__input__wrapper {{this.displayOption}}  ValidationRequired">
+                        <div>
+                            <input type="checkbox" name="{{this.id}}" id="{{this.id}}" value="agree"
+                                class="FormChoice__Input FormChoice__Input--Checkbox state form__checkbox" data-f-datainput="">
+                            <label for="{{this.id}}" class="form__label__inner">{{{ this.label }}}</label>
+                        </div>
+                    </div>
+                {{/each}}
+                <div class="takui-li-subform">
+                    {{>atoms-recaptcha}}
+                    {{>atoms-buttons text=btnText}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

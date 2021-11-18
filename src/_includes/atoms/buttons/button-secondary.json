@@ -1,0 +1,6 @@
+{
+    "buttonType": "button",
+    "btnStyleModifier": "takui-btn-secondary",
+    "id": "exampleTakUIBtnPrimary",
+    "text": "Secondary button"
+}

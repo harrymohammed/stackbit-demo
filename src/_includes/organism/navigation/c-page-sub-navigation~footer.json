@@ -1,0 +1,41 @@
+{
+    "isBottom":true,
+    "iconStyleModifier": "sm",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+  
+    "activePage": "Item Three",
+    "navItems": [
+      {
+        "isActive": "",
+        "label": "Item One",
+        "href": "",
+        "actionTarget": ""
+      },
+      {
+        "isActive": "",
+        "label": "Item Two",
+        "href": "",
+        "actionTarget": ""
+      },
+      {
+        "isActive": "active",
+        "label": "Item Three",
+        "href": "",
+        "actionTarget": ""
+      },
+      {
+        "isActive": "",
+        "label": "Item Four",
+        "href": "",
+        "actionTarget": ""
+      },
+      {
+        "isActive": "",
+        "label": "Item Five",
+        "href": "",
+        "actionTarget": ""
+      }
+    ]
+  }
+  
+

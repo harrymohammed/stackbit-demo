@@ -1,0 +1,18 @@
+{
+  "contentTitle": "What is Lorem Ipsum!",
+  "contentSubTitle": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  "button": {
+    "text": "Register Now",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  },
+  "video": {
+    "videoID": "5755775186001",
+    "accountID": "1752604059001",
+    "playerID": "myPlayerID"
+  },
+  "bottomIconButton": {
+    "href": "#",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-arrow-down",
+    "name": "icon anchor button"
+  }
+}

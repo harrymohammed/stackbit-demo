@@ -1,0 +1,11 @@
+{{!-- <div class="takui-modal-outer is-visible" id="{{ modalID }} --}}
+<div class=" takui-modal-outer {{ state }}" id="{{ modalID }}">
+    <div class="takui-modal {{ modalSizeModifier }}">
+        <div class="he-modal-content">
+            <div class="he-modal-msg">{{ modalContent }}</div>
+            <div class="he-modal-action">
+                {{>atoms-anchor-button-secondary button }}
+            </div>
+        </div>
+    </div>
+</div>

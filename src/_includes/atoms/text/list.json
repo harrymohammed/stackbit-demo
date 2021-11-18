@@ -1,0 +1,30 @@
+{
+    "classModifier" : "",
+    "items":[
+        {
+            "classMofidier":"",
+            "data":"HOME",
+            "display": "inline-list"
+        },{
+            "classMofidier":"",
+            "data":"TERMS AND CONDITIONS",
+            "display": "inline-list"
+        },{
+            "classMofidier":"",
+            "data":"PRIVACY NOTICE",
+            "display": "inline-list"
+        },{
+            "classMofidier":"",
+            "data":"FAQS",
+            "display": "inline-list"
+        },{
+            "classMofidier":"",
+            "data":"CONTACT US",
+            "display": "inline-list"
+        },{
+            "classMofidier":"",
+            "data":"UNSUBSCRIBE",
+            "display": "inline-list"
+        }
+    ]
+}

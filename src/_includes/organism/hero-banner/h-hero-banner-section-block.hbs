@@ -1,0 +1,51 @@
+<section class="takui-hero-section-block gradient">
+    {{#hasBgImage}}
+         {{>atoms-dynamic-image}}
+    {{/hasBgImage}}
+    <div class="takui-hero-section-block-content">
+        <div class="takui-container takui-hero-container {{textAlign}}">
+            <article class="takui-hero-content">
+                {{#if heroLogo}}
+                    {{>atoms-image logo}}
+                {{/if}}
+                {{#resourceInfo}}
+                    {{>molecules-icon-with-date-data-rounded-inverted}}
+                {{/resourceInfo}}
+                {{{content}}}
+                {{#readMoreLink}}
+                    {{>atoms-link}}
+                {{/readMoreLink}}
+            </article>
+            <article class="takui-hero-content bottom">
+                {{#if button}}
+                    {{#button}}
+                        <div class="mobile-only">
+                            {{>atoms-anchor-button-outline}}
+                        </div>
+                    {{/button}}
+                {{/if}}
+                {{#if heroAdditionalInfo }}
+                <div class="event-info">
+                    {{#event.date}}
+                    {{>molecules-text-with-icon}}
+                    {{/event.date}}
+                    {{#seperator}}
+                    {{>atoms-text-seperator}}
+                    {{/seperator}}
+                    {{#event.type}}
+                    {{>molecules-text-with-icon}}
+                    {{/event.type}}
+                </div>
+                {{/if }}
+            </article>
+        </div>
+        {{#resouceVideoIcon}}
+            <div class="takui-hero-ribbon {{styleModifier}}">
+                {{>atoms-icon}}
+            </div>
+        {{/resouceVideoIcon}}
+        {{#loadMore}}
+            {{>molecules-load-more}}
+        {{/loadMore}}
+    </div>
+</section>

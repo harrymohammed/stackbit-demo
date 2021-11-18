@@ -1,0 +1,32 @@
+{
+    "image": {
+        "srcPath": "../../images/lithium/card-big-image.png",
+        "altText": "insect test image"
+    },
+    "details": {
+        "sidebarItems": {
+            "items": [
+                {
+                    "logo": "../../icons/ico_svg/icons.svg#takui-ico-li-date",
+                    "label": "Date and Time",
+                    "value": "3pm–4pm COST Tue, 23 March 2021",
+                    "btnCalendar": {
+                        "href": "#",
+                        "text": "Add to calendar"
+                    }
+                },
+                {
+                    "logo": "../../icons/ico_svg/icons.svg#takui-ico-li-pin",
+                    "label": "Location",
+                    "value": "Online"
+                }
+            ]
+        },
+        "calltoaction": {
+            "text": "Register",
+            "href": "#"
+        },
+        "remark": "Please sign in to register for this event",
+        "isInternal": true
+    }
+}

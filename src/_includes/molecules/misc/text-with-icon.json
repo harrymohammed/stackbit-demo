@@ -1,0 +1,11 @@
+{
+  "styleModifier": "",
+  "label": "Where?",
+  "text": "This is an <strong>online event</strong>",
+  "icon": {
+    "iconStyleModifier": "md",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-wifi",
+    "iconmeta": false
+  },
+  "hyperlink": false
+}

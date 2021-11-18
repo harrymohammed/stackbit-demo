@@ -1,0 +1,62 @@
+{
+  "viewMore": {
+    "href": "#",
+    "id": "",
+    "linkText": "See more viewpoints"
+  },
+  "featured": {
+    "date": "07/14/21",
+    "title": "The Importance of Time off Work",
+    "text": "I’ve always been a firm believer in the power of personal time off. I recently went on vacation and returned feeling completely revitalized. I find that this personal time away gives ..."
+  },
+  "mainPlayerId":"mainPlayerId",
+  "video": {
+    "videoID": "5755775186001",
+    "accountID": "1752604059001",
+    "playerID": "myPlayerID"
+  },
+  "videos": [
+    {
+      "image": {
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image",
+        "imgStyleModifier": "takui-img--gal-thumb"
+      },
+      "resouceVideoIcon": {
+        "href": "#mainPlayerId",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-play-circle",
+        "videoID": "5510487311001"
+      },
+      "date": "07/23/21",
+      "title": "How Genomic Profiling is Shifting the Treatment Paradigm for Rare Lung Cancers"
+    },
+    {
+      "image": {
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image",
+        "imgStyleModifier": "takui-img--gal-thumb"
+      },
+      "resouceVideoIcon": {
+        "videoID": "5510487311001",
+        "href": "#mainPlayerId",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-play-circle"
+      },
+      "date": "07/15/21",
+      "title": "Real-world evidence in the multiple myeloma treatment landscape"
+    },
+    {
+      "image": {
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image",
+        "imgStyleModifier": "takui-img--gal-thumb"
+      },
+      "resouceVideoIcon": {
+        "videoID": "5510487311001",
+        "href": "#mainPlayerId",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-play-circle"
+      },
+      "date": "07/14/21",
+      "title": "Real-world evidence in the multiple myeloma treatment landscape"
+    }
+  ]
+}

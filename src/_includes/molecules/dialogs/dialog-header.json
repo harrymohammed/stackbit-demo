@@ -1,0 +1,7 @@
+{
+    "modalTitle": "Header of a modal dialog",
+    "iconAction": "ico-close",
+    "btnID": "",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+    "iconClass": "sm"
+}

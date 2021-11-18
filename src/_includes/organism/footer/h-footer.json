@@ -1,0 +1,56 @@
+{
+    "backToTopSection":{
+        "back": {
+            "href": "#top",
+            "buttonText": "Back to top",
+            "icon": 
+                {
+                    "href": "#top",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-up"
+                }
+        }
+    },
+    "footer": {
+        "leftSection": {
+            "items": [
+                {
+                    "label":"Item One"
+                },{
+                    "label":"Item Two"
+                },{
+                    "label":"Item Three"
+                },{
+                    "label":"Item Four"
+                },{
+                    "label":"Item Five"
+                }
+              ],
+            "footer-text": {
+                "text": "Copyright © YYYY Company name"
+            }
+        },
+        "rightSection": {
+            "footer-text": {
+                "text": "Connect with us"
+            },
+            "socialIcons": {
+                "items": [
+                    {
+                        "href": "#",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-linkedin"
+                    },{
+                        "href": "#",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-facebook"
+                    },{
+                        "href": "#",
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-youtube"
+                    }
+                ]
+            },
+            "logo": {
+                "srcPath": "../../images/logo_takeda.svg",
+                "altText": "Takeda Logo"
+            }
+        }
+    }
+}

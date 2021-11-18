@@ -1,0 +1,7 @@
+{
+    "panelId": "ref-1",
+    "accord-label": "Accordion Item",
+    "accordionIcon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+    }
+}

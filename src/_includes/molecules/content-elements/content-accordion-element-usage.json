@@ -1,0 +1,17 @@
+{
+    "panel-1": {
+        "panelId": "ref-1",
+        "accord-label": "First Accordion Item",
+        "accordionIcon": {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+        },
+        "srcPath": ""
+    },
+    "panel-2": {
+        "panelId": "ref-2",
+        "accord-label": "Second Accordion Item",
+        "accordionIcon": {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+        }
+    }
+}

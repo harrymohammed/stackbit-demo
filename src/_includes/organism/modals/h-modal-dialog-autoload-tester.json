@@ -1,0 +1,10 @@
+{
+    "modalTitle": "Modal title : Autoload",
+    "modalContent": "Modal openned on page load<br /><br />use <small><mark><code>data-open-on-load</code></mark></small> to open modal on load",
+    "modalID": "exampleModalAutoload",
+    "modalBodyHeight": "",
+    "modalExampleDisplay": "normal",
+    "modalSizeModifier": "",
+    "openOnLoad": true,
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x"
+}

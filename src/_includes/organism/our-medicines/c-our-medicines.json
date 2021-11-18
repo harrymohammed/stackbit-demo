@@ -1,0 +1,84 @@
+{
+  "select": {
+    "gridClassModifier": "",
+    "labelRequired": true,
+    "labelStyleModifier": "",
+    "labelText": "",
+    "fieldRequired": false,
+    "styleModifier": "takui-select",
+    "id": "OurMedicinesCountry",
+    "placeholder": "SELECT COUNTRY...",
+    "selectOptions": [
+      {
+        "value": "0",
+        "option": "SELECT COUNTRY...",
+        "attributes": [{ "name": "data-url", "value": "" }]
+      },
+      {
+        "value": "1",
+        "option": "ARGENTINA",
+        "attributes": [{ "name": "data-url", "value": "/?p=pages-c-download-page" }]
+      },
+      {
+        "value": "2",
+        "option": "BULGARIA",
+        "attributes": [{ "name": "data-url", "value": "" }]
+      },
+      {
+        "value": "3",
+        "option": "COLOMBIA",
+        "attributes": [{ "name": "data-url", "value": "" }]
+      }
+    ]
+  },
+  "medicinesList": [
+    {
+      "id": "1",
+      "classModifier": "",
+      "items": [
+        {
+          "classMofidier": "",
+          "data": "ADCETRIS® (brentuximab vedotin)",
+          "display": "inline-list"
+        },
+        {
+          "classMofidier": "",
+          "data": "MEPACT® (mifamurtide)",
+          "display": "inline-list"
+        },
+        {
+          "classMofidier": "",
+          "data": "MYVITLA® (ixazomib)",
+          "display": "inline-list"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "classModifier": "",
+      "items": [
+        {
+          "classMofidier": "",
+          "data": "MEPACT® (mifamurtide)",
+          "display": "inline-list"
+        },
+        {
+          "classMofidier": "",
+          "data": "MYVITLA® (ixazomib)",
+          "display": "inline-list"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "classModifier": "",
+      "items": [
+        {
+          "classMofidier": "",
+          "data": "MYVITLA® (ixazomib)",
+          "display": "inline-list"
+        }
+      ]
+    }
+  ]
+}

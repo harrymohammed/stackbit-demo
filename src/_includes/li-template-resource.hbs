@@ -1,0 +1,16 @@
+{{#> template-li-master-layout }}
+<div class="takui-li-content-area">
+    <div class="takui-li-main2c">
+        <article class="takui-li-article" data-title="Put your title here" data-url="Put your url here" data-text="Put your text here">
+            {{>molecules-page-action-header actionHeader}}
+            {{>molecules-full-date date}}
+            {{>molecules-page-title-standard pageTitle=pageTitle}}
+            <section class="takui-li-content">
+                {{>@partial-block}}
+            </section>
+        </article>
+        <hr class="mobile-only">
+        {{>molecules-related-topics relatedTopics}}
+    </div>
+</div>
+{{/template-li-master-layout }}

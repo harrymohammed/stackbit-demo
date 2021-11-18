@@ -1,0 +1,50 @@
+<div class="takui-summary-post-container takui-story-post-bggray">
+    <div class="takui-container">
+        {{#subject}}
+            <div class="post-subject">
+                <span class="subject">{{subjectName}} ></span>
+                <span class="child-subject">{{childSubject}}</span>
+            </div>
+        {{/subject}}
+        <div class="takui-story-post-title">
+            {{title}}
+        </div>
+        <div class="big-title">
+            {{bigTitle}}
+        </div>
+        <div class="post-content">
+            <div class="post-col col-left">
+                <div class="text-group">
+                    {{#leftParagraphs}}
+                        {{#if isSpotLight}}
+                            <div class="post-text spot-light">
+                                <span class="spot-char">.</span>
+                                <span>{{text}}</span>
+                            </div>
+                            {{else}}
+                                <div class="post-text">
+                                    {{text}}
+                                </div>
+                        {{/if}}
+                    {{/leftParagraphs}}
+                </div>
+            </div>
+            <div class="post-col col-right">
+                <div class="text-group">
+                    {{#rightParagraphs}}
+                        {{#if isSpotLight}}
+                            <div class="post-text spot-light">
+                                <span class="spot-char">.</span>
+                                <span>{{text}}</span>
+                            </div>
+                            {{else}}
+                                <div class="post-text">
+                                    {{text}}
+                                </div>
+                        {{/if}}
+                    {{/rightParagraphs}}
+                </div>
+            </div>       
+        </div>
+    </div>
+</div>

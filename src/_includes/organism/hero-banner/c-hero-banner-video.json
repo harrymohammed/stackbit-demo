@@ -1,0 +1,24 @@
+{
+
+  "contentTitle": "What is Lorem Ipsum!",
+  "contentSubTitle": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  "button": {
+    "text": "Register Now",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  },
+  "video": {
+    "srcPath": "../../../videos/sample-mp4-file.mp4",
+    "playerH": "100%",
+    "playerW": "100%",
+    "infoText": "Your browser does not support HTML video.",
+    "autoplay": true,
+    "controls": false,
+    "muted": true,
+    "loop": true
+  },
+  "bottomIconButton":{
+      "href": "#",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-arrow-down",
+      "name": "icon anchor button"
+  }
+}

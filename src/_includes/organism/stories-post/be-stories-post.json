@@ -1,0 +1,47 @@
+{
+    "subject": {
+        "subjectName": "Our stories",
+        "childSubject": "Story 1: Priorities in Action"
+    },
+    "title": "PRIORITIES IN ACTION",
+    "bigTitle": "Developing top talent: Global Induction Forum",
+    "leftParagraphs": [
+        {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+             "isSpotLight": false
+        }, 
+        {
+            "text": "Commodo nulla facilisi nullam vehicula ipsum a. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Velit laoreet id donec ultrices tincidunt arcu. Neque vitae tempus quam pellentesque nec nam aliquam sem et.Augue mauris augue neque gravida in. ",
+            "isSpotLight": false
+        }
+    ],
+    "rightParagraphs": [
+        {
+            "text": "demonstrate strategic enterprise thinking;",
+            "isSpotLight": true
+        },
+        {
+            "text": "inspire and enable people to move the organization forward;",
+            "isSpotLight": true
+        },
+        {
+            "text": "prioritize and deliver superior results; and",
+            "isSpotLight": true
+        },
+        {
+            "text": "elevate the capabilities of the organization.",
+            "isSpotLight": true
+        },
+        {
+            "text": "The role of leaders in building and maintaining trust, and protecting our reputation, was also the subject of an interactive session on Ethical Decision Making.",
+            "isSpotLight": false
+        },
+        {
+            "text": "Welcome packs were delivered to the homes of those taking part ahead of the Forum. These included a book on Takeda’s history and our Global Code of Conduct, as well as an invitation to take a virtual tour of Takeda locations. ",
+            "isSpotLight": false
+        }
+    ],
+    "noImage": true,
+    "postImage": false,
+    "isHighLight": false
+}

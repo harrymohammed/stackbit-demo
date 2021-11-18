@@ -1,0 +1,22 @@
+{
+  "cardImage": {
+    "hyperlinked":true,
+    "href":"#",
+    "srcPath": "../../images/placeholders/default-card301x201.png",
+    "altText": "sample-card-image",
+    "imgStyleModifier": ""
+  },
+  "link": {
+    "href": "#",
+    "id": "",
+    "linkText": "Linked Page Name",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-globe"
+  },
+  "title": "[Title]",
+  "cardText": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim.",
+  "actionButton": {
+    "href": "#",
+    "text": "1.1.0 [Tak Onc Profile]",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  }
+}

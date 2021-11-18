@@ -1,0 +1,34 @@
+{
+    "siteSearch":{
+        "inputType": "text",
+        "autoComplete": "off",
+        "styleModifier" : "takui-input-search",
+        "id": "",
+        "placeholder" : "Enter a search term",
+        "search": {
+            "text":"Search"
+        },
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-search"
+    },
+    "userName": "Anita Prabhu",
+    "greeting":"Good morning,",
+    "dropdown": {    
+        "subject": "United Kingdom",
+        "optional": "English",
+        "classModifier": "takui-lang-dropdown",
+        "listItem": [
+            {
+                "name": "Germany",
+                "link": ""
+            },
+            {
+                "name": "France",
+                "link": ""
+            }
+        ],
+        "iconPaths": {
+            "iconGlobe":"../../icons/ico_svg/icons.svg#takui-ico-globe",
+            "iconArrow":"../../icons/ico_svg/icons.svg#takui-ico-chev-down"
+        }
+    }
+}

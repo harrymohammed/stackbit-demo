@@ -1,0 +1,14 @@
+<div class="{{cardGridSize}}">
+    <div class="takui-slider splide"
+         data-splide='{{splideData}}'>
+        <div class="takui-slidertrack splide__track">
+            <ul class="takui-sliderlist splide__list">
+                {{#each items }}
+                <li class="takui-sliderslide splide__slide">
+                    {{> organism-h-resource-card-carousel-item }}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>

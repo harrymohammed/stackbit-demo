@@ -1,0 +1,68 @@
+{
+  "hasBgImage": {
+    "srcSetData": [
+        {
+            "imgPath": "../../images/Takeda_Syonan75.jpg",
+            "mediaBreakpoint": "max-width: 375px"
+        },
+        {
+          "imgPath": "../../images/Takeda_Syonan75.jpg",
+          "mediaBreakpoint": "max-width: 425px"
+        },
+        {
+          "imgPath": "../../images/Takeda_Syonan75.jpg",
+          "mediaBreakpoint": "max-width: 786px"
+        },
+        {
+            "imgPath": "../../images/Takeda_Syonan75.jpg"
+        }
+    ],
+    "defaultImgPath": "../../images/Takeda_Syonan75.jpg",
+    "altText": "sample-image"
+  },
+  "resouceVideoIcon": {
+    "styleModifier": "desktop-only",
+    "iconStyleModifier": "ul",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-play-button"
+  },
+    "resourceInfo": {
+      "hideIcon": true,
+      "dataLabel": "<strong>Video</strong>"
+    },
+    "content": "<h3>Born This Way: Personal<br />Stories of Life with ADHD</h3><p>Watch the stories of four successful entrepreneurs, all diagnosed with ADHD, who say that they don’t need to be fixed.</p>",
+    "readMoreLink": false,
+    "button": {
+      "href": "#",
+      "text": "Watch Now",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+    },
+    "heroLogo": false,
+    "logo": {
+      "srcPath": "../../images/ADHD/Logos/logo_adhdForum.png",
+      "altText": "sample-logo",
+      "imgStyleModifier": "takui-hero-logo"
+    },
+    "loadMore": false,
+    "heroAdditionalInfo": false,
+    "event": {
+      "date": {
+        "styleModifier": "icon-label",
+        "text": "<strong>Oct 27, 2021</strong> 15:30 GMT",
+        "icon": {
+          "iconStyleModifier": "calendar",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-calendar"
+        }
+      },
+      "type": {
+        "styleModifier": "icon-label",
+        "text": "Online Event",
+        "icon": {
+          "iconStyleModifier": "wifi",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-wifi"
+        }
+      }
+    },
+    "seperator": {
+      "styleModifier": "seperator"
+    }
+  }

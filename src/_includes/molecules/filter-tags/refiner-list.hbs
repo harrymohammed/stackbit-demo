@@ -1,0 +1,9 @@
+<div class="takui-refiner-list">
+    <label class="takui-refiner-list">{{ refiner-list-label }}</label>
+    {{#each refiner}}
+        {{> molecules/filter-tags/refiner this}}
+    {{/each}}
+    <div class="takui-refiner-action">
+        {{> atoms-button-secondary text=buttonText }}
+    </div>
+</div>

@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+        "isActive":"",
+        "label":"Item One",
+        "href": "",
+        "actionTarget": ""
+    },{
+        "isActive":"",
+        "label":"Item Two",
+        "href": "",
+        "actionTarget": ""
+    },{
+        "isActive":"",
+        "label":"Item Three",
+        "href": "",
+        "actionTarget": ""
+    },{
+        "isActive":"",
+        "label":"Item Four",
+        "href": "",
+        "actionTarget": ""
+    },{
+        "isActive":"",
+        "label":"Item Five",
+        "href": "",
+        "actionTarget": ""
+    }
+  ]
+}

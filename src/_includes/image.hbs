@@ -1,0 +1,7 @@
+{{#if hyperlinked }} 
+    <a href="{{ href }}" target="{{ targetParam }}">
+        <img loading="lazy" src="{{ srcPath }}" alt="{{ altText }}" {{#if imgStyleModifier }}class="{{ imgStyleModifier }}"{{/if}}>
+    </a>
+{{else}}
+    <img loading="lazy" src="{{ srcPath }}" alt="{{ altText }}" {{#if imgStyleModifier }}class="{{ imgStyleModifier }}"{{/if}}>
+{{/if}}

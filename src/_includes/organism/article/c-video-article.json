@@ -1,0 +1,15 @@
+{
+    "image": {        
+        "srcPath": "../../images/placeholders/default-gthumb204x136.png",
+        "altText": "sample-gallery-thumb-image",
+        "imgStyleModifier": "takui-img--gal-thumb"
+    },        
+    "resouceVideoIcon": {
+        "href": "https://players.brightcove.net/1752604059001/15933ac1-884c-40e0-8cae-a06c7d9e4c0a_default/index.html?videoId=5510487311001",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-play-circle",
+        "videoID": "5755775186001"
+    },  
+    "date": "mm/dd/yy",
+    "title": "Lorem ipsum",
+    "text": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpateas consectetur magna.",
+}

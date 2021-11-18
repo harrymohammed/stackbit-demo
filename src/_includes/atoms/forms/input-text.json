@@ -1,0 +1,12 @@
+{
+  "gridClassModifier": "",
+  "labelRequired": true,
+  "labelStyleModifier": "",
+  "labelText": "Label Text",
+  "fieldRequired": true,
+  "inputType": "text",
+  "styleModifier" : "takui-input",
+  "id": "exampleTakUIInputText",
+  "placeholder" : "Placeholder text",
+  "autoComplete": "off"
+}

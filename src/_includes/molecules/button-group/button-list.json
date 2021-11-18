@@ -1,0 +1,21 @@
+{
+    "buttons": [
+        {
+            "type": "anchor-button-gray",
+            "href": "#",
+            "text": "Von willebrand"
+        },
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        },
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Contribute",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contribute"
+        }
+    ]
+}

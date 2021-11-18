@@ -1,0 +1,10 @@
+{
+    "labelContent": "Bleeding Disorders",
+    "isChecked": false,
+    "allowMultiSelect": true,
+    "inputName": "demoList",
+    "input-id": "demoid-0-1",
+    "checkIcon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+    }
+}

@@ -1,0 +1,28 @@
+{   
+    "subject": "Dropdown",
+    "listItem": [
+        {
+            "name": "Item 1",
+            "link": ""
+        },
+        {
+            "name": "Item 2",
+            "link": ""
+        },
+        {
+            "stratification": true,
+            "title": "Stratific Item",
+            "listChildItem": [
+                {
+                    "name": "Child 1",
+                    "link": ""
+                },
+                {
+                    "name": "Child 2",
+                    "link": ""
+                }
+            ],
+            "link": ""
+        }  
+    ]
+}

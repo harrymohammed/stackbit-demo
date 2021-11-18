@@ -1,0 +1,12 @@
+{
+    "pageTitle": "Lorem Ipsum",
+    "pageDesc": true,
+    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    "goToButton": {
+        "href": "#",
+        "text": "Link Button",
+        "icon": {
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+        }
+    }
+}

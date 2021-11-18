@@ -1,0 +1,12 @@
+<div class="Form__Element FormChoice FormChoice form__input__wrapper {{displayOption}} " id="b31adb28-e599-45aa-ba4c-31454bc24a21">
+    <span class="Form__Element__Caption form__label">
+        {{ caption }}
+    </span>
+    {{#each options}}
+    <div>
+        <input type="checkbox" id="{{id}}-{{@index}}" name="{{id}}-{{@index}}" value="Option 1"
+            class="FormChoice__Input FormChoice__Input--Checkbox state form__checkbox" >
+        <label for="{{id}}-{{@index}}" class="form__label__inner">{{ this }}</label>
+    </div>
+    {{/each}}
+</div>

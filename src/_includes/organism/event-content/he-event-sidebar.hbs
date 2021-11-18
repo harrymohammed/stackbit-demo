@@ -1,0 +1,14 @@
+<div class="takui-he-eventsb">
+    <div class="takui-sb-info">
+        {{> molecules-sidebar-item-list sidebarItems }}
+    </div>
+    <div class="takui-sb-action">
+        {{#if mobile }}
+        <div class="takui-sb-action-mobile">
+        {{> atoms-anchor-button-with-icon mobile.button }}
+        </div>
+        {{/if}}
+        {{> atoms-anchor-button-secondary calltoaction }}
+        {{> molecules-sidebar-remark text=remark }}
+    </div>
+</div>

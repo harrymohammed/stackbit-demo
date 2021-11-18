@@ -1,0 +1,100 @@
+{
+    "headerStateModifier": "takui-auth-head",
+    "logo": {
+      "srcPath": "../../images/ADHD/Logos/logo_adhdForum@3x.png",
+      "altText": "sample-image",
+      "imgStyleModifier": "takui-img--responsive",
+      "imageCaption": "initiated, funded and developed by Takeda",
+      "hyperlinked": true,
+      "href": ""
+    },
+    "quickLinks": [
+        {
+          "label": "Quick link 1",
+          "actionTarget": ""
+        },
+        {
+          "label": "Quick link 2",
+          "actionTarget": ""
+        }
+    ],
+    "brandEdge": false,
+    "brandEdgeStyleModifier": "takui-edge-brand-header",
+    "mobileHamMenu": {
+        "href": "",
+        "id": "",
+        "anchorTarget": "",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list"
+    },
+    "siteNavigation": true,
+    "brandInfo": "Site Title",
+    "items": [
+      {
+          "isActive":"active",
+          "label":"Item One",
+          "href": "",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"Item Two",
+          "href": "",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"Item Three",
+          "href": "",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"Item Four",
+          "href": "",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"Item Five",
+          "href": "",
+          "actionTarget": ""
+      }
+    ],
+    "searchboxStyleModifier": "ico-pos-right",
+    "inputType": "text",
+    "styleModifier" : "takui-input-search",
+    "id": "",
+    "placeholder" : "Placeholder text",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+    "iconClass": "sm",
+    "hyperlink": false,
+    "searchhref": "",
+    "btnStyleModifier": "takui-input-ico pos-right",
+    "iconAnchorID": "",
+    "anchorTarget": "",
+    "autoComplete": "off",
+    "authorized": true,
+    "profile": {
+      "label": "Logged as&nbsp;<a href='#'>Ms. Joana Doe</a>",
+      "icon": {
+        "href": "#",
+        "initials": "JD"
+      },
+      "options": [
+        {
+          "href":"#",
+          "id":"",
+          "linkText": "Account Settings"
+        },
+        {
+          "href":"#",
+          "id":"",
+          "linkText": "Log out"
+        }
+      ]
+    },
+    "mobileSearch" : {
+        "minimalSearchStyleModifier" : "minimal-secondary",
+        "inputType": "search",
+        "inputName": "search",
+        "fieldRequired": true,
+        "autocomplete": "off"
+    },
+    "mobileAddnlInfo": true
+}

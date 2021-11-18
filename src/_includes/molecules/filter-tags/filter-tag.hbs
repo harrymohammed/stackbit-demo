@@ -1,0 +1,11 @@
+<div class="takui-filter-tag">
+    <input type="{{#if allowMultiSelect}}checkbox{{else}}radio{{/if}}" value="true" name="{{ inputName }}"
+        id="{{input-id}}" {{#if isChecked}} checked {{/if}} class="takui-filter-input" />
+
+    <label for="{{ input-id }}" class="takui-filter-label">
+        {{ labelContent }}
+        {{#checkIcon}}
+        {{>atoms-icon}}
+        {{/checkIcon}}
+    </label>
+</div>

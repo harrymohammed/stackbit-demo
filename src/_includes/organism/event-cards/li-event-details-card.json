@@ -1,0 +1,27 @@
+{
+    "items": [
+      {
+        "titleSmall": "Date and Time",
+        "titleLarge": "Thu, 11 Feb 2021<br>19:00 GMT",
+        "icon": {
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-calendar-2"
+        }
+      },
+      {
+        "titleSmall": "Location",
+        "titleLarge": "Online",
+        "icon": {
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-location"
+        }
+      }
+    ],
+    "btnCalendar": {
+      "href": "#",
+      "text": "Add to calendar"
+    },
+    "btnVisit": {
+      "href": "#",
+      "text": "Visit organiser/Learn more"
+    },
+    "disclaimer": "*Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }

@@ -1,0 +1,63 @@
+<div class="takui-form {{classModifier}}">
+    {{#leftSection}}
+        <div class="takui-form-content {{contentPositionModifier}}">
+        <form class="takui-form-section" action="#" id="loginForm" name="loginForm" method="POST">
+            <div class="takui-form-top">
+                <h4 class="takui-form-title">
+                    {{loginTitle}}
+                </h4>
+            </div>
+            <div class="takui-form-elements">
+                {{#loginInput}}
+                    {{>atoms-input-text}}
+                {{/loginInput}}
+                {{#loginInputPass}}
+                    {{>atoms-input-password}}
+                {{/loginInputPass}}
+        
+                {{#loginButton}}
+                <div class="takui-form-group-button">
+                    {{>atoms-buttons}}
+                </div>
+                {{/loginButton}}
+                {{#forgotPass}}
+                <div class="takui-form-link">
+                    {{>atoms-link}}
+                </div>
+                {{/forgotPass}}
+                <div class="takui-form-link nowrap">
+                    {{#label1}}
+                        <div class="takui-link-label">{{title}}</div>
+                    {{/label1}}
+                    {{#createAccountlink}}
+                        {{>atoms-link-underline}}
+                    {{/createAccountlink}}
+                </div>
+            </div>
+        </form>
+    
+    {{#if formDisclaimer}}
+        <div class="takui-quote-section {{disclaimerClassModifier}}">
+            <p>{{formDisclaimerText}}</p>    
+        </div>
+    {{/ if}}
+    </div>
+    {{/leftSection}}
+
+    {{#rightSection}}
+    <div class="takui-form-content takui-form-content-right">
+        {{#title}}
+            <h4 class="{{class}}">{{text}}</h4>
+        {{/title}}
+        {{#image}}
+            {{>atoms-logo}}
+        {{/image}}
+        {{#introText}}
+            <p class="{{class}}">{{text}}</p>
+        {{/introText}}
+        {{#buttonLink}}
+            {{>atoms-link-underline}}
+        {{/buttonLink}}
+    </div>
+    {{/rightSection}}
+</div>

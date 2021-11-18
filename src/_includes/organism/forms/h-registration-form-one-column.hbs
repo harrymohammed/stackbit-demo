@@ -1,0 +1,115 @@
+<div class="takui-form">
+    <div class="takui-form-content">
+        <form class="takui-form-section" action="#" id="registrationForm" name="registrationForm" method="POST">
+            <div class="takui-form-top">
+                {{#btnBack}}
+                    {{>molecules-text-with-icon}}
+                {{/btnBack}}
+                <h4 class="takui-form-title takui-align--center">
+                    {{formTitle}}
+                </h4>
+            </div>
+            <div class="takui-form-elements">
+                <h6 class="takui-formel-sec-title">
+                    {{sub-title-1}}
+                </h6>
+                <div class="takui-formel-sec">
+                    {{#title}}
+                    {{>atoms-select}}
+                    {{/title}}
+                    {{#firstname}}
+                    {{>atoms-input-text}}
+                    {{/firstname}}
+                    {{#lastname}}
+                    {{>atoms-input-text}}
+                    {{/lastname}}
+                    {{#email}}
+                    {{>atoms-input-text}}
+                    {{/email}}
+                    {{#password}}
+                    {{>atoms-input-password}}
+                    {{/password}}
+                </div>
+                <h6 class="takui-formel-sec-title">
+                    {{sub-title-2}}
+                </h6>
+                <div class="takui-formel-sec">
+                    {{#jobTitle}}
+                    {{>atoms-input-text}}
+                    {{/jobTitle}}
+                    {{#placeOfWork}}
+                    {{>atoms-input-text}}
+                    {{/placeOfWork}}
+
+                    {{#section-2-title2}}
+                    {{>atoms-label}}
+                    {{/section-2-title2}}
+
+                    {{#checkboxLabel1}}
+                    {{>atoms-label}}
+                    {{/checkboxLabel1}}
+
+                    {{#checkbox1}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox1}}
+
+                    {{#checkbox2}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox2}}
+
+                    {{#checkbox3}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox3}}
+
+                    {{#checkboxLabel2}}
+                    {{>atoms-label}}
+                    {{/checkboxLabel2}}
+                    {{#checkbox21}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox21}}
+
+                    {{#checkbox22}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox22}}
+
+                    {{#checkbox23}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox23}}
+                    {{#section-2-title3}}
+                    {{>atoms-label}}
+                    {{/section-2-title3}}
+                </div>
+                <h6 class="takui-formel-sec-title">
+                    {{sub-title-3}}
+                </h6>
+                <div class="takui-formel-sec">
+                    {{#optinsLabel}}
+                    {{>atoms-label}}
+                    {{/optinsLabel}}
+                    <div class="form-des">
+                        {{#optinsInfo1}}
+                        {{>atoms-paragraph}}
+                        {{/optinsInfo1}}
+                        {{#optinsInfo2}}
+                        {{>atoms-paragraph}}
+                        {{/optinsInfo2}}
+                    </div>
+                    {{#checkbox31}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox31}}
+
+                    {{#checkbox32}}
+                    {{>atoms-checkbox}}
+                    {{/checkbox32}}
+                </div>
+
+                {{#registerButton}}
+                <div class="takui-form-group-button takui-align--center">
+                    {{>atoms-buttons}}
+                </div>
+                {{/registerButton}}
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="takui-c-main-menu">
+    <div class="takui-c-site-width">
+        <div class="takui-c-logo">
+            <h1>Oncology</h1>
+        </div>
+        <nav class="takui-c-dropdowns-container">
+            {{#each menuItem}}
+                <div class="takui-c-dropdown-container {{#if isActive}} is-active {{/if}}">
+                {{>molecules-dropdown}}
+                </div>
+            {{/each}}
+        </nav>
+    </div>
+</div>

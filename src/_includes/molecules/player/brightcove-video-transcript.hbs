@@ -1,0 +1,12 @@
+  <div class="takui-video--transcript">
+    <div class="takui-video--transcript--scroll">
+      {{#each transcript}}
+      <div class="takui-video--transcript--time" data-time="{{offset}}">
+        {{offsetText}}
+      </div>
+      <div class="takui-video--transcript--content">
+        {{{content}}}
+      </div>
+      {{/each}}
+    </div>
+  </div>

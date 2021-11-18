@@ -1,0 +1,23 @@
+<div class="takui-hero takui-page-contact">
+    {{#hasBgImage}}
+        {{>atoms-dynamic-image}}
+    {{/hasBgImage}}
+    <div class="takui-page-overlay">
+        <div class="takui-container banner-content">
+        <div class="grid-1-1">
+                {{>molecules-page-title-desc contactsTitle}}
+                <div class="contacts-info">
+                    {{#contact.email}}
+                    {{>molecules-text-with-icon}}
+                    {{/contact.email}}
+                    {{#contact.phone}}
+                    {{>molecules-text-with-icon}}
+                    {{/contact.phone}}
+                    {{#contact.address}}
+                    {{>molecules-text-with-icon}}
+                    {{/contact.address}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

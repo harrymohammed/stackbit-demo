@@ -1,0 +1,81 @@
+{
+    "siteLogo": {
+        "srcPath": "../../images/placeholders/default-logo67x201.png",
+        "altText": "siteLogo",
+        "imgStyleModifier": "takui-img--logo site-logo"
+    },
+    "changeTherapyLink": {
+        "href": "#",
+        "linkTypeModifier": "takui-link-underline",
+        "linkText": "Change therapy area of interest"            
+    },
+    "navigation": {
+        "items":[
+            {
+                "linkText":"Privacy Policy",          
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-home",
+                "displayMobile": true,
+                "displayDesktop": true
+            },
+            {
+                "linkText":"Terms of Use",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+                "displayMobile": true,
+                "displayDesktop": false,
+                "selector": "btnSearch"
+            },
+            {
+                "linkText":"Cookie Policy",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-login",
+                "displayMobile": true,
+                "displayDesktop": true
+                
+            },
+            {
+                "linkText":"Adverse Event Reporting",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contactus",
+                "displayMobile": false,
+                "displayDesktop": true                
+            },
+            {
+                "linkText":"Video Tutorial",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-tutorial",
+                "displayMobile": false,
+                "displayDesktop": true    
+            },
+            {
+                "linkText":"Medical Information Request",
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list",
+                "displayMobile": true,
+                "displayDesktop": false    
+            }
+        ]            
+
+    },
+    "navSection": {
+        "classModifier": "takui-ul-horizontal",
+        "items": [
+            {
+                "label": "Privacy Policy"
+            },
+            {
+                "label": "Terms of Use"
+            },
+            {
+                "label": "Cookie Policy"
+            },
+            {
+                "label": "Adverse Event Reporting"
+            },
+            {
+                "label": "Medical Information Request"
+            }
+        ]
+    },
+    "companyLogo": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo"
+    },
+    "dateOfPreparation": {
+        "text": "C-APROM/UKI/CORP/001<br/>November 2020"
+    }
+}

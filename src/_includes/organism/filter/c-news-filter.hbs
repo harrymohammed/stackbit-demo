@@ -1,0 +1,17 @@
+<div class="takui-c-filter">
+    <fieldset class="takui-c-filter-search takui-input-group">
+        <div class="takui-search-box-iconleft">
+            <span class="takui-input-ico pos-left">
+                {{> atoms-icon-anchor-inverted searchInput}}
+            </span>
+            {{> atoms-input-text searchInput}}
+        </div>
+
+        <div class="takui-form-group-input">
+            {{>atoms-buttons submitButton}}
+        </div>
+    </fieldset>
+    <div class="takui-c-filter-select takui-input-group">        
+        {{>atoms-select filterSelectList}}
+    </div>
+</div>

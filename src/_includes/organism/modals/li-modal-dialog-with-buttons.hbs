@@ -1,0 +1,13 @@
+<div class="takui-modal-outer" id="{{ modalID }}" {{#if openOnLoad}}data-open-on-load{{/if}}>
+    <div class="takui-modal {{ modalSizeModifier }}">
+        {{> molecules-dialog-header modalOptions}}
+        {{> molecules-dialog-content this }}
+        {{#if buttons}}
+            <div class="takui-modal-buttons">
+                {{#each buttons}}
+                    {{>atoms-anchor-button href=href text=text}}
+                {{/each}}
+            </div>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,30 @@
+{{#> template-li-master-layout }}
+
+<div class="takui-li-main1c">
+    <header class="takui-li-search-header">
+        <h1>
+            <span class="takui-li-search-page--search-pre-text">{{searchPreText}}</span> 
+            <span class="takui-li-search-page--search-keyword">{{searchKeyword}}</span>
+        </h1>
+    </header>
+    <div class="takui-li-search-main">
+        {{#if items}}
+            <ul class="takui-li-resources">
+                {{#each items}}
+                <li class="takui-li-res-item">
+                    {{>organism-li-rescard this}}
+                </li>
+                {{/each}}
+            </ul>
+            <button class="takui-nav-btn">
+                {{>atoms-icon iconPath="../../icons/ico_svg/icons.svg#takui-ico-li-flt-btn"}}
+                <span class="takui-nav-btn-counter"></span>
+            </button>
+            {{else}}
+            <div class="takui-li-search-page--no-result">
+                {{>atoms-anchor-button-with-icon-reverse linkInfo}}
+            </div>
+        {{/if}}
+    </div>
+</div>
+{{/template-li-master-layout }}

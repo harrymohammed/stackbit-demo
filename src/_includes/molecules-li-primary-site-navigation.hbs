@@ -1,0 +1,16 @@
+<nav role="navigation" class="takui-site-navigation" aria-label="Main Navigation">
+    <ul class="takui-ul takui-ul-vertical">
+    {{#each items}}
+        {{#if logOutText}}
+        <li class="takui-li-item {{#if displayMobile}}display-mobile{{/if}} {{#if displayDesktop}}display-desktop{{/if}} {{#if active}}active{{/if}} takui-li-item--login">
+            {{>atoms-link-with-chevron icoBgStyleModifier='takui-ico-bg' iconStyleModifier='sm'}}  
+            <a class="takui-li-link" href="#">{{logOutText}}</a>          
+        </li>
+        {{else}}
+        <li class="takui-li-item {{#if displayMobile}}display-mobile{{/if}} {{#if displayDesktop}}display-desktop{{/if}} {{#if active}}active{{/if}}">
+            {{>atoms-link-with-chevron icoBgStyleModifier='takui-ico-bg' iconStyleModifier='sm'}}            
+        </li>
+        {{/if}}
+    {{/each}}
+    </ul>   
+</nav>

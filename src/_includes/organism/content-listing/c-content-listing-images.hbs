@@ -1,0 +1,19 @@
+<div class="takui-c-content-listing">
+    <div class="takui-c-view-more">
+        {{>atoms-link viewMore}}
+   
+    </div>
+    <div class="takui-c-articles-area">
+        <div class="content-listing-main">
+            {{>organism-c-article-image featured}}
+        </div>
+
+        <div class="content-listing-aside">
+            <div class="content-listing-content">
+                {{#each articles}}
+                {{>organism-c-article-image}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="takui-hero contact {{styleModifier}} {{#if gradient}}gradient{{/if}}">
+    {{#hasBgImage}}
+        {{>atoms-dynamic-image}}
+    {{/hasBgImage}}
+    <div class="takui-container banner-content {{textAlign}}">
+        {{#if linkedPageName}}
+        <span class="pretitle">{{linkedPageName}}</span>
+        {{/if}}
+        <h3>{{title}}</h3>
+        {{>atoms-paragraph text=subtitle}}
+        {{#button}}
+            {{>atoms-anchor-button-outline}}
+        {{/button}}
+    </div>
+</div>

@@ -1,0 +1,67 @@
+{
+    "title": "Comments",
+    "actionButtons": {
+        "links": [
+            {
+                "link-with-chevron": {
+                    "href": "",
+                    "linkText": "LIKE",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+                }
+            },
+            {
+                "link": {
+                    "href": "",
+                    "linkText": "REPLY"
+                }
+            }
+        ]
+    },
+    "comments": [
+        {
+            "content": [
+                {
+                    "h6": "David Wallis"
+                },
+                {
+                    "pSmall": "5 hours ago"
+                },
+                {
+                    "p": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse turpis libero, cursus eget sagittis eget, semper at urna. Nullam gravida auctor quam. Etiam semper aliquet nulla ut vulputate. Nullam egestas, dolor in maximus tristique, risus sapien consectetur sem, eget maximus velit erat quis tortor. Duis eget imperdiet velit. Mauris nunc nulla, tristique ut tincidunt sit amet, laoreet rhoncus augue. Duis eu egestas dui. Nullam nec placerat justo. Donec pharetra, massa et placerat fringilla, nulla libero sagittis mauris, id commodo leo nunc eget turpis. Duis fringilla eros vitae mauris sodales, a dignissim ante aliquam. Curabitur tincidunt eleifend tellus, ac volutpat odio egestas sit amet."
+                }
+            ]
+        },
+        {
+            "content": [
+                {
+                    "h6": "Thomas will"
+                },
+                {
+                    "pSmall": "7 hours ago"
+                },
+                {
+                    "p": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse turpis libero, cursus eget sagittis eget, semper at urna. Nullam gravida auctor quam. Etiam semper aliquet nulla ut vulputate. Nullam egestas, dolor in maximus tristique, risus sapien consectetur sem, eget maximus velit erat quis tortor. Duis eget imperdiet velit. Mauris nunc nulla, tristique ut tincidunt sit amet, laoreet rhoncus augue. Duis eu egestas dui. Nullam nec placerat justo. Donec pharetra, massa et placerat fringilla, nulla libero sagittis mauris, id commodo leo nunc eget turpis. Duis fringilla eros vitae mauris sodales, a dignissim ante aliquam. Curabitur tincidunt eleifend tellus, ac volutpat odio egestas sit amet."
+                }
+            ]
+        }
+    ],
+    "commentBox": {
+        "title": "Have your say",
+        "box": {
+            "id": "",
+            "rowCount": "4",
+            "styleModifier": "takui-textarea"
+        },
+        "checkbox": {
+            "checkboxId": "sample-id",
+            "checkboxVal": "true",
+            "gridClassModifier": "",
+            "checkboxStyleModifier": "",
+            "checkboxLabelContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        },
+        "button": {
+            "href": "#",
+            "text": "Post"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "inputName": "name-demo",
+  "inputs": [
+    {
+      "text": "Therapy area",
+      "isActive": true,
+      "count": 2
+    },
+    {
+      "text": "Rare Disease",
+      "isActive": false,
+      "count": 0
+    },
+    {
+      "text": "Expertise",
+      "isActive": false,
+      "count": 0
+    },
+    {
+      "text": "Media type",
+      "isActive": false,
+      "count": 0
+    }
+  ]
+}

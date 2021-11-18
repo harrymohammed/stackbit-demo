@@ -1,0 +1,81 @@
+{
+    "headerStateModifier": "takui-public-head",
+    "logo": {
+      "srcPath": "../../images/ADHD/Logos/logo_adhdForum@3x.png",
+      "altText": "sample-image",
+      "imgStyleModifier": "takui-img--responsive",
+      "imageCaption": "initiated, funded and developed by Takeda",
+      "hyperlinked": true,
+      "href": ""
+    },
+    "quickLinks": [
+        {
+          "label": "Quick link 1",
+          "actionTarget": ""
+        },
+        {
+          "label": "Quick link 2",
+          "actionTarget": ""
+        }
+    ],
+    "brandEdge": true,
+    "brandEdgeStyleModifier": "takui-edge-brand-header",
+    "mobileHamMenu": {
+        "href": "",
+        "btnStyleModifier": "takui-ico-link-secondary",
+        "id": "exampleTakUIHamMenu",
+        "anchorTarget": "",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list",
+        "iconClass": "md"
+    },
+    "siteNavigation": false,
+    "brandInfo": "Site Title",
+    "navStyleModifier" : "takui-ul-horizontal takui-header-nav",
+    "menuItems": [
+      {
+        "label": "Item One",
+        "href": ""
+      },
+      {
+        "label": "Item Two",
+        "href": ""
+      },
+      {
+        "label": "Item Three",
+        "href": ""
+      },
+      {
+        "label": "Item Four",
+        "href": ""
+      },
+      {
+        "label": "Item Five",
+        "href": ""
+      }
+    ],
+    "searchboxStyleModifier": "ico-pos-right",
+    "inputType": "text",
+    "styleModifier" : "takui-input-search",
+    "id": "",
+    "placeholder" : "Search",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+    "iconClass": "sm",
+    "hyperlink": false,
+    "searchhref": "",
+    "btnStyleModifier": "takui-input-ico pos-right",
+    "iconAnchorID": "exampleTakUIIcoLinkBtnX",
+    "anchorTarget": "",
+    "autoComplete": "off",
+    "authorized": false,
+    "profile" : false,
+    "mobileSearch" : false,
+    "siteSubHead": {
+        "srcPath": "../../images/ADHD/Logos/logo_adhdForum@3x.png",
+        "altText": "sample-image",
+        "imgStyleModifier": "takui-img--responsive",
+        "imageCaption": "initiated, funded and developed by Takeda",
+        "hyperlinked": true,
+        "href": "",
+        "targetParam": "_blank"
+    }
+}

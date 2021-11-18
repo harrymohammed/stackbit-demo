@@ -1,0 +1,10 @@
+{
+  "link": {
+    "href": "#",
+    "id": "",
+    "linkText": "Linked Page Name",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+  },
+  "title": "[Label]",
+  "cardText": "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim."
+}

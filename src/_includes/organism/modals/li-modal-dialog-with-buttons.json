@@ -1,0 +1,24 @@
+{   
+    "openOnLoad":true,
+    "modalOptions": {
+        "modalTitle": "Modal title",
+        "buttonType": "",
+        "btnStyleModifier": "",
+        "id":"",
+        "iconname":"",
+        "iconStyleModifier":"",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x"
+    },
+    "modalContent": "Modal body text goes here.",
+    "modalID": "exampleModalWithBtn",
+    "modalExampleDisplay": "normal",
+    "modalSizeModifier": "",
+    "buttons": [
+        {
+            "text": "Cancel"
+        },
+        {
+            "text": "Continue"
+        }
+    ]
+}

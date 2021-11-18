@@ -1,0 +1,18 @@
+<div class="takui-c-download-info">
+    <div class="takui-c-card-description">
+        {{>atoms-image cardImage}}
+        <p>{{description}}</p>
+    </div>
+    <div class="takui-c-card-links">
+        {{#each sources}}
+        <div class="takui-c-card-source">
+            <p class="takui-c-source-description">{{description}}</p>
+            <p class="takui-c-source-link">{{>atoms-link link}}</p>
+        </div>
+        {{/each}}
+        <div class="takui-c-card-download">
+            {{>atoms-link-with-chevron downloadLink}}
+        </div>
+    </div>
+
+</div>

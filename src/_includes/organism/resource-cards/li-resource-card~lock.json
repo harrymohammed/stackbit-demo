@@ -1,0 +1,9 @@
+{
+  "lock": {
+    "icon": {
+      "iconStyleModifier": "xl",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-video"
+    },
+    "message": "<a href=\"#\">Login or become a member</a> to view"
+  }
+}

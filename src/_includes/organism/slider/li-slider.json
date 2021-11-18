@@ -1,0 +1,489 @@
+{
+  "splideData": {
+    "gap": "2rem",
+    "arrows": true,
+    "fixedWidth": 313,
+    "autoHeight": true,
+    "perMove": 3,
+    "pagination": false,
+    "padding": {
+      "left": "0",
+      "right": "0"
+    },
+    "breakpoints": {
+      "578": {
+        "fixedWidth": 170,
+        "perPage": 2,
+        "perMove": 1,
+        "gap": "1rem",
+        "padding": {
+          "left": "0",
+          "right": "0"
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "url": "#",
+      "mainIcon": {
+        "iconStyleModifier": "xl",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+      "topic": null,
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "1 hour 30 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": {
+        "iconStyleModifier": "xl",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-webinar"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-presentation"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/US_MA-95-Hayden-Ave-entrance.jpg",
+      "topic": {
+        "text": "Lorem ipsum",
+        "color": "orange"
+      },
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "lock": {
+        "icon": {
+          "iconStyleModifier": "xl",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-lock"
+        },
+        "message": "<a href=\"#\">Login or become a member</a> to view"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-podcast"
+      },
+      "cardTitle": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+      "topic": {
+        "text": "Top secret",
+        "color": "gold"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": {
+        "iconStyleModifier": "xl",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-presentation"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-presentation"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/hero_banner.jpg",
+      "topic": {
+        "text": "Tuyen Pham",
+        "color": "lime"
+      },
+      "time": null,
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+      "topic": null,
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+      "topic": {
+        "text": "Boring",
+        "color": "red"
+      },
+      "time": null,
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": {
+        "iconStyleModifier": "xl",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+      "topic": {
+        "text": "Takeda",
+        "color": "yellow"
+      },
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "lock": {
+        "icon": {
+          "iconStyleModifier": "xl",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-lock"
+        },
+        "message": "<a href=\"#\">Login or become a member to view</a>"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+      "topic": {
+        "text": "Takeda",
+        "color": "yellow"
+      },
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": {
+        "iconStyleModifier": "xl",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+      "topic": {
+        "text": "Takeda",
+        "color": "yellow"
+      },
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "lock": {
+        "icon": {
+          "iconStyleModifier": "xl",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-lock"
+        },
+        "message": "<a href=\"#\">Login or become a member to view</a>"
+      },
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+      "topic": {
+        "text": "Takeda",
+        "color": "yellow"
+      },
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+      "topic": {
+        "text": "Takeda",
+        "color": "yellow"
+      },
+      "time": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-clock"
+        },
+        "text": "10 mins"
+      },
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    },
+    {
+      "url": "#",
+      "mainIcon": null,
+      "cardTypeIcon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-video"
+      },
+      "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cardDescription": "Card Description",
+      "bgImagePath": "../../../images/Takeda_Syonan73.jpg",
+      "topic": {
+        "text": "Takeda",
+        "color": "yellow"
+      },
+      "time": null,
+      "buttons": {
+        "like": {
+          "icon": {
+            "iconStyleModifier": "xs",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+          },
+          "count": 23
+        },
+        "save": {
+          "icon": {
+            "href": "#",
+            "text": "Add to my list",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-plus"
+          }
+        }
+      }
+    }
+  ]
+}

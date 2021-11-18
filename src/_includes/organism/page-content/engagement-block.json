@@ -1,0 +1,76 @@
+{
+    "comment-1": {
+        "name": "David Wallis",
+        "date": "5 days ago",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reprehenderit alias vero officia, veniam similique esse id culpa quae itaque dolorem dicta explicabo?",
+        "btnLike": {
+            "href": "",
+            "linkText": "like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        },
+        "btnReply": {
+            "href": "",
+            "linkText": "reply",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        }
+    },
+    "comment-2": {
+        "name": "David Wallis",
+        "date": "8 days ago",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reprehenderit alias vero officia, veniam similique esse id culpa quae itaque dolorem dicta explicabo?",
+        "btnLike": {
+            "href": "",
+            "linkText": "like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        },
+        "btnReply": {
+            "href": "",
+            "linkText": "reply",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        }
+    },
+    "reply-1": {
+        "name": "David Wallis",
+        "date": "5 days ago",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reprehenderit alias vero officia, veniam similique esse id culpa quae itaque dolorem dicta explicabo?",
+        "btnLike": {
+            "href": "",
+            "linkText": "like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        },
+        "btnReply": {
+            "href": "",
+            "linkText": "reply",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        }
+    },
+    "reply-2": {
+        "name": "David Wallis",
+        "date": "8 days ago",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reprehenderit alias vero officia, veniam similique esse id culpa quae itaque dolorem dicta explicabo?",
+        "btnLike": {
+            "href": "",
+            "linkText": "like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        },
+        "btnReply": {
+            "href": "",
+            "linkText": "reply",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+        }
+    },
+    "engagement-form": {
+        "taReply": {
+            "id": "_idTextArea",
+            "label": "Sample EPI text area",
+            "lines": 6
+        },
+        "cbCommentCheck": {
+            "id": "random5432112",
+            "label": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+        },
+        "btnPost": {
+            "text": "Post"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "fldEmail": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Email",
+        "displayOption": "form--1-3"
+    },
+    "fldGMCRNID": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "GMC/RN/ID",
+        "displayOption": "form--1-3"
+    },
+    "fldHPCRole": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "HPC Role",
+        "default": "HPC Role",
+        "options": [
+            "HPC Role 1",
+            "HPC Role 2",
+            "HPC Role 3",
+            "HPC Role 4"
+        ],
+        "displayOption": "form--1-3"
+    },
+    "fldTypeOfQuery": {
+        "id": "cbgrpd-001",
+        "caption": "Type of query",
+        "options": [
+            "Contribute with content or provide suggestions for content",
+            "Contribute with a response/rebuttal",
+            "Ask for informations"
+        ],
+        "displayOption": ""
+    },
+    "btnSubmit": {
+        "text": "Submit"
+    }
+}

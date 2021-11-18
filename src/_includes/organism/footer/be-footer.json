@@ -1,0 +1,48 @@
+{
+  "listLink": {
+    "classModifier": "takui-ul-horizontal footer-anchor-list",
+    "items": [
+      {
+          "isActive":"",
+          "label":"term of use |",
+          "href": "#",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"privacy noitice |",
+          "href": "#",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"contact us |",
+          "href": "#",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"patents |",
+          "href": "#",
+          "actionTarget": ""
+      },{
+          "isActive":"",
+          "label":"acessibility statement",
+          "href": "#",
+          "actionTarget": ""
+      }
+    ]
+  }, 
+  "copyRightText": "Copyright 2021 Takeda Pharmaceutical Company LImited. All rights reserved.",
+  "certifiedText": "CERTIFIED TOP EMPLOYER",
+  "rightSection": {
+        "text": "Connect with us: ",
+        "items": [
+            {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-linkedin"
+            },{
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-twitter"
+            },{
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-youtube"
+            }
+        ],
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-flag-us"
+    }
+}

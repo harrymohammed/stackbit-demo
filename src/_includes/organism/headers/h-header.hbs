@@ -1,0 +1,99 @@
+    <header id="header" class="{{ headerStateModifier }} header-sticky">
+        <div class="takui-container takui-brand-header-container">
+            <div class="takui-brand-header">
+                {{#logo}}
+                    {{> molecules-image-with-caption }}
+                {{/logo}}
+                <div class="takui-quickinfo-container">
+                    {{>molecules-anchor-list-horizontal-right items=quickLinks }}
+                    {{#if authorized}}
+                    <div class="takui-header-userProf">
+                        {{#profile}}
+                        <div class="takui-profile-label">
+                            <span class="takui-profile-label-icon">
+                                <a href="{{icon.href}}">
+                                    {{icon.initials}}
+                                </a>
+                            </span>
+                            {{{label}}}
+                        </div>
+                        {{#if options}}
+                            <ul class="takui-profile-options">
+                            {{#each options}}
+                                <li id="{{id}}"><a href="{{href}}">{{{linkText}}}</a></li>
+                            {{/each}}
+                            </ul>
+                        {{/if}}
+                        {{/profile}}
+                    </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+        {{#if brandEdge}}
+        {{>atoms-edge styleModifier=brandEdgeStyleModifier }}
+        {{/if}}
+        {{#if siteNavigation}}
+        <div class="takui-prod-navbar">
+            <div class="takui-container prod-container">
+                <div class="takui-prod-branding">{{ brandInfo }}</div>
+                {{#mobileHamMenu}}
+                <div id="ham-ico" class="takui-ham-menu" data-menu="nav-search-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                {{/mobileHamMenu}}
+                <div class="nav-search-menu" id="nav-search-menu">
+                    <nav id="nav">
+                        {{>molecules-anchor-list-horizontal-nav }}
+                    </nav>
+                    <div class="takui-search-container">
+                        {{> molecules-search href=searchhref }}
+                    </div>
+                    {{#mobileAddnlInfo}}
+                    <div class="takui-quickinfo-mob-container">
+                        {{#if authorized}}
+                        <div class="takui-header-userProf">
+                            {{#profile}}
+                            <div class="takui-profile-label">
+                                <span class="takui-profile-label-icon">
+                                    <a href="{{icon.href}}">
+                                        {{icon.initials}}
+                                    </a>
+                                </span>
+                                {{{label}}}
+                            </div>                            
+                            {{#if options}}
+                                <ul class="takui-profile-options">
+                                {{#each options}}
+                                    <li id="{{id}}"><a href="{{href}}">{{{linkText}}}</a></li>
+                                {{/each}}
+                                </ul>
+                            {{/if}}
+                            {{/profile}}
+                        </div>
+                        {{/if}}
+                    </div>
+                    {{/mobileAddnlInfo}}
+                </div>
+                {{#mobileSearch}}
+                <div id="nav-search" class="takui-search-mob">
+                    {{> molecules-search-minimal }}
+                </div>
+                {{/mobileSearch}}
+            </div>
+        </div>
+        {{/if}}
+        {{#siteSubHead}}
+        <div class="takui-container">
+            <div class="takui-subhead">
+                {{> atoms-image }}
+                {{> molecules-page-title-desc }}
+            </div>
+        </div>
+        {{/siteSubHead}}
+    </header>

@@ -1,0 +1,25 @@
+{
+    
+    "articles":[
+        {
+            "date":"21st Mar 2021 | Science",
+            "text":"[Loreum ipsum dolor sit amet]",
+            "linkText":"6.1.1 [Articles]"
+        },
+        {
+            "date":"21st Mar 2021 | Science",
+            "text":"[Loreum ipsum dolor sit amet]",
+            "linkText":"6.1.1 [Articles]"
+        },
+        {
+            "date":"21st Mar 2021 | Science",
+            "text":"[Loreum ipsum dolor sit amet]",
+            "linkText":"6.1.1 [Articles]"
+        },
+        {
+            "date":"21st Mar 2021 | Science",
+            "text":"[Loreum ipsum dolor sit amet]",
+            "linkText":"6.1.1 [Articles]"
+        }
+    ]
+}

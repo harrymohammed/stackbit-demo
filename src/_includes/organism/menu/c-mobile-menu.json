@@ -1,0 +1,126 @@
+{
+  "quicklinks": [],
+  "logoLink":"#",
+  "menuItem": [
+    {
+      "subject": "Menu\u00A0item\u00A01",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+      "listItem": [
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subject": "Menu\u00A0item\u00A02",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+      "listItem": [
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subject": "Menu\u00A0item\u00A03",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+      "listItem": [
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subject": "Menu\u00A0item\u00A04",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+      "listItem": [
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subject": "Menu\u00A0item\u00A05",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+    },
+    {
+      "subject": "Menu\u00A0item\u00A06",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+      "listItem": [
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subject": "Menu\u00A0item\u00A07",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron",
+      "listItem": [
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        },
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        },
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        },
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        },
+        {
+          "name": "Item 1",
+          "link": ""
+        },
+        {
+          "name": "Item 2",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

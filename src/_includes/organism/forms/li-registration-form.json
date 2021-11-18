@@ -1,0 +1,113 @@
+{
+    "pageTitle": "Become a member",
+    "pageDescription": "In quo aut in malis dolor, non intellegamus, tu paulo ante cum soluta. Omne animal, simul atque natum sit, a natura ipsa natura incorrupte atque natum.",
+    "strapline": "Strapline here to remind users why they should become a member",
+    "required-remark": "All fields are mandatory unless labelled as optional.",
+    "fldCountry": {
+        "id": "random-he003713",
+        "label": "Select your country",
+        "options": [
+            "UK",
+            "USA",
+            "Germany"
+        ]
+    },
+    "fldTitle": {
+        "id": "random-he003713",
+        "label": "Title",
+        "options": [
+            "Mr",
+            "Mrs",
+            "Mx",
+            "Dr"
+        ]
+    },
+    "fldFirstName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "First name"
+    },
+    "fldLastName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Last name"
+    },
+    "fldEmail": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Professional email"
+    },
+    "fldPassword": {
+        "id": "random-he003713",
+        "type": "password",
+        "placeholder": "",
+        "label": "Password"
+    },
+    "fldPasswordConfirm": {
+        "id": "random-he003713",
+        "type": "password",
+        "placeholder": "",
+        "label": "Confirm password"
+    },
+    "fldPoW": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Primary place of Work"
+    },
+    "fldCity": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "City"
+    },
+    "fldProfId": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Professional ID"
+    },
+    "fldProf": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Profession"
+    },
+    "formDisclaimer":{
+        "text": "Learn more about our Terms of Use and learn about how Takeda processes (eg. collects, stores, and uses) your personal data in our Privacy Notice."
+    },
+    "infoConcent":{
+        "text": "Learn more about our Terms of Use and learn about how Takeda processes (eg. collects, stores, and uses) your personal data in our Privacy Notice."
+    },
+    "btnText": "Become a member",
+    "formLogo": {
+        "srcSetData": [
+            {
+                "imgPath": "../../images/lithium/da_logo.png",
+                "mediaBreakpoint": "max-width: 991px"
+            },
+            {
+                "imgPath": "../../images/lithium/da_logo.png"
+            }
+        ],
+        "defaultImgPath": "../../images/lithium/da_logo.png",
+        "altText": "sample-image"
+    },
+    "inputSet": [
+        {
+            "id": "random54321",
+            "label": "I agree to the <a href=\"#\">Takeda ID - Terms and Conditions</a>"
+        },
+        {
+            "id": "random54322",
+            "label": "I have read and understood the <a href=\"#\">Takeda ID Privacy Notice</a>"
+        },
+        {
+            "id": "random54323",
+            "label": "Please notify me via email if content relevant to me is posted to Know Dengue"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "introText": "This website is a non-promotional disease awareness and medical education resource intended for healthcare professionals.",  
+    "disclaimerText": "Placeholder - Rare Diseases Hub is for UK healthcare professionals only. This website has been initiated and developed by Takeda",
+    "copyrightText": "&copy; Shire Pharmaceuticals Ltd (Shire is now part of Takeda). Takeda is a registered trademark of Takeda Pharmaceutical Company Limited. Other trademarks are the property of their respective owners. Registered office, Takeda UK Limited, One Kingdom Street, London, W2 6BD",
+    "dateOfPreparationText": "xxxxx/xxx/xxxx/0001<br>March 2021",
+    "submitButton": {
+        "text": "Submit",
+        "disabled": true
+    },
+    "loginButton": {
+        "loginInstructionsText": "Alternatively, if you're a member please login",
+        "text": "Login"
+    },
+    "buttons": [
+        {            
+            "inputName": "personaSelection",         
+            "inputId": "dengue",
+            "isChecked": false,
+            "radioLabelContent": "I am a healthcare professional in the UK",
+            "radioStyleModifier": "takui-li-health-prof"
+        },        
+        {            
+            "inputName": "personaSelection",         
+            "inputId": "public",
+            "isChecked": false,
+            "radioLabelContent": "I am a patient or member of the public",
+            "radioStyleModifier": "takui-li-publ-mem"
+        }
+    ],
+    "personaFootNotes": [
+        {
+            "personaId": "hcp",
+            "note": "*Hcp note"
+        },
+        {
+            "personaId" : "public",
+            "note": "*Please be aware you will be directed to the I am number 17 website"
+        }
+    ],
+    "personaModals": [
+        {
+            "personaId": "public",                       
+            "modalContent": "You are now leaving the Rare Disease Hub website",
+            "modalID": "public-modal",
+            "buttons": [
+                {
+                    "href": "https://iamnumber17.geneticalliance.org.uk/",
+                    "text": "Confirm"
+                }
+            ]
+        }
+    ]
+}

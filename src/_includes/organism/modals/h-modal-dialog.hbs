@@ -1,0 +1,29 @@
+<div class="takui-modal-outer is-hidden" id="{{ modalID }}" {{#if openOnLoad}}data-open-on-load{{/if}}>
+    <div class="takui-modal {{ modalSizeModifier }} {{ styleModifier }}">
+        {{> molecules-dialog-header modalTitle=modalTitle buttonType=buttonType
+        btnStyleModifier=btnStyleModifier
+        id=btnID iconname=iconName iconStyleModifier=iconClass }}
+        {{> molecules-dialog-content modalContent=modalContent }}
+        {{#if buttons}}
+            <div class="takui-modal-buttons">
+                {{#if isDisclaimerModal}}
+                    {{#buttons}}
+                        {{#if isClose}}
+                            <div class="takui-modal-header-closer" aria-label="close modal" data-close>
+                                {{>atoms-anchor-button-with-icon href=href text=text}}
+                            </div>
+                        {{else}}      
+                            <div class="takui-modal-btn">
+                                {{>atoms-anchor-button-with-icon href=href text=text}}
+                            </div>                      
+                        {{/if}}
+                    {{/buttons}}
+                {{else}}
+                    {{#buttons}}
+                        {{>atoms-anchor-button href=href text=text}}
+                    {{/buttons}}
+                {{/if}}
+            </div>
+        {{/if}}
+    </div>
+</div>

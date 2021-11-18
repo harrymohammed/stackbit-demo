@@ -1,0 +1,28 @@
+<div class="takui-c-hero-video">
+    {{!-- {{>atoms-brightcove-video-responsive video}} --}}
+    
+    <video-js id="{{video.playerID}}"
+      data-video-id="{{video.videoID}}"
+      data-account="{{video.accountID}}"
+      data-player="default"
+      data-embed="default"
+      data-application-id
+      class="video-js"
+      autoplay muted loop
+      controls
+      playsinline
+      style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></video-js>
+
+    <div class="takui-c-site-width">
+        <article class="takui-c-hero-content">
+            <div class="takui-c-hero-text">
+                <h3 class="takui-c-hero-title">{{contentTitle}}</h3>
+                <p>{{contentSubTitle}}</p>
+            </div>
+            <div class="takui-c-hero-button">
+                {{>atoms-anchor-button-outline-icon button}}
+            </div>
+        </article>
+    </div>
+    {{>atoms-icon-anchor bottomIconButton}}
+</div>

@@ -1,0 +1,45 @@
+{
+  "fields": [
+    {
+      "id": "random-he003713",
+      "placeholder": "",
+      "label": "Title",
+      "options": [
+        "",
+        "Mr",
+        "Ms",
+        "Mx"
+      ]
+    },
+    {
+      "id": "random-he003713",
+      "type": "text",
+      "placeholder": "",
+      "label": "First Name"
+    },
+    {
+      "id": "random-he003713",
+      "type": "text",
+      "placeholder": "",
+      "label": "Last Name"
+    },
+    {
+      "id": "random-he003713",
+      "type": "text",
+      "placeholder": "",
+      "label": "Primary place of work"
+    },
+    {
+      "id": "random-he003713",
+      "type": "text",
+      "placeholder": "",
+      "label": "City"
+    }
+  ],
+  "btnBacktoprofile": {
+    "text": "Back to profile"
+  },
+  "btnSave": {
+    "text": "Save"
+  }
+}

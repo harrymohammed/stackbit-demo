@@ -1,0 +1,9 @@
+<nav role="navigation" class="takui-site-navigation" aria-label="Main Navigation">   
+    <ul class="takui-ul takui-ul-vertical">
+    {{#each items}}
+        <li class="takui-li-item {{#if displayMobile}}display-mobile{{/if}} {{#if displayDesktop}}display-desktop{{/if}} {{#if active}}active{{/if}} {{selector}}">
+            {{>atoms-link-with-chevron icoBgStyleModifier='takui-ico-bg' iconStyleModifier='sm'}}            
+        </li>
+    {{/each}}
+    </ul>   
+</nav>

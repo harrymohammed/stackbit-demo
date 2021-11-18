@@ -1,0 +1,39 @@
+<div class="takui-pagination">
+    {{#prevButton}}
+    <div class="takui-pagination-prev-button">
+        <a href="{{ href }}"  class="takui-link">
+            {{#if iconPath}}
+            <svg class="takui-ico-svg" aria-hidden="true">
+                <use xlink:href="{{ iconPath }}"></use>
+            </svg>
+            {{/if}}
+            <span> {{linkText}}</span>
+        </a>
+    </div>
+    {{/prevButton}}
+    <div class="takui-pagination-pages">
+        {{#if prevEllipsis}}
+        <div class="takui-pagination-page">{{>atoms-link prevEllipsis}}</div>
+        {{/if}}
+        {{#each pages}}
+        <div class="takui-pagination-page {{#if current}} active {{/if}}">{{>atoms-link}}</div>
+
+        {{/each}}
+        {{#if nextEllipsis}}
+        <div class="takui-pagination-page">{{>atoms-link nextEllipsis}}</div>
+        {{/if}}
+    </div>
+
+    {{#nextButton}}
+    <div class="takui-pagination-next-button">
+        <a href="{{ href }}" class="takui-link">
+            <span> {{linkText}}</span>
+            {{#if iconPath}}
+            <svg class="takui-ico-svg" aria-hidden="true">
+                <use xlink:href="{{ iconPath }}"></use>
+            </svg>
+            {{/if}}
+        </a>
+    </div>
+    {{/nextButton}}
+</div>

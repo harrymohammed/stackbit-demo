@@ -1,0 +1,1054 @@
+{
+  "actionHeader": {
+    "pageTitle": "Lorem Ipsum",
+    "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-file"
+    },
+    "isInternal": true,
+    "buttons": {
+      "like": {
+        "icon": {
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-like"
+        },
+        "count": 23
+      },
+      "save": {
+        "icon": {
+          "href": "#",
+          "text": "Save to my list",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-add-to"
+        }
+      },
+      "saveMobile": {
+        "icon": {
+          "href": "#",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-add-to-white",
+          "text": null
+        }
+      },
+      "share": {
+          "icon": {
+              "href": "#",
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-share"
+          }
+      }
+    },
+    "disclaimer": {
+      "text": "Takeda are not responsible for content provided by third parties.",
+      "iconPath":"../../icons/ico_svg/icons.svg#takui-ico-li-info"
+    },
+    "lineColor" : "#000"
+  },
+  "event": {
+    "isInternal": true,
+    "date": {
+        "month": "feb",
+        "day": 28
+    },
+    "pageTitle": "Lorem Ipsum",
+    "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-file-four-lines"
+    },
+    "buttons": [
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Add to calendar",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-calendar"
+        },
+        {
+            "type": "anchor-button-with-icon",
+            "href": "#",
+            "text": "Save",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+        }
+    ],
+    "sidebar": {
+        "sidebarItems": {
+            "items": [
+                {
+                    "logo": "../../icons/ico_svg/icons.svg#takui-ico-calendar-2",
+                    "label": "Date and Time",
+                    "value": "3pm–4pm COST Tue, 23 March 2021",
+                    "btnCalendar": {
+                      "href": "#",
+                      "text": "Add to calendar"
+                    }
+                },
+                {
+                    "logo": "../../icons/ico_svg/icons.svg#takui-ico-location",
+                    "label": "Location",
+                    "value": "Online"
+                }
+            ]
+        },
+        "calltoaction": {
+            "text": "Register",
+            "iconPath" : "../../icons/ico_svg/icons.svg#takui-ico-li-ext",
+            "href": "#"
+        },
+        "remark": "Please sign in to register for this event",
+        "isInternal": true,
+        "externalDisclaimer": {
+          "text": "This event is hosted on an external site, clicking Register will take you to this website.",
+          "iconPath":"../../icons/ico_svg/icons.svg#takui-ico-li-info"
+        }
+    }
+  },
+  "eventCard": {
+      "date": {
+          "month": "FEB",
+          "day": "28"
+      },
+      "type": "External Event",
+      "title": "Lorem Ipsum",
+      "headerButtons": {
+          "buttons": [
+              {
+                  "anchor-button-with-icon": {
+                      "href": "#",
+                      "text": "Add to calendar",
+                      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-calendar-2"
+                  }
+              },
+              {
+                  "anchor-button-with-icon": {
+                      "href": "#",
+                      "text": "Save",
+                      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+                  }
+              }
+          ]
+      },
+      "thumbnail": "../../images/placeholders/default-635-318.png",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "footerButtons": {
+          "buttons": [
+              {
+                  "anchor-button-gray": {
+                      "href": "#",
+                      "text": "Von willebrand"
+                  }
+              },
+              {
+                  "anchor-button-with-icon": {
+                      "href": "#",
+                      "text": "Like",
+                      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+                  }
+              },
+              {
+                  "anchor-button-with-icon": {
+                      "href": "#",
+                      "text": "Contribute",
+                      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contribute"
+                  }
+              }
+          ]
+      }
+    },
+    "eventDetailsCard": {
+      "items": [
+          {
+              "titleSmall": "Date and Time",
+              "titleLarge": "Thu, 11 Feb 2021<br>19:00 GMT",
+              "icon": {
+                  "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-calendar-2"
+              }
+          },
+          {
+              "titleSmall": "Location",
+              "titleLarge": "Online",
+              "icon": {
+                  "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-location"
+              }
+          },
+          {
+              "titleSmall": "Closing date",
+              "titleLarge": "Registration closes on XX Month",
+              "icon": {
+                  "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-timer"
+              }
+          }
+      ],
+      "btnCalendar": {
+          "href": "#",
+          "text": "Add to calendar"
+      },
+      "btnVisit": {
+          "href": "#",
+          "text": "Visit organiser/Learn more"
+      },
+      "disclaimer": "*Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    "pageTitle": "Template Page Title",
+    "header": {
+      "showExplorerMenuToggle": false,
+      "authorized": true,
+      "showMobileSearch": true,
+      "siteLogo": {
+        "srcPath": "../../images/placeholders/default-logo48x48.png",
+        "altText": "sample-logo-image",
+        "imgStyleModifier": "takui-img--logo"
+      },
+      "piButton": {
+        "text": "Prescribing Information/Adverse Events Reporting"
+      },
+      "siteSearch": {
+        "searchInput": {
+          "labelRequired": false,
+          "fieldRequired": true,
+          "inputType": "text",
+          "gridClassModifier": "takui-allow-expand takui-allow-collapse",
+          "placeholder": "Enter disease term or phrase...",
+          "autoComplete": "on",
+          "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search"
+        },
+        "filterSelectList": {
+          "labelRequired": false,
+          "fieldRequired": true,
+          "gridClassModifier": "takui-allow-collapse",
+          "placeholder": "Choose your search area",
+          "selectOptions": [
+            {
+              "value": "",
+              "option": "Choose your search area"
+            },
+            {
+              "value": "search everywhere",
+              "option": "search everywhere"
+            },
+            {
+              "value": "search area of interest",
+              "option": "search area of interest"
+            }
+          ]
+        },
+        "submitButton": {
+          "text": "Search area of interest"
+        }
+      },
+      "registerButton": {
+        "text": "Become a member",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-user"
+      },
+      "profileButton": {
+        "text": "View profile",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-user"
+      },
+      "filterButton": {
+        "href": "#",
+        "anchorTarget": "",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-funnel",
+        "iconClass": "md"
+      },
+      "saveButton": {
+        "text": "Save",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+      }
+    },
+    "sidebar": {
+      "siteLogo": {
+        "srcPath": "../../images/placeholders/default-logo150x55.png",
+        "altText": "siteLogo",
+        "imgStyleModifier": "takui-img--logo site-logo"
+      },
+      "changeTherapyLink": {
+        "href": "#",
+        "linkTypeModifier": "takui-link-underline",
+        "linkText": "Change therapy area of interest"
+      },
+      "explorerMenu": {
+        "headingText": "Browsing in:",
+        "filterHeading": "Filter content by:",
+        "therapyArea": "Bleeding Disorders",
+        "changeTherapyLink": {
+          "linkText": "Change therapy area of interest"
+        },
+        "filters": [
+          {
+            "allowMultiSelect": true,
+            "showSelectedCount": true,
+            "inputName": "rareDisease",
+            "headingText": "Rare Disease",
+            "checkIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "accordionIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "tags": [
+              {
+                "labelContent": "Acquired Haemophilia",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Cytomegalovirus CMV",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Fabry Disease",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Gaucher Disease",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Haemophilia A & B",
+                "isChecked": false
+              }
+            ]
+          },
+          {
+            "allowMultiSelect": true,
+            "showSelectedCount": true,
+            "inputName": "expertise",
+            "headingText": "Expertise",
+            "checkIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "accordionIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "tags": [
+              {
+                "labelContent": "Allied Professional",
+                "isChecked": true
+              },
+              {
+                "labelContent": "Consultant",
+                "isChecked": true
+              },
+              {
+                "labelContent": "CMT 1/2",
+                "isChecked": false
+              },
+              {
+                "labelContent": "FY1/FY2",
+                "isChecked": false
+              },
+              {
+                "labelContent": "GP",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Nurse",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Specialist Nurse",
+                "isChecked": false
+              },
+              {
+                "labelContent": "ST3+ (or equivalent)",
+                "isChecked": false
+              }
+            ]
+          },
+          {
+            "allowMultiSelect": true,
+            "showSelectedCount": true,
+            "inputName": "mediaType",
+            "headingText": "Media types",
+            "checkIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "accordionIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "tags": [
+              {
+                "labelContent": "Articles",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Courses",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Presentations",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Images",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Podcasts",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Videos",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Posters",
+                "isChecked": false
+              }
+            ]
+          },
+          {
+            "allowMultiSelect": true,
+            "showSelectedCount": true,
+            "inputName": "eventType",
+            "headingText": "Educational Meetings and Events",
+            "checkIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+            },
+            "accordionIcon": {
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+            },
+            "tags": [
+              {
+                "labelContent": "External Event",
+                "isChecked": false
+              },
+              {
+                "labelContent": "Takeda organised event",
+                "isChecked": false
+              }
+            ]
+          }
+        ],
+        "applyFiltersButton": {
+          "text": "Apply filters"
+        }
+      },
+      "navigation": {
+        "items": [
+          {
+            "linkText": "Home",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-home",
+            "displayMobile": true,
+            "displayDesktop": true
+          },
+          {
+            "linkText": "Search",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+            "displayMobile": true,
+            "displayDesktop": false,
+            "selector": "btnSearch"
+          },
+          {
+            "linkText": "Login",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-login",
+            "displayMobile": true,
+            "displayDesktop": true
+          },
+          {
+            "linkText": "Contact Us",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contactus",
+            "displayMobile": false,
+            "displayDesktop": true
+          },
+          {
+            "linkText": "Video Tutorial",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-tutorial",
+            "displayMobile": false,
+            "displayDesktop": true
+          },
+          {
+            "linkText": "More",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-list",
+            "displayMobile": true,
+            "displayDesktop": false
+          }
+        ]
+      },
+      "companyLogo": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo"
+      },
+      "dateOfPreparation": {
+        "text": "C-APROM/UKI/CORP/001<br/>November 2020"
+      }
+    },
+    "pageHeader": {
+      "pageTitle": "Article",
+      "icon": {
+        "iconStyleModifier": "lg",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-file-four-lines"
+      },
+      "button": {
+        "href": "#",
+        "text": "Save",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+      }
+    },
+    "title": {
+      "content": [
+        {
+          "h1": "Quisque rutrum sapien vitae mauris accumsan facilisis"
+        }
+      ]
+    },
+    "subTitle": {
+      "content": [
+        {
+          "h6RedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus eget est elementum interdum at a ligula. Nam blandit sapien fringilla, placerat elit eget, tempor diam. Aliquam sagittis risus mi, vitae fringilla enim viverra a. Vestibulum ac neque molestie, convallis ante efficitur, semper mi. Pellentesque vitae enim scelerisque, iaculis urna ac, lobortis arcu. Sed mi metus, convallis nec lacus nec, aliquam pretium lorem. Integer dignissim, arcu nec feugiat pretium, nisi massa sodales sapien, ac molestie velit magna at dui. Pellentesque tristique venenatis libero sit amet interdum."
+        }
+      ]
+    },
+    "image": {
+      "styleModifier": "header-image",
+      "srcPath": "../../images/placeholders/default-image400x300.png",
+      "altText": "sample-image",
+      "imgStyleModifier": "takui-img--responsive",
+      "imageCaption": "Image caption"
+    },
+    "firstContent": {
+      "content": [
+        {
+          "p": "Nam sit amet iaculis purus. Proin in eros ac purus tempor ullamcorper. Maecenas eu ultrices est. Ut pharetra porttitor mi at maximus. Morbi ut scelerisque libero. Donec lacus enim, ultrices sed posuere in, convallis vel ipsum. Praesent vitae risus tristique, lobortis ipsum vitae, tristique mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+        },
+        {
+          "p": "Morbi vel eros aliquet, facilisis magna in, interdum nisi. Cras laoreet dapibus posuere. Sed in tincidunt massa. Ut sit amet feugiat erat. Nunc at vehicula lectus. Ut turpis est, facilisis in aliquam in, pellentesque et arcu. Morbi congue gravida lectus, vitae ornare arcu vulputate eu. Vivamus vehicula ligula eget lectus dictum sollicitudin. Donec ullamcorper eu libero venenatis semper. Fusce tincidunt erat diam, vitae interdum tellus euismod eget."
+        }
+      ]
+    },
+    "secondContent": {
+      "image": {
+        "srcPath": "../../images/placeholders/default-image400x300.png",
+        "altText": "sample-image",
+        "imgStyleModifier": "takui-img--responsive"
+      },
+      "content": {
+        "content": [
+          {
+            "h6RedText": "Curabitur quis metus a libero tempor consequat porttitor ut lorem"
+          },
+          {
+            "p": "Morbi vel eros aliquet, facilisis magna in, interdum nisi. Cras laoreet dapibus posuere. Sed in tincidunt massa. Ut sit amet feugiat erat. Nunc at vehicula lectus. Ut turpis est, facilisis in aliquam in, pellentesque et arcu. Morbi congue gravida lectus, vitae ornare arcu vulputate eu. Vivamus vehicula ligula eget lectus dictum sollicitudin. Donec ullamcorper eu libero venenatis semper. Fusce tincidunt erat diam, vitae interdum tellus euismod eget."
+          }
+        ]
+      }
+    },
+    "thematicBreak": {
+      "content": [
+        {
+          "hr": true
+        }
+      ]
+    },
+    "thirdContent": {
+      "firstColumn": {
+        "content": [
+          {
+            "p": "Donec ornare et mauris quis efficitur. Morbi fringilla orci at turpis egestas, condimentum tempus dui lobortis. Phasellus ante nibh, porttitor in malesuada consectetur, vehicula ac urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nunc nibh, dictum ut gravida ac, pellentesque eget tortor. In vitae lacinia mauris. Vivamus purus dolor, viverra vitae purus nec, porta gravida leo. Donec at pharetra metus. Phasellus vitae magna euismod, tempus sem sit amet, semper turpis."
+          }
+        ]
+      },
+      "secondColumn": {
+        "content": [
+          {
+            "p": "Donec ornare et mauris quis efficitur. Morbi fringilla orci at turpis egestas, condimentum tempus dui lobortis. Phasellus ante nibh, porttitor in malesuada consectetur, vehicula ac urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nunc nibh, dictum ut gravida ac, pellentesque eget tortor. In vitae lacinia mauris. Vivamus purus dolor, viverra vitae purus nec, porta gravida leo. Donec at pharetra metus. Phasellus vitae magna euismod, tempus sem sit amet, semper turpis."
+          }
+        ]
+      },
+      "thirdColumn": {
+        "content": [
+          {
+            "p": "Donec ornare et mauris quis efficitur. Morbi fringilla orci at turpis egestas, condimentum tempus dui lobortis. Phasellus ante nibh, porttitor in malesuada consectetur, vehicula ac urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque nunc nibh, dictum ut gravida ac, pellentesque eget tortor. In vitae lacinia mauris. Vivamus purus dolor, viverra vitae purus nec, porta gravida leo. Donec at pharetra metus. Phasellus vitae magna euismod, tempus sem sit amet, semper turpis."
+          }
+        ]
+      }
+    },
+    "quote": {
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet finibus porta. Aliquam ullamcorper erat elit, ac tincidunt justo hendrerit tristique. Sed eu ornare odio."
+    },
+    "fourthContent": {
+      "content": [
+        {
+          "p": "Nam sit amet iaculis purus. Proin in eros ac purus tempor ullamcorper. Maecenas eu ultrices est. Ut pharetra porttitor mi at maximus. Morbi ut scelerisque libero. Donec lacus enim, ultrices sed posuere in, convallis vel ipsum. Praesent vitae risus tristique, lobortis ipsum vitae, tristique mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+        },
+        {
+          "p": "Morbi vel eros aliquet, facilisis magna in, interdum nisi. Cras laoreet dapibus posuere. Sed in tincidunt massa. Ut sit amet feugiat erat. Nunc at vehicula lectus. Ut turpis est, facilisis in aliquam in, pellentesque et arcu. Morbi congue gravida lectus, vitae ornare arcu vulputate eu. Vivamus vehicula ligula eget lectus dictum sollicitudin. Donec ullamcorper eu libero venenatis semper. Fusce tincidunt erat diam, vitae interdum tellus euismod eget."
+        }
+      ]
+    },
+    "commentSectionHeader": {
+      "content": [
+        {
+          "h6RedText": "We would love to hear your thoughts!"
+        }
+      ]
+    },
+    "content": {
+      "part1": "<p> Vestibulum consectetur placerat lectus ac cursus. Nam elementum commodo dolor. Nam egestas, leo facilisis commodo aliquet, leo eros volutpat tortor, vitae luctus ex dui sed velit. Quisque aliquam, augue vitae ullamcorper dapibus, orci metus pulvinar dui, vitae maximus leo purus ut mauris. Suspendisse eget viverra quam. Aenean at dolor nec augue tristique accumsan a non odio. Proin vitae mollis sem, quis iaculis neque. Nullam laoreet nulla ac sapien aliquet, at eleifend neque consequat. Maecenas viverra augue sit amet quam porttitor, eget condimentum odio bibendum.</p> <p> Quisque viverra neque in tortor semper venenatis. Praesent sapien sapien, varius a fermentum congue, condimentum id turpis. Nunc id faucibus libero. Fusce accumsan nisl id purus porta, sagittis varius risus tempor. Fusce dolor enim, semper eu vestibulum at, sodales ac velit. Proin in nisi ac lacus iaculis posuere. Pellentesque egestas, nisi at congue convallis, leo nulla finibus risus, eget interdum dolor mi vel nibh. Nulla facilisi. Morbi elementum libero a arcu accumsan accumsan. In et posuere tellus. Quisque quis semper elit, nec semper lectus. Nunc facilisis felis arcu, a faucibus massa tincidunt sed. Pellentesque quis mattis felis.</p>",
+      "part2": {
+        "title": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+        "content": "<p>Maecenas dapibus bibendum massa vitae aliquam. Duis pharetra lectus a mi maximus, et imperdiet diam semper. Nam blandit mauris quis sapien viverra pharetra sit amet eu dolor. Mauris id elementum tortor, ac vehicula nunc. Nulla ornare fringilla felis sed commodo. Cras auctor varius quam, quis suscipit eros congue in. Proin tincidunt dui id elit facilisis interdum vitae porta enim. Nunc et dictum elit, in dictum turpis. Donec eu justo ut turpis facilisis tristique. Vivamus malesuada dolor eget dictum sodales. Nulla vitae vestibulum ante. Cras faucibus vulputate nunc, ut fermentum dolor sollicitudin sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc ut pulvinar turpis. Mauris congue elit nisl, eget sodales leo aliquam quis.</p>",
+        "image": {
+          "srcPath": "../../images/placeholders/default-image400x300.png",
+          "altText": "sample-image",
+          "imgStyleModifier": "takui-img--responsive"
+        }
+      },
+      "part3": {
+        "column1": "Morbi at massa ut nunc lobortis consequat. Pellentesque eu egestas justo. Sed sit amet dictum purus. Aenean sit amet justo pretium orci feugiat bibendum at ac tortor. Aliquam id aliquam tortor, a dictum arcu. Duis sed metus sed erat placerat porttitor et at dui. Nunc eleifend scelerisque enim, vitae pretium diam tristique ac. Morbi in hendrerit justo. Fusce posuere hendrerit metus eget facilisis. Aenean accumsan interdum tellus, id imperdiet turpis accumsan eu. Integer accumsan vestibulum nisi, eget bibendum purus vulputate sit amet. Praesent eleifend enim vestibulum, feugiat quam sed, mollis massa. Curabitur massa massa, venenatis eget tellus facilisis, rhoncus vehicula magna. Mauris ullamcorper erat massa, eget vestibulum justo maximus a. Nam quis erat varius, pretium nibh sed, pulvinar nisl. Donec nec est egestas, lobortis est eget, lobortis ante.,",
+        "column2": "Morbi at massa ut nunc lobortis consequat. Pellentesque eu egestas justo. Sed sit amet dictum purus. Aenean sit amet justo pretium orci feugiat bibendum at ac tortor. Aliquam id aliquam tortor, a dictum arcu. Duis sed metus sed erat placerat porttitor et at dui. Nunc eleifend scelerisque enim, vitae pretium diam tristique ac. Morbi in hendrerit justo. Fusce posuere hendrerit metus eget facilisis. Aenean accumsan interdum tellus, id imperdiet turpis accumsan eu. Integer accumsan vestibulum nisi, eget bibendum purus vulputate sit amet. Praesent eleifend enim vestibulum, feugiat quam sed, mollis massa. Curabitur massa massa, venenatis eget tellus facilisis, rhoncus vehicula magna. Mauris ullamcorper erat massa, eget vestibulum justo maximus a. Nam quis erat varius, pretium nibh sed, pulvinar nisl. Donec nec est egestas, lobortis est eget, lobortis ante.,",
+        "column3": "Morbi at massa ut nunc lobortis consequat. Pellentesque eu egestas justo. Sed sit amet dictum purus. Aenean sit amet justo pretium orci feugiat bibendum at ac tortor. Aliquam id aliquam tortor, a dictum arcu. Duis sed metus sed erat placerat porttitor et at dui. Nunc eleifend scelerisque enim, vitae pretium diam tristique ac. Morbi in hendrerit justo. Fusce posuere hendrerit metus eget facilisis. Aenean accumsan interdum tellus, id imperdiet turpis accumsan eu. Integer accumsan vestibulum nisi, eget bibendum purus vulputate sit amet. Praesent eleifend enim vestibulum, feugiat quam sed, mollis massa. Curabitur massa massa, venenatis eget tellus facilisis, rhoncus vehicula magna. Mauris ullamcorper erat massa, eget vestibulum justo maximus a. Nam quis erat varius, pretium nibh sed, pulvinar nisl. Donec nec est egestas, lobortis est eget, lobortis ante.,"
+      },
+      "part4": "<p> Vestibulum consectetur placerat lectus ac cursus. Nam elementum commodo dolor. Nam egestas, leo facilisis commodo aliquet, leo eros volutpat tortor, vitae luctus ex dui sed velit. Quisque aliquam, augue vitae ullamcorper dapibus, orci metus pulvinar dui, vitae maximus leo purus ut mauris. Suspendisse eget viverra quam. Aenean at dolor nec augue tristique accumsan a non odio. Proin vitae mollis sem, quis iaculis neque. Nullam laoreet nulla ac sapien aliquet, at eleifend neque consequat. Maecenas viverra augue sit amet quam porttitor, eget condimentum odio bibendum.</p> <p> Quisque viverra neque in tortor semper venenatis. Praesent sapien sapien, varius a fermentum congue, condimentum id turpis. Nunc id faucibus libero. Fusce accumsan nisl id purus porta, sagittis varius risus tempor. Fusce dolor enim, semper eu vestibulum at, sodales ac velit. Proin in nisi ac lacus iaculis posuere. Pellentesque egestas, nisi at congue convallis, leo nulla finibus risus, eget interdum dolor mi vel nibh. Nulla facilisi. Morbi elementum libero a arcu accumsan accumsan. In et posuere tellus. Quisque quis semper elit, nec semper lectus. Nunc facilisis felis arcu, a faucibus massa tincidunt sed. Pellentesque quis mattis felis.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus eget est elementum interdum at a ligula. Nam blandit sapien fringilla, placerat elit eget, tempor diam. Aliquam sagittis risus mi, vitae fringilla enim viverra a. Vestibulum ac neque molestie, convallis ante efficitur, semper mi. Pellentesque vitae enim scelerisque, iaculis urna ac, lobortis arcu. Sed mi metus, convallis nec lacus nec, aliquam pretium lorem. Integer dignissim, arcu nec feugiat pretium, nisi massa sodales sapien, ac molestie velit magna at dui. Pellentesque tristique venenatis libero sit amet interdum.</p>"
+    },
+    "accordion": {
+      "accordion-items": [
+        {
+          "header": {
+            "href": "",
+            "linkText": "Abbreviations",
+            "icoBgStyleModifier": "takui-ico-bg",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+          },
+          "content": "Integer ultricies urna purus, ac iaculis lorem semper et. Donec pellentesque augue vitae nisi luctus, sit amet fringilla lorem porta. Sed et rhoncus velit. Ut quis sem at quam rutrum malesuada quis aliquam tortor. Aenean congue nisi magna, eu laoreet augue pharetra vitae. Pellentesque auctor posuere purus, id blandit neque posuere sed. In felis lorem, mattis sed finibus eget, imperdiet vel ligula. Nulla nec velit vitae tellus gravida tristique malesuada ac nisl. Mauris aliquet massa sit amet nunc placerat tempor. Donec consequat, mauris in vestibulum commodo, neque elit tristique leo, eu lacinia mauris ante eget turpis. Phasellus vel risus nisl. Quisque tristique vel purus quis ornare."
+        },
+        {
+          "header": {
+            "href": "",
+            "linkText": "References",
+            "icoBgStyleModifier": "takui-ico-bg",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+          },
+          "listContent": {
+            "classModifier": "takui-ul--no-dot",
+            "items": [
+              {
+                "classMofidier": "",
+                "data": "Donec quis dolor porta tellus volutpat porta.",
+                "display": ""
+              },
+              {
+                "classMofidier": "",
+                "data": "Sed pretium felis a porttitor rutrum.",
+                "display": ""
+              },
+              {
+                "classMofidier": "",
+                "data": "Nunc eleifend nulla dignissim erat malesuada, at posuere est tincidunt.",
+                "display": ""
+              },
+              {
+                "classMofidier": "",
+                "data": "Fusce id magna dignissim, varius nisl in, commodo dolor.",
+                "display": ""
+              },
+              {
+                "classMofidier": "",
+                "data": "Suspendisse in orci ut lorem varius scelerisque.",
+                "display": ""
+              },
+              {
+                "classMofidier": "",
+                "data": "Praesent viverra nisi quis viverra ullamcorper.",
+                "display": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "comments": {
+      "title": "Comments",
+      "actionButtons": {
+        "links": [
+          {
+            "link-with-chevron": {
+              "href": "",
+              "linkText": "LIKE",
+              "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+            }
+          },
+          {
+            "link": {
+              "href": "",
+              "linkText": "REPLY"
+            }
+          }
+        ]
+      },
+      "comments": [
+        {
+          "content": [
+            {
+              "h6": "David Wallis"
+            },
+            {
+              "pSmall": "5 hours ago"
+            },
+            {
+              "p": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse turpis libero, cursus eget sagittis eget, semper at urna. Nullam gravida auctor quam. Etiam semper aliquet nulla ut vulputate. Nullam egestas, dolor in maximus tristique, risus sapien consectetur sem, eget maximus velit erat quis tortor. Duis eget imperdiet velit. Mauris nunc nulla, tristique ut tincidunt sit amet, laoreet rhoncus augue. Duis eu egestas dui. Nullam nec placerat justo. Donec pharetra, massa et placerat fringilla, nulla libero sagittis mauris, id commodo leo nunc eget turpis. Duis fringilla eros vitae mauris sodales, a dignissim ante aliquam. Curabitur tincidunt eleifend tellus, ac volutpat odio egestas sit amet."
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "h6": "Thomas will"
+            },
+            {
+              "pSmall": "7 hours ago"
+            },
+            {
+              "p": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse turpis libero, cursus eget sagittis eget, semper at urna. Nullam gravida auctor quam. Etiam semper aliquet nulla ut vulputate. Nullam egestas, dolor in maximus tristique, risus sapien consectetur sem, eget maximus velit erat quis tortor. Duis eget imperdiet velit. Mauris nunc nulla, tristique ut tincidunt sit amet, laoreet rhoncus augue. Duis eu egestas dui. Nullam nec placerat justo. Donec pharetra, massa et placerat fringilla, nulla libero sagittis mauris, id commodo leo nunc eget turpis. Duis fringilla eros vitae mauris sodales, a dignissim ante aliquam. Curabitur tincidunt eleifend tellus, ac volutpat odio egestas sit amet."
+            }
+          ]
+        }
+      ],
+      "commentBox": {
+        "title": "Have your say",
+        "box": {
+          "id": "",
+          "rowCount": "4",
+          "styleModifier": "takui-textarea"
+        },
+        "checkbox": {
+          "checkboxId": "sample-id",
+          "checkboxVal": "true",
+          "gridClassModifier": "",
+          "checkboxStyleModifier": "",
+          "checkboxLabelContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        },
+        "button": {
+          "href": "#",
+          "text": "Post"
+        }
+      }
+    },
+    "actionButtons": {
+      "buttons": [
+        {
+          "gray-anchor-button": {
+            "href": "#",
+            "text": "Von willebrand"
+          }
+        },
+        {
+          "anchor-button-with-icon": {
+            "href": "#",
+            "text": "Like",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-like"
+          }
+        },
+        {
+          "anchor-button-with-icon": {
+            "href": "#",
+            "text": "Contribute",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-contribute"
+          }
+        }
+      ]
+    },
+    "paragraphs": [
+        {
+            "text": "Certe, inquam, pertinax non numquam eius modi tempora incidunt, ut alterum esse ratione et inter argumentum conclusionemque rationis et quale sit id, quod maxime consuevit iactare vestra se texit, ne interiret at magnum periculum adiit in oculis quidem faciunt."
+        },
+        {
+            "text": "In quo quaerimus, non provident, similique sunt vitae dicta sunt, explicabo nemo enim inter argumentum conclusionemque rationis et impetus quo enim inter mediocrem animadversionem atque corrupti, quos dolores suscipiantur maiorum voluptatum deleniti atque in ea quid aut odit aut."
+        },
+        {
+            "text": "Torquem detraxit hosti et quidem se texit, ne ad id est primum igitur, inquit, sic agam, ut dolore suo sanciret militaris imperii disciplinam exercitumque in voluptate ponit, quod omnium philosophorum sententia tale debet esse, ut ita ruant itaque aiunt."
+        }
+    ],
+    "previewImg": {
+        "srcPath": "../../images/lithium/insect-test-img.png",
+        "altText": "insect test image",
+        "imageCaption": "Image caption"
+    },
+    "liSidebar": {
+        "browsing-header": {
+            "browsing-label": "Browsing in:",
+            "browsing-therapy-area": "Bleeding Disorder",
+            "browsing-link": "Change therapy area of interest",
+            "browsing-link-url": "#"
+        },
+        "refiner": {
+            "buttonText": "Reset filters",
+            "refiner-list-label": "Filter content by:",
+            "refiner": [
+                {
+                    "refiner-name": "ref-1",
+                    "refiner-label": "Rare Disease",
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "Acquired Haemophilia",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-1",
+                            "input-id": "id-0-1",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Cytomegalovirus CMV",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-1",
+                            "input-id": "id-0-2",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Fabry Disease",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-1",
+                            "input-id": "id-0-3",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "refiner-name": "ref-2",
+                    "refiner-label": "Expertise",
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "Allied Professional",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-1",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Consultant",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-2",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "CMT 1/2",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-3",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "FY1/FY2",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-4",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "GP",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-5",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Nurse",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-6",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Specialist Nurse",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-7",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "ST3+ (or equivalent)",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-2",
+                            "input-id": "id-1-8",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "refiner-name": "ref-3",
+                    "refiner-label": "Media Types",
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "Articles",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-1",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Courses",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-2",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Presentations",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-3",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Images",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-4",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Podcasts",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-5",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Videos",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-6",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Posters",
+                            "isChecked": false,
+                            "allowMultiSelect": true,
+                            "inputName": "demoList-3",
+                            "input-id": "id-2-7",
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "refiner-name": "ref-4",
+                    "refiner-label": "Educational Meetings and Events",
+                    "checkIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                    },
+                    "accordionIcon": {
+                        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+                    },
+                    "items": [
+                        {
+                            "labelContent": "External Event",
+                            "isChecked": false,
+                            "inputName": "demoList-4",
+                            "input-id": "id-3-1",
+                            "allowMultiSelect": true,
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        },
+                        {
+                            "labelContent": "Takeda organised event",
+                            "isChecked": false,
+                            "inputName": "demoList-4",
+                            "input-id": "id-3-4",
+                            "allowMultiSelect": true,
+                            "checkIcon": {
+                                "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "navigation": {
+            "items":[
+                {
+                    "linkText":"Home",          
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-home",
+                    "displayMobile": true,
+                    "displayDesktop": true
+                },
+                {
+                    "linkText":"Login",
+                    "logOutText":"Sign out",
+                    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-login",
+                    "displayMobile": true,
+                    "displayDesktop": true
+                }
+            ]
+        },
+        "footer": {
+            "companyLogo": {
+                "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo"
+            },
+            "navSection": {
+                "classModifier": "takui-ul-horizontal",
+                "items": [
+                    {
+                        "label": "Privacy Policy"
+                    },
+                    {
+                        "label": "Terms of Use"
+                    },
+                    {
+                        "label": "Cookie Policy"
+                    },
+                    {
+                        "label": "Adverse Event Reporting"
+                    },
+                    {
+                        "label": "Medical Information Request"
+                    }
+                ]
+            },
+            "copyrightField": "© Takeda",
+            "approvalId": "Approval ID DD/YYYY"
+        }
+    }
+  }

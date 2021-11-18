@@ -1,0 +1,55 @@
+<div class="takui-summary-post-container">
+    {{#if isHighLight}}
+        {{#highLight}}
+            <div class="highlight-banner" style="background-image: url({{backgroundImage}});"></div>
+            <div class="highlight-title">
+                <span class="title-prefix">{{prefix}}</span>
+                <span class="title-text">{{title}}</span>
+            </div>
+        {{/highLight}}
+    {{/if}}
+    <div class="takui-container">
+        <div class="post-content">
+            <div class="post-col col-left">
+                <div class="takui-post-title">
+                    {{title}}
+                </div>
+                <div class="text-group">
+                    {{#leftParagraphs}}
+                        <div class="post-text">
+                            {{text}}
+                        </div>
+                    {{/leftParagraphs}}
+                </div>
+                {{#if postImage}}
+                    <div class="btn-holder-post-image">
+                        {{#readMoreBtn}}
+                            {{>atoms-anchor-button-outline-icon}}
+                        {{/readMoreBtn}}
+                    </div>
+                {{/if}}
+            </div>
+            <div class="post-col col-right">
+                {{#if postImage}}
+                    <div class="post-image" style="background-image: url({{backgroundImagePerson}});""></div>
+                {{else}}
+                    <div class="takui-post-title"></div>
+                    <div class="text-group">
+                        {{#rightParagraphs}}
+                            <div class="post-text">
+                                {{text}}
+                            </div>
+                        {{/rightParagraphs}}
+                    </div>
+                {{/if}}
+            </div>       
+        </div>
+        {{#if noImage}} 
+        <div class="btn-holder">
+            {{#readMoreBtn}}
+                {{> atoms-anchor-button-outline-icon }}
+            {{/readMoreBtn}}
+        </div>
+        {{/if}}
+    </div>
+</div>

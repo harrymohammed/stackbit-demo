@@ -1,0 +1,30 @@
+{
+    "bgImagePath": "url('../../images/ADHD/Illustrations/stock-image.png')",
+    "grid":  "grid-1-2",
+    "cardImage": "../../images/Takeda_Syonan75.jpg",
+    "altText": "card image",
+    "cardTitleText": "Read <strong>Takeda</strong>",
+    "cardExcerptText": "There is a lot of information online regarding ADHD, which can be overwhelming for a person affected by it.",
+    "actionArea": true,
+    "href": "#",
+    "text": "Read more",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-file-pdf",
+    "dataLabel": "<strong>PDF</strong>",
+    "backgroundImageSet":   {
+        "srcSetData": [
+            {
+                "imgPath": "../../images/placeholders/default-card301x201.png",
+                "mediaBreakpoint": "max-width: 400px"
+            },
+            {
+                "imgPath": "../../images/placeholders/default-image400x300.png",
+                "mediaBreakpoint": "max-width: 786px"
+            },
+            {
+                "imgPath": "../../images/placeholders/default-gallery-image883x588.png"
+            }
+        ],
+        "defaultImgPath": "../../images/placeholders/default-gallery-image883x588.png",
+        "altText": "sample-image"
+    }
+}

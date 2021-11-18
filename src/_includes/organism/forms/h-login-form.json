@@ -1,0 +1,62 @@
+{
+    "classModifier":"takui-form-login takui-align--center",
+    "leftSection":{
+        "contentPositionModifier": "takui-form-content-left",
+        "loginTitle": "Login",
+        "loginInput": {
+            "labelRequired": false,
+            "labelStyleModifier": "",
+            "labelText": "Label Text",
+            "fieldRequired": false,
+            "inputType": "text",
+            "styleModifier" : "takui-input",
+            "id": "exampleTakUIInputEmaul",
+            "placeholder": "Email or Username"
+        },
+        "loginInputPass": {
+            "placeholder": "Password",
+            "inputType": "password",
+            "styleModifier": "takui-input",
+            "id": "exampleTakUIInputPwd"
+        },
+        "loginButton": {
+            "text": "Login"
+        },
+        "forgotPass": {
+            "actionURL":"",
+            "linkStyleModifier":"",
+            "id":"loginForgotPass",
+            "linkText":"Forgot Password?"
+        },
+        "label1": {
+            "title": "Don't have an account?"
+        },
+        "createAccountlink": {
+            "href":"",
+            "linkText":"Register here"
+        },
+        "formDisclaimer": true,
+        "formDisclaimerText": "This website is intended only for healthcare professionals with an interest in Takeda. By registering for this site, you are confirming that you are a healthcare professional. This website contains both promotional and non-promotional content.",
+        "disclaimerClassModifier": "block-quote"
+    },
+    "rightSection":{
+        "title":{
+            "text": "Looking for the patient site?",
+            "class":"takui-right-lable"
+        },
+        "image":{
+            "srcPath": "../../images/placeholders/default-logo150x55.png",
+            "altText": "sample-logo-image",
+            "imgStyleModifier": "takui-img--logo intro-icon"
+        },
+        "introText":{
+            "text":"The Takeda patients website is for members of the public. We hope that Takeda’s wide range of products will create an even brighter future for patients and their families all over the world currently suffering from disease.",
+            "class":"takui-intro-text"
+        },
+        "buttonLink":{
+            "href":"",
+            "linkText":"Visit the patient site"
+        }
+
+    }
+}

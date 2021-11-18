@@ -1,0 +1,22 @@
+<article class="takui-c-video-article">
+
+    <div class="takui-c-article-image">
+        <div class="takui-c-article-image-wrapper">
+            {{>atoms-image image}}
+            {{#resouceVideoIcon}}
+            <div class="takui-c-article-play" data-video="{{videoID}}">
+                {{>atoms-icon-anchor-inverted-sec}}
+            </div>
+            {{/resouceVideoIcon}}
+        </div>
+    </div>
+
+    <div class="takui-c-article-main">
+        <div class="takui-c-article-content">
+            
+            <h5 class="takui-c-article-title">{{title}}</h5>
+            <div class="takui-c-article-date">{{ date }}</div>
+            <div class="takui-c-article-text-container"><p>{{text}}</p></div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,30 @@
+{
+  "logo": {
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-takeda-logo",
+    "hyperlinked": true,
+    "href": "#",
+    "targetParam": ""
+  },
+  "quicklinks": [
+    {
+      "label": "Quick link 1",
+      "actionTarget": ""
+    },
+    {
+      "label": "Quick link 2",
+      "actionTarget": ""
+    },
+    {
+      "label": "Quick link 3",
+      "actionTarget": ""
+    }
+  ],
+
+  "search": {
+    "fieldRequired": true,
+    "inputType": "text",
+    "placeholder": "Search Takeda Oncology",
+    "autoComplete": "off",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-search"
+  }
+}

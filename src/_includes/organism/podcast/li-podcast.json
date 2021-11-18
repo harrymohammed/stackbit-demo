@@ -1,0 +1,53 @@
+{
+    "videoID": "4841158458001",
+    "accountID": "1752604059001",
+    "playerID": "audioOnly",
+    "image": {
+        "srcPath": "../../../images/lithium/author-img.png",
+        "altText": ""
+    },
+    "title": "Sed ut enim inter mediocrem animadversionem atque corrupti",
+    "subtitle": "Jane Howard",
+    "transcript": [
+        {
+        "offset": 3000,
+        "offsetText": "03:00",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+        "offset": 4000,
+        "offsetText": "04:00",
+        "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+        "offset": 5000,
+        "offsetText": "05:00",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+        "offset": 7000,
+        "offsetText": "07:00",
+        "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+        "offset": 8000,
+        "offsetText": "08:00",
+        "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+        "offset": 11000,
+        "offsetText": "11:00",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+        "offset": 12000,
+        "offsetText": "12:00",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ],
+    "btnDownload": {
+        "href": "#",
+        "text": "Download",
+        "iconPath":"../../icons/ico_svg/icons.svg#takui-ico-li-download"
+    }
+}

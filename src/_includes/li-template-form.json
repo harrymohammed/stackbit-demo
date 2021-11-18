@@ -1,0 +1,123 @@
+{
+    "title": "Login",
+    "fldCountry": {
+        "id": "random-he003713",
+        "label": "Select your country",
+        "options": [
+            "UK",
+            "USA",
+            "Germany"
+        ]
+    },
+    "fldTitle": {
+        "id": "random-he003713",
+        "label": "Title",
+        "options": [
+            "Mr",
+            "Mrs",
+            "Dr"
+        ]
+    },
+    "fldFirstName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "First name"
+    },
+    "fldLastName": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Last name"
+    },
+    "fldEmail": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Professional email"
+    },
+    "fldPassword": {
+        "id": "random-he003713",
+        "type": "password",
+        "placeholder": "",
+        "label": "Password"
+    },
+    "fldPasswordConfirm": {
+        "id": "random-he003713",
+        "type": "password",
+        "placeholder": "",
+        "label": "Confirm password"
+    },
+    "fldPoW": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Primary place of Work"
+    },
+    "fldCity": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "City"
+    },
+    "fldProfId": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Professional ID"
+    },
+    "fldProf": {
+        "id": "random-he003713",
+        "type": "text",
+        "placeholder": "",
+        "label": "Profession"
+    },
+    "formDisclaimer": {
+        "text": "Learn more about our Terms of Use and learn about how Takeda processes (eg. collects, stores, and uses) your personal data in our Privacy Notice."
+    },
+    "infoConcent": {
+        "text": "Learn more about our Terms of Use and learn about how Takeda processes (eg. collects, stores, and uses) your personal data in our Privacy Notice."
+    },
+    "btnText": "Become a member",
+    "formLogo": {
+        "srcSetData": [
+            {
+                "imgPath": "../../images/lithium/da_logo.png",
+                "mediaBreakpoint": "max-width: 991px"
+            },
+            {
+                "imgPath": "../../images/lithium/da_logo.png"
+            }
+        ],
+        "defaultImgPath": "../../images/lithium/da_logo.png",
+        "altText": "sample-image"
+    },
+    "linkInfo": {
+        "href": "#",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-li-back",
+        "text": "Back to Know Dengue"
+    },
+    "navSection": {
+        "classModifier": "takui-ul-horizontal",
+        "items": [
+            {
+                "label": "Privacy Policy"
+            },
+            {
+                "label": "Terms of Use"
+            },
+            {
+                "label": "Cookie Policy"
+            },
+            {
+                "label": "Adverse Event Reporting"
+            },
+            {
+                "label": "Medical Information Request"
+            }
+        ]
+    },
+    "copyrightText": "Hanc ego cum a natura ipsa iudicari ea commodi consequatur? quis. Torquem detraxit hosti et quidem faciunt, ut aliquid ex eo ortum.",
+    "copyrightField": "© Takeda",
+    "approvalId": "Approval ID DD/YYYY"
+}

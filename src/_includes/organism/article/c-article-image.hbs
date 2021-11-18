@@ -1,0 +1,18 @@
+<article class="takui-c-article-with-image">
+    <div class="takui-c-article-image">
+        <div class="takui-c-article-image-wrapper">
+            {{>atoms-image image}}
+        </div>
+    </div>
+
+    <div class="takui-c-article-main">
+        <div class="takui-c-article-content">
+            <h5 class="takui-c-article-title">{{#if titleHref}}<a href="{{titleHref}}"
+                    target="{{titleTarget}}">{{title}}</a>{{else}} {{title}} {{/if}}</h5>
+            <div class="takui-c-article-date">{{ date }}</div>
+            <div class="takui-c-article-text-container">
+                {{>atoms-paragraph}}
+            </div>
+        </div>
+    </div>
+</article>

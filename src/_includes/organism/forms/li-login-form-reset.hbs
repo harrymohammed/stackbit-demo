@@ -1,0 +1,24 @@
+<div class="takui-li-login">
+    <div class="takui-li-regwrapper">
+        <div class="takui-formctn takui-li-formctn">
+            {{#resetInfo}}
+            <div class="takui-li-respwd-info">
+                {{>atoms-paragraph text=text}}
+            </div>
+            {{/resetInfo}}
+            {{> molecules-takui-form-element fldOldPwd }}
+            {{> molecules-takui-form-element fldNewPwd }}
+            <div class="takui-li-field-wrap takui-li-reset-info">
+                <div class="takui-he-forgotpwd">
+                    {{> atoms-link lnkCancel }}
+                </div>
+                {{> atoms/buttons/secondary btnReset }}
+            </div>
+            <hr>
+            <div class="takui-formctn takui-li-register-block">
+            <h2>Not a member?</h2>
+                {{> atoms-button-primary btnRegister }}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "icon": {
+    "iconStyleModifier": "chev-down",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-down"
+  },
+  "edge": {
+    "styleModifier": "load-more-edge"
+  },
+  "label": "<strong>See more below</strong>",
+  "url":  "#"
+}

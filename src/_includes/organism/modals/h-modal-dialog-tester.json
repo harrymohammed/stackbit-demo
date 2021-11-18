@@ -1,0 +1,9 @@
+{
+    "modalTitle": "Modal title",
+    "modalContent": "Modal body text goes here.",
+    "modalID": "exampleModalOne",
+    "modalBodyHeight": "",
+    "modalExampleDisplay": "normal",
+    "modalSizeModifier": "",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x"
+}

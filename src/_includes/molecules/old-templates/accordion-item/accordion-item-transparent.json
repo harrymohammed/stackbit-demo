@@ -1,0 +1,9 @@
+{
+  "header": {
+    "href": "",
+    "linkText": "Default",
+    "icoBgStyleModifier": "takui-ico-bg",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+  },
+  "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+}

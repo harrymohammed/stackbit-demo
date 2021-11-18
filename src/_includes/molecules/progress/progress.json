@@ -1,0 +1,13 @@
+{
+  "stages": [
+    {
+      "completed": true
+    },
+    {
+      "completed": true
+    },
+    {
+      "completed": false
+    }
+  ]
+}

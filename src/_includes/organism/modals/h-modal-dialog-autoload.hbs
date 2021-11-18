@@ -1,0 +1,15 @@
+<div class="takui-modal-outer is-hidden" id="{{ modalID }}" {{#if openOnLoad}}data-open-on-load{{/if}}>
+    <div class="takui-modal {{ modalSizeModifier }}">
+        {{> molecules-dialog-header modalTitle=modalTitle buttonType=buttonType
+        btnStyleModifier=btnStyleModifier
+        id=btnID iconname=iconName iconStyleModifier=iconClass }}
+        {{> molecules-dialog-content modalContent=modalContent }}
+        {{#if buttons}}
+            <div class="takui-modal-buttons">
+                {{#buttons}}
+                    {{>atoms-anchor-button href=href text=text}}
+                {{/buttons}}
+            </div>
+        {{/if}}
+    </div>
+</div>

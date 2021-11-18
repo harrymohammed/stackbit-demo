@@ -1,0 +1,45 @@
+{{#backToTopSection}}
+    <div class="footer-back-to-top">
+        <div class="takui-container">
+        {{>molecules-back-to-top}}
+        </div>
+    </div>
+{{/backToTopSection}}
+{{#footer}}
+<footer id="">
+    <div class="takui-container">
+        <div class="takui-footer">
+            {{#leftSection}}
+                <div class="takui-footer-left-section">
+                    {{>molecules-anchor-list-horizontal}}
+                    {{#footer-text}}
+                        {{>atoms-paragraph}}
+                    {{/footer-text}}
+                </div>
+            {{/leftSection}}
+
+            {{#rightSection}}
+                <div class="takui-footer-right-section">
+                    {{#footer-text}}
+                        <div class="footer-text">
+                            {{>atoms-paragraph}}
+                        </div>
+                    {{/footer-text}}
+                    {{#socialIcons}}
+                        <div class="social-icons">
+                            {{#items}}
+                            {{>atoms-icon-anchor-round iconname=iconName }}
+                            {{/items}}
+                        </div>
+                    {{/socialIcons}}
+                    {{#logo}}
+                        <div class="footer-logo">
+                            {{> atoms-image}}
+                        </div>
+                    {{/logo}}
+                </div>
+            {{/rightSection}}
+        </div>
+    </div>
+</footer>
+{{/footer}}

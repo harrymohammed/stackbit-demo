@@ -1,0 +1,16 @@
+<div class="takui-icon-row">
+{{#items }}
+<div class="takui-icon-grid">
+    <div class="takui-icon-item">
+        {{#if hyperlink}}
+        <a href="{{ url }}">
+            {{> atoms-icon}}
+        </a>
+        {{else}}
+            {{> atoms-icon}}
+        {{/ if}}
+    </div>
+    <div class="takui-ico-name">{{ iconData }}</div>
+</div>
+{{/items }}
+</div>

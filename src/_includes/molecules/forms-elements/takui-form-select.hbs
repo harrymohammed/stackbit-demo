@@ -1,0 +1,19 @@
+<!--  State Update ValidationFail -->
+<div class="form__input__wrapper {{displayOption}} FormSelection ValidationRequired">
+    <label for="{{ id }}" class="Form__Element__Caption form__label">
+        {{ label }}
+        <span class="form__required">*</span>
+        <span class="Form__Element__ValidationError" style="">This field is
+            required.</span>
+    </label>
+    <div class="form__label form__select__wrapper">
+        <select class="form__select" name="__field_1296" id="{{ id }}" required="" title="&quot;Title" tooltip&quot;=""
+            aria-required="&quot;true&quot;" data-f-datainput="" aria-invalid="true">
+            <option disabled="disabled" selected="&quot;selected&quot;" value="">{{#if default  }}{{ default }}{{/if}}</option>
+            {{#each options}}
+            <option value="{{this}}">{{this}}
+            </option>
+            {{/each}}
+        </select>
+    </div>
+</div>

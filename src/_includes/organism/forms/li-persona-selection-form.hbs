@@ -1,0 +1,36 @@
+<div class="takui-form takui-persona-selection-form takui-li-form">
+    <div class="takui-form-content">
+        <div class="takui-form-section" action="#" id="loginForm" name="loginForm" method="POST">  
+            <div class="takui-li-form-info">
+                {{#if introText}}
+                {{>atoms-p-lead text=introText}}
+                {{/if}}
+
+                {{#each buttons}}
+                    {{>atoms-input-radio this}}
+                {{/each }}
+
+                {{!-- {{>molecules-radio-button-group}} --}}
+
+                {{#personaFootNotes}}
+                    <span class="takui-persona-footnote {{personaId}}">
+                        {{>atoms-paragraph text=note}}
+                    </span>
+                {{/personaFootNotes}}
+            </div>          
+            
+            
+            {{#loginButton}}
+                {{>atoms-paragraph text=loginInstructionsText}}
+                <div class="takui-li-button-container">
+                    {{>atoms/buttons/secondary}}
+                </div>
+            {{/loginButton}}
+            {{>atoms-paragraph text="Hanc ego cum a natura ipsa iudicari ea commodi consequatur? quis autem quidam. Torquem detraxit hosti et quidem faciunt, ut aliquid ex eo ortum, tam egregios."}}
+        </div>
+    </div>
+</div>
+
+    {{#personaModals}}
+        {{>organism-h-modal-dialog}}
+    {{/personaModals}}

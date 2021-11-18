@@ -1,0 +1,10 @@
+{{#each inputs}}
+<div>
+    <input type="checkbox" name="{{../inputName}}" {{#if isActive}} checked {{/if}}
+        id="{{../inputName}}-{{ @index }}" />
+    <label for="{{../inputName}}-{{ @index }}">
+        {{text}}
+        <span class="counter">{{#if count}}({{count}}){{/if}}</span>
+    </label>
+</div>
+{{/each}}

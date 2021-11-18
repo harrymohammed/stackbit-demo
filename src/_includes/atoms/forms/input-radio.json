@@ -1,0 +1,8 @@
+{
+    "gridClassModifier" : "",
+    "inputName": "radio-example",
+    "radioStyleModifier": "",
+    "radioId": "exampleRadioID",
+    "isChecked": false,
+    "radioLabelContent" : "Radio Label"
+}

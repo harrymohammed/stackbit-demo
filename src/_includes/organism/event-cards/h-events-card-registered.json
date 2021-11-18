@@ -1,0 +1,49 @@
+{
+    "cardGridSize": "grid-1-3",
+    "eventImageTagIcon":{
+        "iconStyleModifier": "md",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-wifi",
+        "iconmeta": false
+    },
+    "eventImageTag":"Online event",
+    "bgImagePath": "url('../../images/Takeda_Syonan75.jpg')",
+    "hyperlinked": true,
+    "altText": "card image",
+    "ribbonPosition": "right",
+    "cardDataClass": "takui-card-data-event",
+    "cardDataInfoSecClass": "event-info left-section w-75p",
+    "cardDataScheduleSecClass": "event-schedule right-section w-25p",
+    "eventTitle":"Parents, carers & ADHD",
+    "eventDesc":{
+        "text":"Parents and carers from around the world share their experiences in..."
+    },
+    "readMoreLink": {
+      "href":"",
+      "id":"",
+      "linkText": "read more"
+    },
+    "categoryIcon":{
+        "iconStyleModifier": "ico-fillColor xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-tag",
+        "iconmeta": false
+    },
+    "categoryTag":{
+            "items": [
+                {
+                    "label": "Child & adolescent"
+                },
+                {
+                    "label": "Online event"
+                }
+            ]
+    },    
+    "eventButton":{
+        "href": "#",
+        "text": "You're going",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-check"
+    },
+    "eventMonth":"Feb",
+    "eventDate":"3",
+    "eventTime":"13:00"
+
+}

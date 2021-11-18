@@ -1,0 +1,41 @@
+<div class="takui-li-header">
+    {{!-- commented styles for mobile layout --}}
+
+    <button class="takui-li-ham mobile-only">
+        <svg class="takui-ico-svg takui-icon-ham" aria-hidden="true">
+            <use xlink:href="../../icons/ico_svg/icons.svg#icon-li-hamburger"></use>
+        </svg>
+        <svg class="takui-ico-svg takui-icon-close" aria-hidden="true">
+            <use xlink:href="../../icons/ico_svg/icons.svg#icon-li-close"></use>
+        </svg>
+    </button>
+    <div class="takui-li-ham-dropdown">
+        {{> molecules-li-primary-site-navigation navigation}}
+    </div>
+    <div class="takui-li-mobile-logo-container mobile-only">
+        {{>atoms-logo liSiteLogoMob }}
+    </div>
+
+    {{#siteSearch}}
+        {{!-- commented styles for mobile layout --}}
+        <div class="takui-li-search-btn-container mobile-only">
+            <div class="takui-li-search-icon">
+            {{>atoms-icon-anchor-inverted}}
+            </div>
+            <div class="takui-li-search-close">
+                {{>atoms-icon-anchor-inverted closeIcon}}
+            </div>
+        </div>
+        <div class="takui-li-search-field-container">
+            {{>molecules-search-btn-with-text}}
+            {{>atoms-icon-anchor-inverted}}
+        </div>
+    {{/siteSearch}}
+    <div class="takui-account-info desktop-only">
+        {{>atoms-paragraph text=greeting}}
+        {{>atoms-paragraph text=userName}}
+    </div>
+    <div class="takui-country-dropdown desktop-only">
+        {{>molecules-lang-dropdown dropdown}}
+    </div>
+</div>

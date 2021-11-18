@@ -1,0 +1,47 @@
+{
+    "url": "#",
+    "mainIcon": "../../icons/ico_svg/icons.svg#takui-ico-li-clock",
+    "isVideo": true,
+    "cardTypeIcon": {
+      "iconStyleModifier": "xs",
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-he-video"
+    },
+    "cardTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cardDescription": "Card Description",
+    "bgImagePath": "../../../images/Takeda_Syonan75.jpg",
+    "topic": {
+      "text": "text",
+      "color": "yellow"
+    },
+    "time": {
+      "icon": {
+        "iconStyleModifier": "xs",
+        "iconPath": "../../icons/ico_svg/icons.svg#icon-li-clock"
+      },
+      "text": "10 mins"
+    },
+    "rightTopButtons": [
+      {
+        "href": "#",
+        "iconStyleModifier": "sm",
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-delete"
+      }
+    ],
+    "buttons": {
+      "like": {
+        "icon": {
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#icon-li-like"
+        },
+        "count": 23
+      },
+      "save": {
+        "icon": {
+          "href": "#",
+          "text": "Add to my list",
+          "iconStyleModifier": "xs",
+          "iconPath": "../../icons/ico_svg/icons.svg#icon-li-plus"
+        }
+      }
+    }
+  }

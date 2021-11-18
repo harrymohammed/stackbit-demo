@@ -1,0 +1,11 @@
+{
+    "id": "he-external",
+    "state": "is-visible",
+    "modalTitle": "You are now ",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-x",
+    "modalContent": "You are now leaving the Rare Disease Hub website",
+    "button": {
+        "href": "http://www.takeda.com",
+        "text": "Confirm"
+    }
+}

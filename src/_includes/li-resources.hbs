@@ -1,0 +1,20 @@
+<div class="takui-he-page takui-resources-page">
+  {{!-- organism-he-side-bar sidebar --}}
+  <div class="takui-main">
+    {{>organism-he-header header}}
+    <div class="takui-content">
+      {{#each areas}}
+      <div class="takui-resources-page--area">
+        <h2>{{name}}</h2>
+        {{#items}}
+        {{>organism-li-slider}}
+        {{/items}}  
+      </div>
+      {{/each}}
+    </div>
+    {{#resourcePreview}}
+    {{!-- {{>organism-he-resource-preview}} --}}
+    {{/resourcePreview}}
+    {{>organism-he-footer footer}}
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="takui-li-login">
+    <div class="takui-li-regwrapper">
+        <div class="takui-formctn takui-li-formctn">
+            {{> molecules-takui-form-element fldLogin }}
+            {{> molecules-takui-form-element fldPassword }}
+            <div class="takui-li-field-wrap takui-li-checkbox-wrap">
+                {{> molecules-takui-form-checkbox infoConcent }}
+                <p>
+                    Remember me
+                </p>
+            </div>
+            <div class="takui-li-field-wrap">
+                <div class="takui-he-forgotpwd">
+                    {{> atoms-link lnkForgotPassword }}
+                </div>
+                {{> atoms-button-secondary btnLogin }}
+            </div>
+            <hr>
+            <div class="takui-formctn takui-li-register-block">
+            <h2>Not a member?</h2>
+                {{> atoms-button-primary btnRegister }}
+            </div>
+        </div>
+    </div>
+</div>

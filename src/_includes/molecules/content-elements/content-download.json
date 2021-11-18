@@ -1,0 +1,11 @@
+{
+    "previewImg": {
+        "srcPath": "../../images/placeholders/image-3by1.png",
+        "altText": "Download Prewview Image",
+        "imageCaption": "Preview Thumbnails"
+      },
+      "btnDownload": { 
+        "href": "#",
+        "text": "Download"
+      }
+}

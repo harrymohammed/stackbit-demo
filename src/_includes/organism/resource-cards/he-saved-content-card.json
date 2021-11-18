@@ -1,0 +1,12 @@
+{
+  "url": "#",
+  "cardType": "Type",
+  "cardTitle": "Card Title",
+  "cardDescription": "Card Description",
+  "bgImagePath": "url('https://dummyimage.com/1040X400/917691/555555.png&text=background+image')",
+  "button": {
+    "href": "#",
+    "text": "Remove",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-plus"
+  }
+}

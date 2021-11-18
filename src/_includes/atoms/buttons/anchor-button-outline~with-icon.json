@@ -1,0 +1,7 @@
+{
+    "href": "#",
+    "text": "Link Button",
+    "icon": {
+        "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-chev-right"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "searchboxStyleModifier": "ico-pos-right w-label",
+    "labelRequired": true,
+    "labelStyleModifier": "",
+    "labelText": "Search",
+    "fieldRequired": false,
+    "inputType": "text",
+    "styleModifier" : "takui-input-search",
+    "id": "",
+    "placeholder" : "Search",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-search",
+    "iconClass": "sm",
+    "hyperlink": false,
+    "href": "#",
+    "btnStyleModifier": "takui-input-ico pos-right",
+    "iconAnchorID": "",
+    "anchorTarget": ""
+  }

@@ -1,0 +1,30 @@
+<div class="takui-explorer-menu">
+
+    <header>
+        <h2>
+            {{ headingText }}<br/>
+            <span class="therapy-area">{{ therapyArea }}</span>
+        </h2>
+    </header>
+
+    {{#if changeTherapyLink}}
+        <div class="change-therapy-link">
+            {{#changeTherapyLink}}
+                {{>atoms-link}}
+            {{/changeTherapyLink}}
+        </div>
+    {{/if}}
+
+    <div class="takui-filters-pane">
+        <h3>{{filterHeading}}</h3>
+
+        {{#each filters}}
+            {{>molecules-filter-tags}}
+        {{/each}}        
+
+        {{#applyFiltersButton}}
+            {{>atoms/buttons/secondary}}
+        {{/applyFiltersButton}}
+    </div>
+</div>
+

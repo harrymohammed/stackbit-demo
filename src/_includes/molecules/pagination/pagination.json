@@ -1,0 +1,50 @@
+{
+  "prevButton": {
+    "href": "",
+    "linkText": "Prev page",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  },
+  "prevEllipsis": {
+    "href": "#",
+    "id": "",
+    "linkText": "..."
+  },
+  "nextEllipsis": {
+    "href": "#",
+    "id": "",
+    "linkText": "..."
+  },
+  "pages": [
+    {
+      "href": "#",
+      "id": "",
+      "linkText": "6"
+    },
+    {
+      "href": "#",
+      "id": "",
+      "linkText": "7"
+    },
+    {
+      "current": true,
+      "href": "#",
+      "id": "",
+      "linkText": "8"
+    },
+    {
+      "href": "#",
+      "id": "",
+      "linkText": "9"
+    },
+    {
+      "href": "#",
+      "id": "",
+      "linkText": "10"
+    }
+  ],
+  "nextButton": {
+    "href": "",
+    "linkText": "Next page",
+    "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-c-chevron"
+  }
+}

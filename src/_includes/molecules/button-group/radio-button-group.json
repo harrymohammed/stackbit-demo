@@ -1,0 +1,18 @@
+{
+    "buttons": [
+        {            
+            "inputName": "radio-example",         
+            "inputId": "exampleRadioID1",
+            "isChecked": false,
+            "labelContent": "Radio button",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-user"
+        },        
+        {            
+            "inputName": "radio-example",         
+            "inputId": "exampleRadioID2",
+            "isChecked": false,
+            "labelContent": "Radio button",
+            "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-user"
+        }
+    ]
+}

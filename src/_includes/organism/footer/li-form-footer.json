@@ -1,0 +1,25 @@
+{
+    "navSection": {
+        "classModifier": "takui-ul-horizontal",
+        "items": [
+            {
+                "label": "Privacy Policy"
+            },
+            {
+                "label": "Terms of Use"
+            },
+            {
+                "label": "Cookie Policy"
+            },
+            {
+                "label": "Adverse Event Reporting"
+            },
+            {
+                "label": "Medical Information Request"
+            }
+        ]
+    },
+    "copyrightText": "Hanc ego cum a natura ipsa iudicari ea commodi consequatur? quis. Torquem detraxit hosti et quidem faciunt, ut aliquid ex eo ortum.",
+    "copyrightField": "© Takeda",
+    "approvalId": "Approval ID DD/YYYY"
+}

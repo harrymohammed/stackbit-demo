@@ -1,0 +1,10 @@
+{
+  "iconLabel": {
+    "text": "Event",
+    "icon": {
+      "iconPath": "../../icons/ico_svg/icons.svg#takui-ico-event"
+    }
+  },
+  "title": "Lorem Ipsum Dolor",
+  "background": "../../../images/placeholders/default-352x170.png"
+}
